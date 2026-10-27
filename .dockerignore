@@ -1,0 +1,13 @@
+**
+!BackendService/
+!BackendService/app/
+!BackendService/app/**
+!BackendService/requirements.lock.txt
+!BackendService/requirements.runtime.txt
+!DB/
+!DB/migrations/
+!DB/migrations/*.sql
+!Tools/
+!Tools/Deployment/
+!Tools/Deployment/container/
+!Tools/Deployment/container/**

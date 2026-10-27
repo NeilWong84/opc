@@ -1,0 +1,15 @@
+location ~ ^/api/v1/(admin|mobile)/auth/(login|register)$ {
+    limit_req zone=opc_auth burst=10 nodelay;
+    limit_req_status 429;
+    include /etc/nginx/opc_proxy_params;
+    proxy_pass http://backend:8000;
+}
+location /api/ {
+    include /etc/nginx/opc_proxy_params;
+    proxy_pass http://backend:8000;
+}
+location /health/ {
+    include /etc/nginx/opc_proxy_params;
+    proxy_pass http://backend:8000;
+}
+location ~ /\. { return 404; }

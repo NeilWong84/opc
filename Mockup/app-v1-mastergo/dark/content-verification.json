@@ -1,0 +1,51 @@
+{
+  "screens": [
+    {
+      "id": "01",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    },
+    {
+      "id": "02",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    },
+    {
+      "id": "03",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    },
+    {
+      "id": "04",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    },
+    {
+      "id": "05",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    },
+    {
+      "id": "06",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    },
+    {
+      "id": "07",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    },
+    {
+      "id": "08",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    },
+    {
+      "id": "09",
+      "originalVisibleCopyPreserved": true,
+      "completed": true
+    }
+  ],
+  "localLinksChecked": 72,
+  "broken": []
+}

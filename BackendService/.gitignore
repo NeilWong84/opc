@@ -1,0 +1,10 @@
+.venv/
+.env
+.local/
+.test-postgres/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+htmlcov/
+.coverage

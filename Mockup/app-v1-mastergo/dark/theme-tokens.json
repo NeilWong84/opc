@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-10-12",
+  "product": "OPC APPClient",
+  "theme": "dark",
+  "designOnly": true,
+  "source": {
+    "documentId": "207036955904456",
+    "pageId": "M",
+    "base": "../design-brief.json",
+    "notes": "基于原有九屏浅色设计的语义映射；原浅色画板保留。"
+  },
+  "scope": {
+    "language": "ja-JP",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "platform": "Flutter + Dart 手机端设计交接",
+    "implementationStatus": "仅设计配色，不表示 Flutter 主题或切换已实现"
+  },
+  "colors": {
+    "background.canvas": "#0E1718",
+    "surface.card": "#172426",
+    "surface.raised": "#213235",
+    "surface.footer": "#121F20",
+    "surface.hero": "#153D38",
+    "surface.heroIcon": "#24594B",
+    "text.primary": "#EAF4F1",
+    "text.secondary": "#A4BBB4",
+    "text.muted": "#829B93",
+    "text.heroSecondary": "#B4D1C6",
+    "action.primary.background": "#64DDB4",
+    "action.primary.foreground": "#082A23",
+    "action.link": "#64DDB4",
+    "status.success.background": "#1A3B32",
+    "status.success.foreground": "#64DDB4",
+    "accent.soft": "#76DABD",
+    "status.warning.background": "#3B2E1D",
+    "status.warning.foreground": "#F2C078",
+    "status.required.background": "#3A2824",
+    "status.required.foreground": "#F2AD91",
+    "border.subtle": "#33494B",
+    "border.field": "#6D8780",
+    "control.unchecked.border": "#809991",
+    "control.disabled.background": "#263B35",
+    "control.disabled.foreground": "#849B93"
+  },
+  "usage": {
+    "background.canvas": "整屏底色；不使用纯黑。",
+    "surface.card": "内容卡片及主要输入区域。",
+    "surface.raised": "次级容器；弱文本优先使用 text.secondary，避免对比不足。",
+    "surface.footer": "底部导航、固定操作区及相邻安全区。",
+    "surface.hero": "首页引导与项目概览卡；标题使用 text.primary，辅助文案使用 text.heroSecondary。",
+    "action.primary": "亮绿按钮配深色文字与图标；不能保留浅色版白字。",
+    "status.success": "完成、已公开等绿色状态仍搭配文字／图标，不只依赖颜色。",
+    "accent.soft": "用于 hero 图标及项目概览卡绿色状态文字，配 surface.heroIcon（#24594B）深绿底。",
+    "status.warning": "待回答、审核澄清提醒；保持与绿色完成状态区分。",
+    "status.required": "必填标识；不复用为审核拒绝或错误的已定语义。",
+    "border.subtle": "装饰性卡片分界；不能作为输入框或复选框唯一辨识边界。",
+    "border.field": "输入控件边界。",
+    "control.unchecked.border": "未勾选验收项的描边；内部底色使用 surface.card。",
+    "control.disabled": "09 屏未满足 3 项确认前的验收按钮；保留 2 / 3 和解释文字，不能因暗色而显示成已启用。",
+    "text.muted": "在 canvas／card／footer 使用；raised 表面优先提升为 text.secondary。"
+  },
+  "semanticRules": [
+    "原 #FFFFFF 有卡片底色、按钮前景和 hero 文字多重用途，必须按节点语义分别转换。",
+    "原 #142D36 有正文、hero 背景和 home indicator 多重用途，不能直接全局替换。",
+    "04／07 屏保留已完成、当前、未开始的图标和文案差异。",
+    "08 屏绿色上传图标只表示上传完成，不表示测试或内部审核已通过。",
+    "09 屏保留未选框、2 / 3、禁用验收按钮及修改入口。",
+    "暗色不改变日文内容、需求编号、版本、权限、审核或支付语义。",
+    "字体、触控、动态字号、屏幕阅读器和真机夜间效果需在后续工程另行验证。"
+  ],
+  "validation": {
+    "contrastReport": "contrast-report.json",
+    "calculationOnly": true,
+    "overallAccessibilityPassed": false,
+    "statement": "已对所列候选色值进行数学对比度计算；不构成整屏或整应用无障碍验收。"
+  }
+}

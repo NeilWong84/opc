@@ -1,0 +1,105 @@
+{
+  "description": "Original synthetic sample files; no real customer data.",
+  "assets": [
+    {
+      "file": "fields.xlsx",
+      "bytes": 5345,
+      "sha256": "13413e1a2e5e2630c8bcc93ee3ae41882c1a7d5b06e198545e88e9a3d4ea2437",
+      "sheets": [
+        {
+          "name": "項目定義",
+          "rows": 8,
+          "columns": 3
+        },
+        {
+          "name": "ステータス",
+          "rows": 4,
+          "columns": 3
+        },
+        {
+          "name": "権限",
+          "rows": 4,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "file": "inquiry-detail.png",
+      "bytes": 163141,
+      "sha256": "4d41a3a74b91239ab1e5ced81c94e200070dcfaf4a11a268b47f4b5157a80a64",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "file": "inquiry-overview.png",
+      "bytes": 137755,
+      "sha256": "1c394512847b9775c1245027165652b1fa5b72ee4685708c67b6bf1c5942dbbf",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "file": "notes.md",
+      "bytes": 571,
+      "sha256": "5923d63df44fd1316c41b88475abeca45ca785c835116b8381fe7e7edf465058"
+    },
+    {
+      "file": "notes.txt",
+      "bytes": 559,
+      "sha256": "f3e2704efc89f9190c47740a6fe1447e835b8c0be24b320922a24228348400b0"
+    },
+    {
+      "file": "quote-template.xlsx",
+      "bytes": 3916,
+      "sha256": "0a490c6081af6afb171517904f7550c2e5c5dd014a0eb6608280cf797ee676f1",
+      "sheets": [
+        {
+          "name": "見積明細",
+          "rows": 4,
+          "columns": 4
+        }
+      ],
+      "totalJpy": 150000
+    },
+    {
+      "file": "requirements.docx",
+      "bytes": 37272,
+      "sha256": "f978f57533a226c43517a35e7a18f21cd8b8b45d5df6397a58352cae73c74f00",
+      "authoredPages": 3
+    },
+    {
+      "file": "sample.csv",
+      "bytes": 200,
+      "sha256": "13e70e186dce79b80941786ecac58cb22ae265920f808f0cd257d55593dade30",
+      "rowsIncludingHeader": 4,
+      "columns": 4
+    },
+    {
+      "file": "screens.pptx",
+      "bytes": 312168,
+      "sha256": "2094ee3311798bb8670dc9c75b7541a89ec4ad640a2809779197d302dfecf75c",
+      "slides": 3
+    },
+    {
+      "file": "workflow-poster.png",
+      "bytes": 137668,
+      "sha256": "3925e2cd6b82c2434ac4ee7cd060884a888c5b307ad2b0d4ebd1d162bd10b729",
+      "width": 1200,
+      "height": 750
+    },
+    {
+      "file": "workflow.mp4",
+      "bytes": 81322,
+      "sha256": "64ae588f1d76d7b5176b3660f78be13a5ea9af498dc875b77cac3830a79d70d5",
+      "durationSeconds": 8.0,
+      "width": 1200,
+      "height": 750,
+      "codec": "h264"
+    },
+    {
+      "file": "workflow.pdf",
+      "bytes": 55365,
+      "sha256": "af3330ed482b0c7b0ff2772ccb38f1e19b9b3dd1b1fbb30ec1a257df915ff7ef",
+      "pages": 3
+    }
+  ]
+}

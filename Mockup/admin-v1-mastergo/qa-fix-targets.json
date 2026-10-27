@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 1,
+  "documentId": "207044528770731",
+  "documentPageId": "M",
+  "createdAt": "2026-10-12T16:58:41.5239074+08:00",
+  "sourceLog": "C:\\Users\\Administrator\\.mgmcp\\mgmcp.log",
+  "sourceEvent": "agentCreateNodeResult success=true，与目标 documentId 的 agentCreateNode requestId 对应",
+  "snapshotMeaning": "创建完成回执原始 code；不是当前画布二次读取，不含后续局部修正。未发出任何 MCP 请求。",
+  "targetCount": 14,
+  "targets": [
+    {
+      "page": "02-ja-JP",
+      "rootId": "3:01038",
+      "nodeId": "3:03605",
+      "tag": "span",
+      "nodeName": "完了",
+      "originalText": "完了",
+      "originalStyle": "flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<span\n                  data-node-id=\"3:03605\"\n                  data-name=\"完了\"\n                  style=\"flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n                  完了\n                </span>",
+      "sourceFile": "native-source/02-ja-JP.html",
+      "sourceLine": 765,
+      "kind": "review_approved_label",
+      "context": "REQ-1040 / Cell 2 / 受付審査（合规审核）",
+      "provenance": {
+        "requestId": "1791793898354980",
+        "receiptLocalTime": "2026-10-12 16:31:44",
+        "rootId": "3:01038"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "完了",
+        "newValue": "承認済み",
+        "wordingStatus": "建议日文，操作前由主任务统一采用"
+      }
+    },
+    {
+      "page": "02-ja-JP",
+      "rootId": "3:01038",
+      "nodeId": "3:04238",
+      "tag": "span",
+      "nodeName": "完了",
+      "originalText": "完了",
+      "originalStyle": "flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<span\n                  data-node-id=\"3:04238\"\n                  data-name=\"完了\"\n                  style=\"flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n                  完了\n                </span>",
+      "sourceFile": "native-source/02-ja-JP.html",
+      "sourceLine": 971,
+      "kind": "review_approved_label",
+      "context": "REQ-1036 / Cell 2 / 受付審査（合规审核）",
+      "provenance": {
+        "requestId": "1791793898354980",
+        "receiptLocalTime": "2026-10-12 16:31:44",
+        "rootId": "3:01038"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "完了",
+        "newValue": "承認済み",
+        "wordingStatus": "建议日文，操作前由主任务统一采用"
+      }
+    },
+    {
+      "page": "02-ja-JP",
+      "rootId": "3:01038",
+      "nodeId": "3:04557",
+      "tag": "span",
+      "nodeName": "完了",
+      "originalText": "完了",
+      "originalStyle": "flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<span\n                  data-node-id=\"3:04557\"\n                  data-name=\"完了\"\n                  style=\"flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n                  完了\n                </span>",
+      "sourceFile": "native-source/02-ja-JP.html",
+      "sourceLine": 1074,
+      "kind": "review_approved_label",
+      "context": "REQ-1034 / Cell 2 / 受付審査（合规审核）",
+      "provenance": {
+        "requestId": "1791793898354980",
+        "receiptLocalTime": "2026-10-12 16:31:44",
+        "rootId": "3:01038"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "完了",
+        "newValue": "承認済み",
+        "wordingStatus": "建议日文，操作前由主任务统一采用"
+      }
+    },
+    {
+      "page": "04-ja-JP",
+      "rootId": "3:17761",
+      "nodeId": "3:19165",
+      "tag": "span",
+      "nodeName": "完了",
+      "originalText": "完了",
+      "originalStyle": "flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<span\n                  data-node-id=\"3:19165\"\n                  data-name=\"完了\"\n                  style=\"flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n                  完了\n                </span>",
+      "sourceFile": "native-source/04-ja-JP.html",
+      "sourceLine": 424,
+      "kind": "review_approved_label",
+      "context": "Description 合规审核 / 受付審査",
+      "provenance": {
+        "requestId": "1791794045875086",
+        "receiptLocalTime": "2026-10-12 16:34:09",
+        "rootId": "3:17761"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "完了",
+        "newValue": "承認済み",
+        "wordingStatus": "建议日文，操作前由主任务统一采用"
+      }
+    },
+    {
+      "page": "05-ja-JP",
+      "rootId": "3:23395",
+      "nodeId": "3:24948",
+      "tag": "span",
+      "nodeName": "完了 · OP-002",
+      "originalText": "完了 · OP-002",
+      "originalStyle": "flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<span\n                  data-node-id=\"3:24948\"\n                  data-name=\"完了 · OP-002\"\n                  style=\"flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n                  完了 · OP-002\n                </span>",
+      "sourceFile": "native-source/05-ja-JP.html",
+      "sourceLine": 455,
+      "kind": "review_approved_label",
+      "context": "Description 合规审核 / 受付審査 / OP-002",
+      "provenance": {
+        "requestId": "1791794071286448",
+        "receiptLocalTime": "2026-10-12 16:34:35",
+        "rootId": "3:23395"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "完了 · OP-002",
+        "newValue": "承認済み · OP-002",
+        "wordingStatus": "建议日文，操作前由主任务统一采用"
+      }
+    },
+    {
+      "page": "05-zh-CN",
+      "rootId": "3:20630",
+      "nodeId": "3:22818",
+      "tag": "p",
+      "nodeName": "問い合わせ管理システムの開発",
+      "originalText": "問い合わせ管理システムの開発",
+      "originalStyle": "align-self: stretch; flex-shrink: 0; color: #181818; font-size: 22px; font-family: Inter; font-weight: 600; line-height: 30px",
+      "originalHtml": "<p\n              data-node-id=\"3:22818\"\n              data-name=\"問い合わせ管理システムの開発\"\n              style=\"align-self: stretch; flex-shrink: 0; color: #181818; font-size: 22px; font-family: Inter; font-weight: 600; line-height: 30px\">\n              問い合わせ管理システムの開発\n            </p>",
+      "sourceFile": "native-source/05-zh-CN.html",
+      "sourceLine": 643,
+      "kind": "hall_preview_title_font_size",
+      "context": "大厅预览卡片标题，非发布表单标题字段",
+      "provenance": {
+        "requestId": "1791794049821575",
+        "receiptLocalTime": "2026-10-12 16:34:13",
+        "rootId": "3:20630"
+      },
+      "proposedChange": {
+        "property": "font-size",
+        "oldValue": "22px",
+        "newValue": "20px",
+        "preserveText": true,
+        "preserveOtherStyle": true
+      }
+    },
+    {
+      "page": "05-ja-JP",
+      "rootId": "3:23395",
+      "nodeId": "3:25580",
+      "tag": "p",
+      "nodeName": "問い合わせ管理システムの開発",
+      "originalText": "問い合わせ管理システムの開発",
+      "originalStyle": "align-self: stretch; flex-shrink: 0; color: #181818; font-size: 22px; font-family: Inter; font-weight: 600; line-height: 30px",
+      "originalHtml": "<p\n              data-node-id=\"3:25580\"\n              data-name=\"問い合わせ管理システムの開発\"\n              style=\"align-self: stretch; flex-shrink: 0; color: #181818; font-size: 22px; font-family: Inter; font-weight: 600; line-height: 30px\">\n              問い合わせ管理システムの開発\n            </p>",
+      "sourceFile": "native-source/05-ja-JP.html",
+      "sourceLine": 643,
+      "kind": "hall_preview_title_font_size",
+      "context": "案件一覧プレビュー标题，非发布表单标题字段",
+      "provenance": {
+        "requestId": "1791794071286448",
+        "receiptLocalTime": "2026-10-12 16:34:35",
+        "rootId": "3:23395"
+      },
+      "proposedChange": {
+        "property": "font-size",
+        "oldValue": "22px",
+        "newValue": "20px",
+        "preserveText": true,
+        "preserveOtherStyle": true
+      }
+    },
+    {
+      "page": "02-zh-CN",
+      "rootId": "3:6762",
+      "nodeId": "3:8356",
+      "tag": "span",
+      "nodeName": "全部 24",
+      "originalText": "全部 24",
+      "originalStyle": "color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px",
+      "originalHtml": "<span\n              data-node-id=\"3:8356\"\n              data-name=\"全部 24\"\n              style=\"color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px\">\n              全部 24\n            </span>",
+      "sourceFile": "native-source/02-zh-CN.html",
+      "sourceLine": 495,
+      "kind": "total_count",
+      "context": "全部页签合计",
+      "provenance": {
+        "requestId": "1791793832578507",
+        "receiptLocalTime": "2026-10-12 16:30:43",
+        "rootId": "3:6762"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "全部 24",
+        "newValue": null,
+        "wordingStatus": "最终数量和文案由主任务确定；最新拟30（25项待办+5项已结束），废止先前25建议",
+        "candidateValue": "全部 30"
+      }
+    },
+    {
+      "page": "02-zh-CN",
+      "rootId": "3:6762",
+      "nodeId": "3:00626",
+      "tag": "p",
+      "nodeName": "共 24 条",
+      "originalText": "共 24 条",
+      "originalStyle": "flex: 1; flex-shrink: 0; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<p\n            data-node-id=\"3:00626\"\n            data-name=\"共 24 条\"\n            style=\"flex: 1; flex-shrink: 0; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">\n            共 24 条\n          </p>",
+      "sourceFile": "native-source/02-zh-CN.html",
+      "sourceLine": 1245,
+      "kind": "total_count",
+      "context": "Pagination 总记录数",
+      "provenance": {
+        "requestId": "1791793832578507",
+        "receiptLocalTime": "2026-10-12 16:30:43",
+        "rootId": "3:6762"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "共 24 条",
+        "newValue": null,
+        "wordingStatus": "最终数量和文案由主任务确定；最新拟30（25项待办+5项已结束），废止先前25建议",
+        "candidateValue": "共 30 条"
+      }
+    },
+    {
+      "page": "02-ja-JP",
+      "rootId": "3:01038",
+      "nodeId": "3:02723",
+      "tag": "span",
+      "nodeName": "すべて 24",
+      "originalText": "すべて 24",
+      "originalStyle": "color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px",
+      "originalHtml": "<span\n              data-node-id=\"3:02723\"\n              data-name=\"すべて 24\"\n              style=\"color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px\">\n              すべて 24\n            </span>",
+      "sourceFile": "native-source/02-ja-JP.html",
+      "sourceLine": 495,
+      "kind": "total_count",
+      "context": "すべて页签合计",
+      "provenance": {
+        "requestId": "1791793898354980",
+        "receiptLocalTime": "2026-10-12 16:31:44",
+        "rootId": "3:01038"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "すべて 24",
+        "newValue": null,
+        "wordingStatus": "最终数量和文案由主任务确定；最新拟30（25项待办+5项已结束），废止先前25建议",
+        "candidateValue": "すべて 30"
+      }
+    },
+    {
+      "page": "02-ja-JP",
+      "rootId": "3:01038",
+      "nodeId": "3:05062",
+      "tag": "p",
+      "nodeName": "全 24 件",
+      "originalText": "全 24 件",
+      "originalStyle": "flex: 1; flex-shrink: 0; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<p\n            data-node-id=\"3:05062\"\n            data-name=\"全 24 件\"\n            style=\"flex: 1; flex-shrink: 0; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">\n            全 24 件\n          </p>",
+      "sourceFile": "native-source/02-ja-JP.html",
+      "sourceLine": 1245,
+      "kind": "total_count",
+      "context": "Pagination 总记录数",
+      "provenance": {
+        "requestId": "1791793898354980",
+        "receiptLocalTime": "2026-10-12 16:31:44",
+        "rootId": "3:01038"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "全 24 件",
+        "newValue": null,
+        "wordingStatus": "最终数量和文案由主任务确定；最新拟30（25项待办+5项已结束），废止先前25建议",
+        "candidateValue": "全 30 件"
+      }
+    },
+    {
+      "page": "03-zh-CN",
+      "rootId": "3:09092",
+      "nodeId": "3:11574",
+      "tag": "p",
+      "nodeName": "请确认资料授权；样例需去除个人信息后再提交。",
+      "originalText": "请确认资料授权；样例需去除个人信息后再提交。",
+      "originalStyle": "align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<p\n                data-node-id=\"3:11574\"\n                data-name=\"请确认资料授权；样例需去除个人信息后再提交。\"\n                style=\"align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">\n                请确认资料授权；样例需去除个人信息后再提交。\n              </p>",
+      "sourceFile": "native-source/03-zh-CN.html",
+      "sourceLine": 726,
+      "kind": "entered_note_locale_consistency",
+      "context": "实际演示录入备注值，切换界面语言不自动翻译业务数据",
+      "provenance": {
+        "receiptLocalTime": "2026-10-12 16:32:21",
+        "requestId": "1791793938000650"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "请确认资料授权；样例需去除个人信息后再提交。",
+        "newValue": "資料の利用権限を確認。サンプルは個人情報を除いて提出を依頼。",
+        "wordingStatus": "采用对应日文版既有演示备注，不翻译其他用户录入业务数据"
+      },
+      "existingJapaneseCounterpart": {
+        "page": "03-ja-JP",
+        "rootId": "3:11951",
+        "nodeId": "3:14373",
+        "tag": "p",
+        "nodeName": "資料の利用権限を確認。サンプルは個人情報を除いて提出を依頼。",
+        "originalText": "資料の利用権限を確認。サンプルは個人情報を除いて提出を依頼。",
+        "originalStyle": "align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px",
+        "originalHtml": "<p\n                data-node-id=\"3:14373\"\n                data-name=\"資料の利用権限を確認。サンプルは個人情報を除いて提出を依頼。\"\n                style=\"align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">\n                資料の利用権限を確認。サンプルは個人情報を除いて提出を依頼。\n              </p>",
+        "sourceFile": "native-source/03-ja-JP.html",
+        "sourceLine": 726
+      }
+    },
+    {
+      "page": "07-zh-CN",
+      "rootId": "3:32534",
+      "nodeId": "3:35232",
+      "tag": "p",
+      "nodeName": "剩余三项待复核；不把“文件已上传”记为“测试通过”。",
+      "originalText": "剩余三项待复核；不把“文件已上传”记为“测试通过”。",
+      "originalStyle": "align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<p\n                data-node-id=\"3:35232\"\n                data-name=\"剩余三项待复核；不把“文件已上传”记为“测试通过”。\"\n                style=\"align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">\n                剩余三项待复核；不把“文件已上传”记为“测试通过”。\n              </p>",
+      "sourceFile": "native-source/07-zh-CN.html",
+      "sourceLine": 832,
+      "kind": "entered_note_locale_consistency",
+      "context": "实际演示录入备注值，切换界面语言不自动翻译业务数据",
+      "provenance": {
+        "receiptLocalTime": "2026-10-12 16:35:30",
+        "requestId": "1791794115693873"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "剩余三项待复核；不把“文件已上传”记为“测试通过”。",
+        "newValue": "残り 3 項目を確認。アップロード済みだけではテスト合格としません。",
+        "wordingStatus": "采用对应日文版既有演示备注，不翻译其他用户录入业务数据"
+      },
+      "existingJapaneseCounterpart": {
+        "page": "07-ja-JP",
+        "rootId": "3:35567",
+        "nodeId": "3:38128",
+        "tag": "p",
+        "nodeName": "残り 3 項目を確認。アップロード済みだけではテスト合格としません。",
+        "originalText": "残り 3\n                項目を確認。アップロード済みだけではテスト合格としません。",
+        "originalStyle": "align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px",
+        "originalHtml": "<p\n                data-node-id=\"3:38128\"\n                data-name=\"残り 3 項目を確認。アップロード済みだけではテスト合格としません。\"\n                style=\"align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">\n                残り 3\n                項目を確認。アップロード済みだけではテスト合格としません。\n              </p>",
+        "sourceFile": "native-source/07-ja-JP.html",
+        "sourceLine": 832
+      }
+    },
+    {
+      "page": "09-zh-CN",
+      "rootId": "3:49496",
+      "nodeId": "3:51788",
+      "tag": "p",
+      "nodeName": "评估导出字段、数据权限与字符编码；确认是否影响原交付日期。",
+      "originalText": "评估导出字段、数据权限与字符编码；确认是否影响原交付日期。",
+      "originalStyle": "align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<p\n                data-node-id=\"3:51788\"\n                data-name=\"评估导出字段、数据权限与字符编码；确认是否影响原交付日期。\"\n                style=\"align-self: stretch; flex-shrink: 0; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">\n                评估导出字段、数据权限与字符编码；确认是否影响原交付日期。\n              </p>",
+      "sourceFile": "native-source/09-zh-CN.html",
+      "sourceLine": 658,
+      "kind": "entered_note_locale_consistency",
+      "context": "实际演示录入备注值，切换界面语言不自动翻译业务数据",
+      "provenance": {
+        "receiptLocalTime": "2026-10-12 16:45:15",
+        "requestId": "1791794597118310"
+      },
+      "proposedChange": {
+        "property": "text",
+        "oldValue": "评估导出字段、数据权限与字符编码；确认是否影响原交付日期。",
+        "newValue": null,
+        "wordingStatus": "09日文尚无成功创建回执备份；由主任务提供其对应既有演示备注，不自行新译"
+      }
+    }
+  ],
+  "excludedTechnicalCompletionNodes": [
+    {
+      "page": "02-ja-JP",
+      "rootId": "3:01038",
+      "nodeId": "3:04279",
+      "tag": "span",
+      "nodeName": "完了",
+      "originalText": "完了",
+      "originalStyle": "flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<span\n                  data-node-id=\"3:04279\"\n                  data-name=\"完了\"\n                  style=\"flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n                  完了\n                </span>",
+      "sourceFile": "native-source/02-ja-JP.html",
+      "sourceLine": 987,
+      "reason": "REQ-1036 / Cell 3 / 要件整理（技术整理）完成，非受付審査；不全局替换完了"
+    },
+    {
+      "page": "05-ja-JP",
+      "rootId": "3:23395",
+      "nodeId": "3:25029",
+      "tag": "span",
+      "nodeName": "完了 · OP-003",
+      "originalText": "完了 · OP-003",
+      "originalStyle": "flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px",
+      "originalHtml": "<span\n                  data-node-id=\"3:25029\"\n                  data-name=\"完了 · OP-003\"\n                  style=\"flex-shrink: 0; color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n                  完了 · OP-003\n                </span>",
+      "sourceFile": "native-source/05-ja-JP.html",
+      "sourceLine": 487,
+      "reason": "Description 技术整理 / 要件整理 / OP-003；与合规审核通过分开判定"
+    }
+  ],
+  "backupCount": 17,
+  "backups": [
+    {
+      "file": "native-source/01-ja-JP.html",
+      "rootId": "3:2639",
+      "sha256": "4dad23f46bac72853a6c3b1fdda0b4581826621d9018391e9568d38aa0ba1ec8",
+      "bytes": 57870
+    },
+    {
+      "file": "native-source/01-zh-CN.html",
+      "rootId": "3:05387",
+      "sha256": "60a44d0cd67dab253904f6ce63622f93b841d24c6aced6747954fb9b1fdd4eb6",
+      "bytes": 57542
+    },
+    {
+      "file": "native-source/02-ja-JP.html",
+      "rootId": "3:01038",
+      "sha256": "adc31333a45c3e44ccf2f8d48e3cf3348e210077d0851767f0e330d80ee38b9f",
+      "bytes": 69330
+    },
+    {
+      "file": "native-source/02-zh-CN.html",
+      "rootId": "3:6762",
+      "sha256": "7685bb85399d3c2cda0003b986d8c9018d65412b107a8757c1921750c4364ba5",
+      "bytes": 68893
+    },
+    {
+      "file": "native-source/03-ja-JP.html",
+      "rootId": "3:11951",
+      "sha256": "08ed90f9eb42e2ac18d6c5c63ce853292b22e71f4c55c1f0862c0d897bb7a572",
+      "bytes": 40303
+    },
+    {
+      "file": "native-source/03-zh-CN.html",
+      "rootId": "3:09092",
+      "sha256": "b5f6eb82725a4d86aa603eb6d896e66d3e4ac330805b033734ec4aab333215ed",
+      "bytes": 39955
+    },
+    {
+      "file": "native-source/04-ja-JP.html",
+      "rootId": "3:17761",
+      "sha256": "f83f85b80cee0d4b43642bcd4c4a32425a3b30cfa669f718a06a46bbae98414e",
+      "bytes": 39156
+    },
+    {
+      "file": "native-source/04-zh-CN.html",
+      "rootId": "3:14812",
+      "sha256": "fcfc6fab5237a84fd44fb7ffc553c11574e97d5882cb83b7f85e03a96e59a231",
+      "bytes": 38849
+    },
+    {
+      "file": "native-source/05-ja-JP.html",
+      "rootId": "3:23395",
+      "sha256": "58c8b028a229428d215a74962e7bd5f9bd8cbf6a125de189fc297e4b6e67fc7c",
+      "bytes": 39599
+    },
+    {
+      "file": "native-source/05-zh-CN.html",
+      "rootId": "3:20630",
+      "sha256": "6fbdabc788c9cd7a8743574a48fe5a88898c2eecf18d9e30ad09070bb9c37b52",
+      "bytes": 39356
+    },
+    {
+      "file": "native-source/06-ja-JP.html",
+      "rootId": "3:29286",
+      "sha256": "8677328b507ef484ea52bdc29988c912f4e63e92b542348a8b3ccfe39afb9ab0",
+      "bytes": 49585
+    },
+    {
+      "file": "native-source/06-zh-CN.html",
+      "rootId": "3:26155",
+      "sha256": "c635f3259bc89361b4fe97a3e58fb922bc3127bc72e51e0cb0e3928107f6b7cc",
+      "bytes": 49235
+    },
+    {
+      "file": "native-source/07-ja-JP.html",
+      "rootId": "3:35567",
+      "sha256": "efcf7c00979155fc6d7382b9d637c5eeae77684faf020f51846e1f88e065797e",
+      "bytes": 46084
+    },
+    {
+      "file": "native-source/07-zh-CN.html",
+      "rootId": "3:32534",
+      "sha256": "86b75e60e9f99c4dc2eb41239e06e33efca66a816ee572b73a1bbe6aea17bc55",
+      "bytes": 45611
+    },
+    {
+      "file": "native-source/08-ja-JP.html",
+      "rootId": "3:45905",
+      "sha256": "f721b6f04de3b72a655bccf76cc001e0d4d28807c3cbf3c827634bdce32aa9af",
+      "bytes": 56260
+    },
+    {
+      "file": "native-source/08-zh-CN.html",
+      "rootId": "3:42157",
+      "sha256": "ab7ae9b431b9e1b1a2a2f4b2ae63474fab260bda1747d496b7ccc0b5f2635044",
+      "bytes": 55852
+    },
+    {
+      "file": "native-source/09-zh-CN.html",
+      "rootId": "3:49496",
+      "sha256": "32100ed05ca05631d14166c81091be300f692ab28fecec378bca602ee0f301bc",
+      "bytes": 36651
+    }
+  ],
+  "updatedAt": "2026-10-12T17:00:52.9997120+08:00"
+}

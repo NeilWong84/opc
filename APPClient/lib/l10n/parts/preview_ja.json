@@ -1,0 +1,111 @@
+{
+  "previewTitle": "プレビュー",
+  "previewImageTitle": "画像を見る",
+  "previewVideoTitle": "動画を再生",
+  "previewDocumentTitle": "文書プレビュー",
+  "previewPdfTitle": "PDF プレビュー",
+  "previewTableTitle": "表プレビュー",
+  "previewSlidesTitle": "スライドプレビュー",
+  "previewTextTitle": "テキストプレビュー",
+  "previewReadOnly": "読み取り専用",
+  "previewPrevious": "前へ",
+  "previewNext": "次へ",
+  "previewZoomIn": "拡大",
+  "previewZoomOut": "縮小",
+  "previewResetZoom": "拡大率をリセット",
+  "previewImageHint": "ピンチで拡大。拡大していない時はスワイプ、矢印やサムネイルで画像を切り替えます。",
+  "previewPages": "ページへ移動",
+  "previewPageNumber": "ページ番号",
+  "previewGo": "移動",
+  "previewCancel": "キャンセル",
+  "previewDocumentHint": "上下にスクロールして閲覧。ページ番号から移動できます。",
+  "previewFixtureNotice": "同梱のサンプル資料を表示しています。任意の Office ファイルを変換する機能はまだ接続されていません。",
+  "previewFullscreen": "全画面",
+  "previewExitFullscreen": "全画面を閉じる",
+  "previewSlideHint": "左右のボタンやサムネイルでページを切り替えます。",
+  "previewOriginal": "原文",
+  "previewFormatted": "書式付き",
+  "previewTextSize": "文字サイズ",
+  "previewSmallerText": "文字を小さく",
+  "previewLargerText": "文字を大きく",
+  "previewTextHint": "内容は原文のまま表示します。TXT は自動改行、Markdown は見出し・箇条書き・コードなどの基本書式に対応します。",
+  "previewSearch": "表内を検索",
+  "previewClearSearch": "検索をクリア",
+  "previewNoMatches": "一致するセルはありません。",
+  "previewTableHint": "左右にスクロールして列を確認できます。CSV は単一の表として表示します。",
+  "previewPlay": "再生",
+  "previewPause": "一時停止",
+  "previewMute": "ミュート",
+  "previewUnmute": "ミュート解除",
+  "previewSeek": "再生位置",
+  "previewVideoLoading": "動画を読み込んでいます",
+  "previewVideoFailed": "動画を再生できませんでした",
+  "previewVideoHint": "タップして再生します。自動再生はしません。",
+  "previewPreparing": "プレビューを準備中",
+  "previewPreparingHint": "原本はダウンロードできます。準備状況を再確認できます。",
+  "previewCheckPreparation": "準備状況を確認",
+  "previewFailed": "プレビューできませんでした",
+  "previewFailedHint": "再試行するか、原本をダウンロードして確認してください。",
+  "previewRetry": "再試行",
+  "previewUnsupported": "プレビュー非対応",
+  "previewUnsupportedHint": "原本をダウンロードして確認できます。",
+  "previewAccessDenied": "この資料へのアクセス権がありません",
+  "previewAccessDeniedHint": "閲覧を停止しました。必要な場合は運営担当者にお問い合わせください。",
+  "previewEmpty": "表示できる内容がありません",
+  "previewImageFailed": "画像を読み込めませんでした",
+  "previewSelectedCell": "選択したセル",
+  "previewImageCount": "画像 {current} / {total}",
+  "@previewImageCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "previewPageCount": "{current} / {total}",
+  "@previewPageCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "previewPageRange": "1〜{total} のページ番号を入力してください",
+  "@previewPageRange": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "previewSearchMatches": "一致するセル {count} 件",
+  "@previewSearchMatches": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previewSheetCount": "{count} シート",
+  "@previewSheetCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previewThumbnail": "{index} ページを開く",
+  "@previewThumbnail": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  }
+}

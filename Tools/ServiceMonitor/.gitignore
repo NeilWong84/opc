@@ -1,0 +1,10 @@
+.venv/
+.verify-venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+.local/
+*.py[cod]
+

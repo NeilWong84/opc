@@ -1,0 +1,8 @@
+# Versions of direct and transitive dependencies are constrained by requirements.lock.txt.
+fastapi
+uvicorn[standard]
+psycopg[binary]
+pydantic-settings
+argon2-cffi
+python-multipart
+email-validator

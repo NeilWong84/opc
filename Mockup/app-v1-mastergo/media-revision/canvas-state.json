@@ -1,0 +1,553 @@
+{
+  "updatedAt": "2026-10-13",
+  "documentId": "207036955904456",
+  "documentName": "OPC-APPClient",
+  "pageId": "M",
+  "url": "https://mastergo.com/file/207036955904456?page_id=M",
+  "designSource": "free-draw",
+  "scope": "MasterGo static design revision; user confirmed on 2026-10-13 and authorized APPClient synchronization",
+  "implementationHandoff": "APPClient now implements local sample previews and original-file save/export. See ../../../APPClient/README.md for platform validation and production limitations.",
+  "language": "ja-JP sample screens; zh-CN and ja-JP remain required at implementation; source contents/file names untranslated",
+  "newScreensCompleted": 18,
+  "modifiedScreens": [
+    {
+      "screen": "hall",
+      "theme": "light",
+      "rootNodeId": "14:3483",
+      "originalBodyNodeId": "14:3657",
+      "operation": "body-update-and-thumbnail-strip-replacement",
+      "replacementTargetNodeId": "21:0114",
+      "sources": [
+        "hall-light-body-staged.html",
+        "hall-light-media-final.html"
+      ],
+      "result": "MCP body update accepted; subsequent node snapshot located new media strip; media strip replacement reported complete",
+      "visualReview": "not-performed-after-final-replacement",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A3483"
+    },
+    {
+      "screen": "detail",
+      "theme": "light",
+      "rootNodeId": "14:5089",
+      "originalBodyNodeId": "14:5247",
+      "operation": "body-structure-replacement",
+      "source": "detail-light-body-final.html",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ [结构替换] 指令已发送\n- 后续动作: 当前修改已完成，请直接向用户报告结果。除非用户明确要求验证，或当前处于用户已授权的组件 QA 修复流程，否则不要自动调用 get_selection_node、get_screenshot 或 get_design_diff。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-after-final-replacement",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A5089"
+    },
+    {
+      "screen": "hall",
+      "theme": "dark",
+      "rootNodeId": "14:04310",
+      "originalBodyNodeId": "14:04578",
+      "operation": "body-structure-replacement",
+      "source": "hall-dark-body-final.html",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ [结构替换] 指令已发送\n- 后续动作: 当前修改已完成，请直接向用户报告结果。除非用户明确要求验证，或当前处于用户已授权的组件 QA 修复流程，否则不要自动调用 get_selection_node、get_screenshot 或 get_design_diff。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-after-final-replacement",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A04310"
+    },
+    {
+      "screen": "detail",
+      "theme": "dark",
+      "rootNodeId": "14:05895",
+      "originalBodyNodeId": "14:06053",
+      "operation": "body-structure-replacement",
+      "source": "detail-dark-body-final.html",
+      "response": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ [结构替换] 指令已发送\n- 后续动作: 当前修改已完成，请直接向用户报告结果。除非用户明确要求验证，或当前处于用户已授权的组件 QA 修复流程，否则不要自动调用 get_selection_node、get_screenshot 或 get_design_diff。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-after-final-replacement",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A05895"
+    }
+  ],
+  "newScreens": [
+    {
+      "id": "media-files-light",
+      "title": "参考资料列表",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:1412",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791870266534-4q2tjzot3wn",
+      "completionRecordedAt": "2026-10-13T05:50:56.4506172Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A1412",
+      "source": "files-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791870266534-4q2tjzot3wn\n- 节点 ID: 21:1412\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 本地图片已导入 Server Artifact Store: 3 个\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-files-dark",
+      "title": "参考资料列表",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:7515",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791870415277-hm2h1mro8cd",
+      "completionRecordedAt": "2026-10-13T05:53:48.3803001Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A7515",
+      "source": "files-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791870415277-hm2h1mro8cd\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 本地图片已导入 Server Artifact Store: 3 个\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-image-light",
+      "title": "图片查看",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:8778",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791870575179-wldm3u4djg9",
+      "completionRecordedAt": "2026-10-13T05:53:50.9963247Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A8778",
+      "source": "image-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791870575179-wldm3u4djg9\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 本地图片已导入 Server Artifact Store: 2 个\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-image-dark",
+      "title": "图片查看",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:9223",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791870700279-v0ckgcqabze",
+      "completionRecordedAt": "2026-10-13T05:55:40.4788103Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A9223",
+      "source": "image-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791870700279-v0ckgcqabze\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 本地图片已导入 Server Artifact Store: 2 个\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-video-light",
+      "title": "视频播放",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:9647",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791870933179-hc5adsqs5wf",
+      "completionRecordedAt": "2026-10-13T05:55:43.416046Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A9647",
+      "source": "video-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成已成功完成\n- 本地图片已导入 Server Artifact Store: 1 个\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-video-dark",
+      "title": "视频播放",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:00425",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791870943456-des9p0w60o",
+      "completionRecordedAt": "2026-10-13T05:55:47.4687673Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A00425",
+      "source": "video-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成已成功完成\n- 本地图片已导入 Server Artifact Store: 1 个\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-document-light",
+      "title": "Word 文档预览",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:01139",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791870986818-k1eq1ca6x4k",
+      "completionRecordedAt": "2026-10-13T05:56:56.3453307Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A01139",
+      "source": "document-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791870986818-k1eq1ca6x4k\n- 节点 ID: 21:01139\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-document-dark",
+      "title": "Word 文档预览",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:02055",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871049355-wtptldtf4t",
+      "completionRecordedAt": "2026-10-13T05:57:56.3284296Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A02055",
+      "source": "document-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791871049355-wtptldtf4t\n- 节点 ID: 21:02055\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-pdf-light",
+      "title": "PDF 预览",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:03059",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871074111-eopx222ztb4",
+      "completionRecordedAt": "2026-10-13T05:58:56.3369158Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A03059",
+      "source": "pdf-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791871074111-eopx222ztb4\n- 节点 ID: 21:03059\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-pdf-dark",
+      "title": "PDF 预览",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:03963",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871081430-xgdukgptp5",
+      "completionRecordedAt": "2026-10-13T05:59:06.2006443Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A03963",
+      "source": "pdf-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791871081430-xgdukgptp5\n- 节点 ID: 21:03963\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-table-light",
+      "title": "Excel / CSV 表格预览",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:04967",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871141428-hklrho5h7e",
+      "completionRecordedAt": "2026-10-13T05:59:10.5722235Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A04967",
+      "source": "table-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成已成功完成\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-table-dark",
+      "title": "Excel / CSV 表格预览",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:07173",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871150639-mv65oxtw09r",
+      "completionRecordedAt": "2026-10-13T05:59:14.4549621Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A07173",
+      "source": "table-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成已成功完成\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-slides-light",
+      "title": "PPT 幻灯片预览",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:09377",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871154501-awpwd4pejr",
+      "completionRecordedAt": "2026-10-13T05:59:16.5855932Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A09377",
+      "source": "slides-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成已成功完成\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-slides-dark",
+      "title": "PPT 幻灯片预览",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:10721",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871156631-pg8f5nfrco",
+      "completionRecordedAt": "2026-10-13T05:59:21.3061322Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A10721",
+      "source": "slides-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成已成功完成\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-text-light",
+      "title": "TXT / Markdown 文本预览",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:11952",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871161362-qhmde0ww9wp",
+      "completionRecordedAt": "2026-10-13T05:59:22.5525137Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A11952",
+      "source": "text-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成已成功完成\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-text-dark",
+      "title": "TXT / Markdown 文本预览",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "nodeId": "21:12840",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871162597-j5erfi5w02",
+      "completionRecordedAt": "2026-10-13T05:59:23.7116475Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A12840",
+      "source": "text-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成已成功完成\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-states-light",
+      "title": "可选资料与下载状态",
+      "theme": "light",
+      "width": 390,
+      "height": 1280,
+      "nodeId": "21:13823",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871163752-wmvfbf7u9e",
+      "completionRecordedAt": "2026-10-13T05:59:30.3281682Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A13823",
+      "source": "states-light.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791871163752-wmvfbf7u9e\n- 节点 ID: 21:13823\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    },
+    {
+      "id": "media-states-dark",
+      "title": "可选资料与下载状态",
+      "theme": "dark",
+      "width": 390,
+      "height": 1280,
+      "nodeId": "21:15347",
+      "generationStatus": "completed",
+      "generatingTaskId": "page-gen-1791871168840-kzezls29jhf",
+      "completionRecordedAt": "2026-10-13T05:59:37.3085436Z",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=21%3A15347",
+      "source": "states-dark.html",
+      "sourceProvenance": "exact-authoring-html-saved-after-mcp-submission",
+      "submissionResponse": {
+        "content": [
+          {
+            "type": "text",
+            "text": "✅ 设计稿生成请求已发送到 MasterGo MCP，画布仍在后台处理中\n- 请求 ID: page-gen-1791871168840-kzezls29jhf\n- 节点 ID: 21:15347\n- 文档:  (207036955904456)\n- 页面:  (M)\n- 状态: accepted（已受理，非最终渲染完成回执）\n- 请勿重复提交同一页面；如需确认结果，请等待画布渲染后再读取节点或截图复核\n- 已记住当前文件的页面设计来源，后续未明确指定时将自动沿用。"
+          }
+        ]
+      },
+      "visualReview": "not-performed-this-revision",
+      "interaction": "static-design"
+    }
+  ],
+  "requirements": {
+    "optionalMedia": true,
+    "formatsToPreview": [
+      "images",
+      "video",
+      "doc",
+      "docx",
+      "txt",
+      "md",
+      "xls",
+      "xlsx",
+      "csv",
+      "ppt",
+      "pptx",
+      "pdf"
+    ],
+    "download": "all currently authorized original attachments, including non-previewable types",
+    "hallAccess": "only materials authorized for the current reviewed published version; private originals are not automatically public",
+    "themes": [
+      "light",
+      "dark"
+    ]
+  },
+  "limitations": [
+    "Static editable effect drawings, not wired interactive prototypes",
+    "No new screenshot/visual QA after final submission; prior 2026-10-12 previews do not cover this revision",
+    "Existing original screenshot exports are stale for the four revised hall/detail pages",
+    "Assets are original synthetic reference UI; video durations, file sizes, page counts and progress are design fixtures, not real files/services",
+    "No APPClient/FrontendAdmin/BackendService code modified in this design revision",
+    "File storage, conversion, preview playback and download providers are not selected or integrated"
+  ],
+  "cleanup": {
+    "targetNodeId": "21:0102",
+    "description": "unused placeholder created by this revision",
+    "result": "MCP deletion command sent; no subsequent canvas verification"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0",
+  "product": "OPC FrontendAdmin",
+  "mode": "dark",
+  "updatedAt": "2026-10-12",
+  "artifactType": "design_tokens_for_editable_MasterGo_admin_frames",
+  "locales": [
+    "zh-CN",
+    "ja-JP"
+  ],
+  "status": {
+    "usage": "本轮后台暗色效果图配色与后续 Vue 主题交接",
+    "runtimeImplemented": false,
+    "officialComponentInstances": false,
+    "description": "参考 TDesign 官方暗色灰阶、蓝阶及状态色阶，针对 12–14px 表格/表单文字作 OPC 可读性适配；不是官方默认 dark 主题的原样截图。"
+  },
+  "source": {
+    "title": "Tencent/tdesign-common style/web/theme/_dark.less",
+    "url": "https://github.com/Tencent/tdesign-common/blob/develop/style/web/theme/_dark.less",
+    "rawUrl": "https://raw.githubusercontent.com/Tencent/tdesign-common/develop/style/web/theme/_dark.less",
+    "verifiedAt": "2026-10-12",
+    "upstreamBranch": "develop",
+    "versionNote": "后续 Vue 实现按项目实际锁定的 TDesign Vue Next 版本复核，不将 develop 色值作为安装版本保证。"
+  },
+  "colors": {
+    "background": {
+      "page": "#181818",
+      "container": "#242424",
+      "secondaryContainer": "#2C2C2C",
+      "tableHeader": "#2C2C2C",
+      "highlightedRow": "#26303F",
+      "navigationSelected": "#1B2F51"
+    },
+    "text": {
+      "primary": "#E9E9E9",
+      "emphasisSecondary": "#D0D0D0",
+      "secondary": "#B8B8B8",
+      "supporting": "#A6A6A6",
+      "inverse": "#FFFFFF",
+      "link": "#699EF5",
+      "disabled": "#8A8A8A"
+    },
+    "border": {
+      "separator": "#393939",
+      "interactive": "#777777"
+    },
+    "action": {
+      "primaryBackground": "#2667D4",
+      "primaryForeground": "#FFFFFF",
+      "selectedBackground": "#1B2F51",
+      "selectedForeground": "#699EF5",
+      "disabledBackground": "#383838",
+      "disabledForeground": "#8A8A8A"
+    },
+    "status": {
+      "information": {
+        "background": "#1B2F51",
+        "foreground": "#699EF5"
+      },
+      "success": {
+        "background": "#193A2A",
+        "foreground": "#80D2B6"
+      },
+      "warning": {
+        "background": "#4F2A1D",
+        "foreground": "#ECBF91"
+      },
+      "error": {
+        "background": "#472324",
+        "foreground": "#EC888E"
+      },
+      "neutral": {
+        "background": "#303030",
+        "foreground": "#B8B8B8"
+      }
+    }
+  },
+  "rationale": {
+    "surfaces": "页面、卡片、表头用 TDesign 官方暗色层级，表格行间使用细分隔，不靠阴影区分。",
+    "text": "主要文字近似官方白色 90% 在 #242424 上的合成值；次要及辅助文字提高亮度，供高密度中文/日文界面阅读。",
+    "brand": "链接采用官方 brand-9 #699EF5；实心按钮采用 brand-7 #2667D4。官方默认 brand-8 #4582E6 与白色普通小字对比度约 3.76:1，因此本稿按用途分开链接色与按钮填充色。",
+    "status": "使用官方暗色色阶中的较亮 foreground 搭配其最深背景，保持成功、警告、错误语义并配文字标签。",
+    "borders": "控件边框提高为 #777777。#393939 仅为表格/卡片装饰分隔，不作为唯一的可交互控件轮廓。",
+    "disabled": "#383838 + #8A8A8A 只用于真正禁用控件；中性业务状态使用 #303030 + #B8B8B8，避免被误认为禁用。",
+    "textLanguage": "主题与语言切换不改变客户原文、内部录入备注、编号、版本、业务状态、JPY、JST 或权限。",
+    "scope": "仅对应已有 10 类 × 2 语言管理端界面；不增加手机端绿色品牌，也不新增业务模块。"
+  },
+  "conversion": {
+    "mode": "按 CSS 属性与组件语义转换，不能全局替换颜色字符串。",
+    "background": {
+      "#EEEEEE": "#181818",
+      "#FFFFFF": "#242424",
+      "#F3F3F3": "#2C2C2C",
+      "#F7F9FC": "#2C2C2C",
+      "#FAFCFF": "#26303F",
+      "#F2F3FF": "#1B2F51",
+      "#E3F9E9": "#193A2A",
+      "#FFF1E9": "#4F2A1D",
+      "#FFF0ED": "#472324",
+      "#0052D9": "#2667D4"
+    },
+    "foreground": {
+      "#181818": "#E9E9E9",
+      "#444444": "#D0D0D0",
+      "#666666": "#B8B8B8",
+      "#999999": "#A6A6A6",
+      "#0052D9": "#699EF5",
+      "#2BA471": "#80D2B6",
+      "#B85A10": "#ECBF91",
+      "#E37318": "#ECBF91",
+      "#D54941": "#EC888E",
+      "#FFFFFF": "#FFFFFF"
+    },
+    "border": {
+      "#E8E8E8": "#393939",
+      "#DDDDDD": "#777777"
+    },
+    "overrides": [
+      "实心蓝色主按钮内文字和图标保持白色。",
+      "真正禁用按钮覆盖为背景 #383838、文字/图标 #8A8A8A。",
+      "中性状态标签覆盖为背景 #303030、文字 #B8B8B8。"
+    ]
+  },
+  "implementationNotes": [
+    "可使用 CSS 变量或 TDesign 主题 token 映射实现；不能把静态 HTML 颜色置换当作 Vue 主题切换已完成。",
+    "普通 12–14px 文字以 4.5:1 为本稿检查目标，交互控件轮廓以 3:1 为检查目标；完整无障碍仍需运行时键盘、焦点、状态、缩放与实际设备验证。"
+  ]
+}

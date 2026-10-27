@@ -1,0 +1,184 @@
+{
+  "projectTitle": "项目",
+  "projectProviderSubtitle": "负责项目的工作空间",
+  "projectCustomerSubtitle": "查看您的需求进度",
+  "projectInfoTitle": "项目信息",
+  "projectInternalReviewPending": "运营正在确认提交内容，尚未向客户公开。",
+  "projectAwaitingOperations": "等待运营确认",
+  "projectSubmitRevision": "提交修订版",
+  "projectSubmitDelivery": "提交交付成果",
+  "projectReviewDelivery": "查看交付内容",
+  "projectSendMessage": "发送消息",
+  "projectConsultation": "项目沟通",
+  "projectConsultationHint": "如有需要确认的事项，请通过消息告诉我们。",
+  "projectOpenMessages": "打开消息",
+  "projectNoMessages": "暂无消息。",
+  "projectNoProviderDeliveries": "尚未提交交付成果，可通过下方按钮提交。",
+  "projectNoCustomerDeliveries": "面向客户的交付文件将在运营确认后显示。",
+  "projectEditFixedVersion": "编辑固定版本",
+  "projectFixedVersion": "发布版本／固定提交",
+  "projectFixedVersionHint": "例如：v0.3.0 · 8f3a2c1",
+  "projectFixedVersionHelp": "请输入可确定本次源码的标签或提交标识。这是示例记录。",
+  "projectSave": "保存",
+  "projectSubmitted": "已请求运营确认，内部确认后才会向客户公开。",
+  "projectDeliveryTitle": "提交交付成果",
+  "projectDeliveryUnauthorized": "仅本项目负责人可以提交交付成果。",
+  "projectDeliverySubtitle": "整理成果，便于检查与确认",
+  "projectSubmitting": "正在提交…",
+  "projectRequestReview": "请求运营确认",
+  "projectSourceCode": "源代码",
+  "projectRequired": "必填",
+  "projectSourceSelected": "18.4 MB · 已选择",
+  "projectGuideAndTest": "操作说明与验证资料",
+  "projectGuideSelected": "1.2 MB · 已选择",
+  "projectTestSelected": "84 KB · 已选择",
+  "projectChanges": "本次变更",
+  "projectChangesHint": "请输入变更内容与验证方法",
+  "projectChangesRequired": "请输入变更内容",
+  "projectDeliveryReviewNotice": "提交后，运营将确认内容。\n内部确认后才会向客户公开。",
+  "projectAttachmentsNotice": "附件仅为示例文件名，不会上传真实文件或执行测试。",
+  "projectAcceptConfirmTitle": "确认完成验收？",
+  "projectBack": "返回",
+  "projectCompleteAcceptance": "完成验收",
+  "projectAccepted": "验收已完成，感谢您的确认。",
+  "projectRequestRevision": "申请修改",
+  "projectRevisionContent": "需要修改的内容",
+  "projectRevisionHint": "请说明相关页面、操作步骤和预期结果",
+  "projectRevisionHelp": "运营将确认您的修改申请。申请后请等待新的公开版本。",
+  "projectRevisionRequested": "修改申请已记录，运营将确认内容。",
+  "projectAcceptanceTitle": "确认交付内容",
+  "projectNoPublishedDelivery": "尚无向客户公开的交付内容，运营确认后将显示。",
+  "projectAcceptanceSubtitle": "请亲自检查交付成果",
+  "projectAcceptedNotice": "公开版本已完成验收。",
+  "projectRevisionPendingNotice": "已收到修改申请，请等待新的公开版本。",
+  "projectCheckAllHint": "确认所有检查项后，即可完成验收。",
+  "projectAcceptanceComplete": "验收完成",
+  "projectWatchDemo": "查看操作演示",
+  "projectDemoSummary": "了解从登记到处理完成的操作",
+  "projectPublishedFiles": "交付文件与操作说明",
+  "projectPublishedFileCount": "公开版本资料 3 份",
+  "projectAcceptanceChecklist": "请确认以下事项",
+  "projectRevisionReviewing": "运营正在确认您的修改申请。",
+  "projectAcceptedFilesNotice": "感谢您的确认，您仍可在此页面查看交付文件。",
+  "projectRevisionInvitation": "如有问题，请通过申请修改告诉我们，运营将确认内容。",
+  "projectProgressTab": "进度",
+  "projectMessagesTab": "消息",
+  "projectFilesTab": "文件",
+  "projectMilestones": "里程碑",
+  "projectRequirementsMilestone": "需求确认",
+  "projectDevelopmentMilestone": "开发",
+  "projectInternalMilestone": "内部确认",
+  "projectCustomerMilestone": "客户确认",
+  "projectRevisionMilestoneDescription": "确认您申请的修改内容",
+  "projectRequirementsMilestoneDescription": "确定范围与验收标准",
+  "projectDevelopmentMilestoneDescription": "正在实现搜索页面与回答功能",
+  "projectInternalMilestoneDescription": "运营检查质量与资料",
+  "projectCustomerMilestoneDescription": "验收已公开的交付内容",
+  "projectMessageAvatar": "讯",
+  "projectReplaceFile": "替换文件",
+  "projectDeliveryPublished": "已向客户公开",
+  "projectDeliveryInternal": "用于内部确认",
+  "projectGuideMetadata": "操作说明",
+  "projectTestMetadata": "验证资料",
+  "projectMessageSent": "消息已发送",
+  "projectMessageHint": "输入消息",
+  "projectMessageRequired": "请输入消息",
+  "projectMessageSendTooltip": "发送消息",
+  "projectSelectFile": "选择文件",
+  "projectFilePickerNotice": "可以选择或编辑示例名称，不会发送真实文件。",
+  "projectSampleFilename": "示例文件名",
+  "projectFilenameRequired": "请输入文件名",
+  "projectUseSample": "使用此示例",
+  "projectCancel": "取消",
+  "projectClose": "关闭",
+  "projectSourcePreview": "完整源代码\n\n・应用程序源码\n・环境配置示例\n・启动说明（README）\n\n这是与固定版本关联的结构示例，此页面不会执行或下载代码。",
+  "projectGuidePreview": "操作说明示例\n\n1. 在列表页查看已登记的项目。\n2. 输入关键词进行搜索。\n3. 在详情页查看并更新内容。\n4. 保存后，返回列表查看变更结果。",
+  "projectTestPreview": "验证资料示例\n\n・登记与搜索场景\n・更新与保存场景\n・操作说明检查\n\n此资料是用于界面验证的合成数据，不代表实际测试结果或质量保证。",
+  "projectFileAccessNotice": "真实文件的获取与分发将在后续接入 API 时实现。",
+  "projectDemoTitle": "操作演示",
+  "projectDemoRegister": "1. 登记咨询",
+  "projectDemoSearch": "2. 从列表搜索",
+  "projectDemoUpdate": "3. 更新处理状态",
+  "projectDemoRegisterDescription": "输入主题与内容并保存后，列表中将显示新的咨询。",
+  "projectDemoSearchDescription": "使用关键词筛选并查看咨询详情。",
+  "projectDemoUpdateDescription": "更改负责人和处理状态，保存后在列表中查看结果。",
+  "projectDemoRestart": "从头查看",
+  "projectDemoNext": "下一步操作",
+  "projectDemoNotice": "这是页面内的示例指南，未连接真实交付环境或视频。",
+  "projectInfoMessageNotice": "如有变更或疑问，请通过项目消息沟通。",
+  "projectNextDeveloping": "下一步：10月16日 确认演示",
+  "projectNextInternalReview": "下一步：运营确认内容",
+  "projectNextAcceptance": "下一步：客户确认交付内容",
+  "projectNextRevision": "下一步：确认修改内容并重新提交",
+  "projectNextCompleted": "公开版本已完成验收",
+  "projectNextDefault": "将根据进度告知下一步安排",
+  "projectCheckFaqSearch": "可以输入问题并搜索相关资料",
+  "projectCheckFaqSources": "可以查看回答依据的资料",
+  "projectCheckGuide": "已阅读操作说明并确认使用方法",
+  "projectCheckSearch": "可以登记和搜索咨询",
+  "projectCheckUpdate": "可以更新负责人和处理状态",
+  "projectSubmissionDestination": "{id} · 提交至：OPC 运营",
+  "@projectSubmissionDestination": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "projectAcceptConfirmBody": "即将完成公开版 v{version}.0.0 的确认。\n\n此操作仅记录交付验收，不会付款或结算。",
+  "@projectAcceptConfirmBody": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectCustomerVersion": "面向客户的公开版 v{version}.0.0",
+  "@projectCustomerVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectSubmittedVersion": "提交版本 {version}",
+  "@projectSubmittedVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectFieldRequired": "请输入{label}",
+  "@projectFieldRequired": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "projectTargetVersion": "目标版本：{version}",
+  "@projectTargetVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "projectDemoVersion": "公开版 {version} · 示例指南",
+  "@projectDemoVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "projectConfirmedScope": "已确认的范围：版本 {version}",
+  "@projectConfirmedScope": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  }
+}

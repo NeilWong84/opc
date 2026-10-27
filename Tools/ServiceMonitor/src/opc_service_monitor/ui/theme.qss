@@ -1,0 +1,86 @@
+/* OPC Material / HUD overlay: active theme tokens are substituted at runtime. */
+QWidget { background: transparent; color: $text; font-family: "Microsoft YaHei UI"; font-size: 12px; }
+QMainWindow, QDialog { background: $background; }
+QWidget#consoleRoot, QLabel, QStackedWidget, QStatusBar { background: transparent; border: none; }
+QLabel { padding: 0; }
+QFrame { border: none; background: transparent; }
+QFrame#consoleHeader, QWidget#auditLoginCard { background: $surface; border: 1px solid $border; border-radius: 12px; }
+QLabel#appTitle { font-size: 23px; font-weight: 700; color: $text; }
+QLabel#eyebrow { font-size: 10px; font-weight: 700; color: $accent; }
+QLabel#subtitle, QLabel[tone="muted"] { color: $muted; }
+QLabel#sectionTitle { font-size: 14px; font-weight: 600; }
+QLabel#scopeBadge { background: $accent_soft; color: $accent; border-radius: 4px; padding: 4px 9px; }
+QFrame[card="true"] { background: $surface; border: 1px solid $border; border-top: 2px solid $accent; border-radius: 10px; }
+QLabel#serviceTitle { font-size: 16px; font-weight: 600; }
+QLabel#serviceCode { color: $accent; font-size: 10px; font-family: "Consolas"; }
+QLabel#serviceStatus { background: $raised; color: $muted; padding: 4px 8px; border-radius: 5px; font-size: 11px; }
+QLabel#serviceStatus[state="ready"] { color: $success; background: $raised; }
+QLabel#serviceStatus[state="failed"] { color: $danger; background: $danger_soft; }
+QLabel#serviceStatus[state="external"] { color: $warning; background: $warning_soft; }
+QLabel#serviceStatus[state="starting"], QLabel#serviceStatus[state="stopping"] { color: $accent; }
+QFrame#telemetryStrip { background: $field; border-radius: 5px; }
+QLabel[telemetry="true"] { font-size: 11px; color: $muted; }
+QLabel[tone="success"] { color: $success; }
+QLabel[tone="danger"], QLabel#serviceError, QLabel#errorBanner, QLabel#logValidation, QLabel#auditError {
+    color: $danger; background: $danger_soft; border: 1px solid $danger; border-radius: 5px; padding: 6px;
+}
+QPushButton { background: $raised; color: $text; border: 1px solid $border; border-radius: 6px; padding: 3px 11px; min-height: 26px; text-transform: none; }
+QPushButton:hover { background: $hover; border-color: $accent; }
+QPushButton:pressed, QPushButton:checked { background: $accent_soft; border-color: $accent; color: $accent; }
+QPushButton:focus { border: 1px solid $accent; }
+QPushButton[variant="primary"] { background: $accent; color: $on_accent; border-color: $accent; font-weight: 600; }
+QPushButton[variant="primary"]:hover { background: $accent; color: $on_accent; border-color: $text; }
+QPushButton[variant="danger"] { color: $danger; background: $danger_soft; }
+QPushButton:disabled { background: $field; color: $disabled; border-color: $border; }
+QFrame[powerControl="true"] { background: $field; border: 1px solid $border; border-radius: 8px; }
+QPushButton[variant="power-start"], QPushButton[variant="power-stop"] { background: transparent; border: 1px solid transparent; min-height: 26px; padding: 3px 11px; }
+QPushButton[variant="power-start"] { color: $accent; border-top-left-radius: 6px; border-bottom-left-radius: 6px; border-top-right-radius: 0; border-bottom-right-radius: 0; }
+QPushButton[variant="power-stop"] { color: $danger; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 6px; border-bottom-right-radius: 6px; }
+QPushButton[variant="power-start"]:enabled:hover { background: $accent_soft; border-color: $accent; }
+QPushButton[variant="power-stop"]:enabled { background: $danger_soft; }
+QPushButton[variant="power-stop"]:enabled:hover { border-color: $danger; }
+QPushButton[variant="power-start"]:enabled:pressed { background: $selection; border-color: $accent; }
+QPushButton[variant="power-stop"]:enabled:pressed { background: $danger_soft; border-color: $danger; }
+QPushButton[variant="power-start"]:disabled, QPushButton[variant="power-stop"]:disabled { color: $disabled; background: transparent; border-color: transparent; }
+QPushButton[variant="power-start"]:checked:disabled { color: $muted; background: $raised; border-color: $border; font-weight: 600; }
+QPushButton[variant="power-stop"]:checked:disabled { color: $muted; background: $raised; border-color: $border; font-weight: 600; }
+QPushButton[variant="power-start"]:focus:enabled { border-color: $accent; }
+QPushButton[variant="power-stop"]:focus:enabled { border-color: $danger; }
+QFrame#themeSwitch { background: $field; border: 1px solid $border; border-radius: 8px; }
+QPushButton[variant="segment"] { background: transparent; border: 1px solid transparent; min-height: 24px; padding: 2px 9px; }
+QPushButton[variant="segment"]:checked { background: $accent_soft; border-color: $border; color: $accent; }
+QPushButton[variant="segment"]:focus { border-color: $accent; }
+QLineEdit, QComboBox, QAbstractSpinBox { color: $text; background: $field; border: 1px solid $border; border-radius: 5px; padding: 3px 8px; min-height: 26px; selection-background-color: $selection; selection-color: $text; }
+QLineEdit:focus, QComboBox:focus, QAbstractSpinBox:focus { border-color: $accent; }
+QLineEdit:read-only { color: $muted; background: $field; border: 1px solid $border; }
+QLineEdit:disabled, QComboBox:disabled, QAbstractSpinBox:disabled { color: $disabled; background: $raised; }
+QPlainTextEdit#logDetailMessage { color: $text; background: $field; border: 1px solid $border; border-radius: 6px; padding: 10px; selection-background-color: $selection; selection-color: $text; }
+QPlainTextEdit#logDetailMessage:focus { border-color: $accent; }
+QLabel[tone="warning"] { color: $warning; background: $warning_soft; border-radius: 5px; padding: 6px; }
+QComboBox { padding-right: 22px; }
+QComboBox QAbstractItemView { color: $text; background: $surface; border: 1px solid $border; selection-background-color: $selection; selection-color: $text; }
+QCheckBox { background: transparent; spacing: 6px; padding: 2px; }
+QCheckBox::indicator { width: 16px; height: 16px; }
+QTableView { color: $text; background: $field; alternate-background-color: $stripe; border: 1px solid $border; border-radius: 6px; selection-background-color: $selection; selection-color: $text; padding: 0; }
+QTableView::item { padding: 4px 7px; border: none; }
+QTableView::item:selected { background: $selection; color: $text; }
+QHeaderView { background: $raised; border: none; }
+QHeaderView::section { color: $muted; background: $raised; padding: 7px; border: none; border-bottom: 1px solid $border; font-weight: 600; }
+QTabWidget::pane { background: $surface; border: 1px solid $border; border-radius: 8px; top: -1px; }
+QTabBar { background: transparent; }
+QTabBar::tab { color: $muted; background: transparent; border: none; border-bottom: 2px solid transparent; min-width: 82px; padding: 10px 15px; margin-right: 5px; }
+QTabBar::tab:selected { color: $accent; background: $accent_soft; border-bottom: 2px solid $accent; }
+QTabBar::tab:hover { color: $text; background: $hover; }
+QScrollBar { background: $field; border: none; }
+QScrollBar:vertical { width: 10px; margin: 0; }
+QScrollBar:horizontal { height: 10px; margin: 0; }
+QScrollBar::handle { background: $border; border-radius: 4px; min-height: 22px; min-width: 22px; }
+QScrollBar::handle:hover { background: $muted; }
+QScrollBar::add-line, QScrollBar::sub-line { width: 0; height: 0; }
+QMenu { color: $text; background: $surface; border: 1px solid $border; }
+QMenu::item:selected { color: $text; background: $selection; }
+QToolTip { color: $text; background: $surface; border: 1px solid $accent; padding: 6px; }
+QStatusBar { color: $muted; font-size: 11px; }
+QStatusBar::item { border: none; }
+QSizeGrip { background: transparent; }
+

@@ -1,0 +1,148 @@
+{
+  "updatedAt": "2026-10-12",
+  "documentId": "207036955904456",
+  "documentName": "OPC-APPClient",
+  "pageId": "M",
+  "pageName": "2026-10-12初版",
+  "url": "https://mastergo.com/file/207036955904456?page_id=M",
+  "designSource": "free-draw",
+  "sourceProvenance": "MasterGo generation service snapshots copied after successful submission",
+  "screens": [
+    {
+      "id": "01",
+      "title": "ログイン",
+      "nodeId": "14:0",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A0",
+      "source": "canvas-source/01.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-01.png"
+    },
+    {
+      "id": "02",
+      "title": "ご依頼一覧",
+      "nodeId": "14:959",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A959",
+      "source": "canvas-source/02.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-02.png"
+    },
+    {
+      "id": "03",
+      "title": "開発のご相談",
+      "nodeId": "14:1066",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A1066",
+      "source": "canvas-source/03.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-03.png"
+    },
+    {
+      "id": "04",
+      "title": "ご依頼の確認状況",
+      "nodeId": "14:2269",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A2269",
+      "source": "canvas-source/04.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-04.png"
+    },
+    {
+      "id": "05",
+      "title": "案件一覧",
+      "nodeId": "14:3483",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A3483",
+      "source": "canvas-source/05.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-05.png"
+    },
+    {
+      "id": "06",
+      "title": "案件詳細",
+      "nodeId": "14:5089",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A5089",
+      "source": "canvas-source/06.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-06.png"
+    },
+    {
+      "id": "07",
+      "title": "プロジェクト",
+      "nodeId": "14:6319",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A6319",
+      "source": "canvas-source/07.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-07.png"
+    },
+    {
+      "id": "08",
+      "title": "成果物の提出",
+      "nodeId": "14:7535",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A7535",
+      "source": "canvas-source/08.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-08.png"
+    },
+    {
+      "id": "09",
+      "title": "納品内容の確認",
+      "nodeId": "14:8649",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A8649",
+      "source": "canvas-source/09.html",
+      "visualReview": "initial-screenshot-reviewed",
+      "preview": "preview-09.png"
+    }
+  ],
+  "validation": {
+    "generatedCount": 9,
+    "completedCount": 9,
+    "visualReviewCount": 9,
+    "allScreensVisuallyReviewed": true,
+    "fonts": {
+      "requested": "Noto Sans JP",
+      "teamOrgFontCount": 0,
+      "submitted": "Inter",
+      "japaneseGlyphsVisibleInFirstPreview": true,
+      "resolvedJapaneseFallbackFamilyVerified": false
+    },
+    "interactivePrototype": false,
+    "flutterMock": false,
+    "productionApi": false
+  },
+  "designAssumptions": [
+    "Email/password login is a proposed UI, not final authentication selection.",
+    "Submission goes through internal review before customer publication.",
+    "All acceptance checks are required before enabling acceptance in this proposed UI.",
+    "Provider consultation does not fix assignment or claiming policy."
+  ],
+  "preview": "preview-01.png",
+  "notes": [
+    "Mock task IDs, filenames, timestamps and progress are illustrative; no real upload, test execution or payment occurred.",
+    "Screens 03 and 04 initially returned accepted; later service metadata confirmed completed.",
+    "All nine actual canvas screenshots were visually inspected. For 02-09, screenshot generation succeeded but adapter metadata lookup timed out; images were recovered from the exact successful local response after matching document, page, roots and PNG dimensions.",
+    "Initial visual review is not a test of navigation, accessibility, actual device rendering, or production behavior."
+  ],
+  "overview": "overview.png",
+  "refinementNotes": [
+    "02: the section heading wraps to two lines; consider a single-line heading in the next design iteration.",
+    "06: the final auxiliary scope note falls below the initial viewport; implement an independently scrollable detail body above the fixed action in Flutter Mock."
+  ],
+  "darkVariant": {
+    "source": "dark/canvas-state.json",
+    "overview": "dark/overview.png",
+    "readme": "dark/README.md",
+    "screenCount": 9,
+    "visualReview": "initial-screenshot-reviewed"
+  },
+  "mediaRevision": {
+    "date": "2026-10-13",
+    "index": "media-revision/canvas-state.json",
+    "note": "The hall/detail revisions and 18 new media preview/state boards are recorded separately. Existing previews and initial visual QA do not cover this revision."
+  }
+}

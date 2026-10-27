@@ -1,0 +1,129 @@
+{
+  "updatedAt": "2026-10-12",
+  "documentId": "207036955904456",
+  "documentName": "OPC-APPClient",
+  "pageId": "M",
+  "pageName": "2026-10-12初版",
+  "url": "https://mastergo.com/file/207036955904456?page_id=M",
+  "theme": "dark",
+  "locale": "ja-JP",
+  "size": [
+    390,
+    844
+  ],
+  "designSource": "free-draw",
+  "visualReview": "nine-screens-initial-visual-review-complete",
+  "screens": [
+    {
+      "id": "01",
+      "title": "ログイン",
+      "nodeId": "14:9819",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A9819",
+      "preview": "preview-01.png",
+      "source": "canvas-source/01.html",
+      "visualReview": "initial-screenshot-reviewed"
+    },
+    {
+      "id": "02",
+      "title": "ご依頼一覧",
+      "nodeId": "14:00825",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A00825",
+      "preview": "preview-02.png",
+      "source": "canvas-source/02.html",
+      "visualReview": "initial-screenshot-reviewed"
+    },
+    {
+      "id": "03",
+      "title": "開発のご相談",
+      "nodeId": "14:02021",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A02021",
+      "preview": "preview-03.png",
+      "source": "canvas-source/03.html",
+      "visualReview": "initial-screenshot-reviewed"
+    },
+    {
+      "id": "04",
+      "title": "ご依頼の確認状況",
+      "nodeId": "14:03105",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A03105",
+      "preview": "preview-04.png",
+      "source": "canvas-source/04.html",
+      "visualReview": "initial-screenshot-reviewed"
+    },
+    {
+      "id": "05",
+      "title": "案件一覧",
+      "nodeId": "14:04310",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A04310",
+      "preview": "preview-05.png",
+      "source": "canvas-source/05.html",
+      "visualReview": "initial-screenshot-reviewed"
+    },
+    {
+      "id": "06",
+      "title": "案件詳細",
+      "nodeId": "14:05895",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A05895",
+      "preview": "preview-06.png",
+      "source": "canvas-source/06.html",
+      "visualReview": "initial-screenshot-reviewed"
+    },
+    {
+      "id": "07",
+      "title": "プロジェクト",
+      "nodeId": "14:07117",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A07117",
+      "preview": "preview-07.png",
+      "source": "canvas-source/07.html",
+      "visualReview": "initial-screenshot-reviewed"
+    },
+    {
+      "id": "08",
+      "title": "成果物の提出",
+      "nodeId": "14:08324",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A08324",
+      "preview": "preview-08.png",
+      "source": "canvas-source/08.html",
+      "visualReview": "initial-screenshot-reviewed"
+    },
+    {
+      "id": "09",
+      "title": "納品内容の確認",
+      "nodeId": "14:09437",
+      "generationStatus": "completed",
+      "url": "https://mastergo.com/file/207036955904456?page_id=M&layer_id=14%3A09437",
+      "preview": "preview-09.png",
+      "source": "canvas-source/09.html",
+      "visualReview": "initial-screenshot-reviewed"
+    }
+  ],
+  "validation": {
+    "completedCount": 9,
+    "visualReviewCount": 9,
+    "reviewBasis": "actual canvas PNG screenshots; layout, Japanese readability, states and actions",
+    "flutterMock": false,
+    "interactivePrototype": false,
+    "productionApi": false,
+    "accessibilityAudit": false
+  },
+  "overview": "overview.png",
+  "notes": [
+    "Original nine light frames retained. Dark frames are editable native layers, not a theme toggle implementation.",
+    "02 section heading fits one line. 06 tighter spacing displays the full scope note above the footer. Flutter should still support scrolling and text scaling.",
+    "Mock request IDs, dates and uploads are illustrative; no actual test, upload or acceptance occurred.",
+    "Font specified as Inter with CJK fallback; actual fallback family unverified."
+  ],
+  "mediaRevision": {
+    "date": "2026-10-13",
+    "index": "../media-revision/canvas-state.json",
+    "note": "The hall/detail revisions and 18 new media preview/state boards are recorded separately. Existing previews and initial visual QA do not cover this revision."
+  }
+}

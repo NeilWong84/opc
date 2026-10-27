@@ -1,0 +1,196 @@
+{
+  "runId": "opc-mobile-v1-2026-10-12",
+  "fileKey": "lswOlwmfmkw3rhbmcfiVCR",
+  "fileUrl": "https://www.figma.com/design/lswOlwmfmkw3rhbmcfiVCR",
+  "scope": "9 mobile high fidelity screens; shared native components and tokens",
+  "stage": "first-design-draft-created",
+  "entities": {
+    "pageId": "0:1",
+    "boardId": "4:51",
+    "libraryId": "4:52",
+    "rows": [
+      "7:21",
+      "7:52",
+      "7:83"
+    ],
+    "screens": [
+      {
+        "number": 1,
+        "cell": "7:25",
+        "phone": "7:27",
+        "appbar": "7:31",
+        "body": "7:32",
+        "footer": "7:33"
+      },
+      {
+        "number": 2,
+        "cell": "7:34",
+        "phone": "7:36",
+        "appbar": "7:40",
+        "body": "7:41",
+        "footer": "7:42"
+      },
+      {
+        "number": 3,
+        "cell": "7:43",
+        "phone": "7:45",
+        "appbar": "7:49",
+        "body": "7:50",
+        "footer": "7:51"
+      },
+      {
+        "number": 4,
+        "cell": "7:56",
+        "phone": "7:58",
+        "appbar": "7:62",
+        "body": "7:63",
+        "footer": "7:64"
+      },
+      {
+        "number": 5,
+        "cell": "7:65",
+        "phone": "7:67",
+        "appbar": "7:71",
+        "body": "7:72",
+        "footer": "7:73"
+      },
+      {
+        "number": 6,
+        "cell": "7:74",
+        "phone": "7:76",
+        "appbar": "7:80",
+        "body": "7:81",
+        "footer": "7:82"
+      },
+      {
+        "number": 7,
+        "cell": "7:87",
+        "phone": "7:89",
+        "appbar": "7:93",
+        "body": "7:94",
+        "footer": "7:95"
+      },
+      {
+        "number": 8,
+        "cell": "7:96",
+        "phone": "7:98",
+        "appbar": "7:102",
+        "body": "7:103",
+        "footer": "7:104"
+      },
+      {
+        "number": 9,
+        "cell": "7:105",
+        "phone": "7:107",
+        "appbar": "7:111",
+        "body": "7:112",
+        "footer": "7:113"
+      }
+    ],
+    "components": {
+      "buttonPrimary": "6:4",
+      "buttonSecondary": "6:6",
+      "buttonDisabled": "6:8",
+      "field": "6:11",
+      "badgeGreen": "6:15",
+      "badgeAmber": "6:17",
+      "badgeBlue": "6:19",
+      "badgeGray": "6:21",
+      "task": "6:24",
+      "nav": "6:37"
+    }
+  },
+  "completedSteps": [
+    "discovery",
+    "foundations",
+    "shared-components",
+    "nine-screens",
+    "layout-and-font-audit",
+    "first-row-visual-inspection",
+    "targeted-alignment-fix"
+  ],
+  "validation": {
+    "lastFullStructuralAudit": {
+      "nativeNodeCounts": {
+        "FRAME": 213,
+        "TEXT": 225,
+        "INSTANCE": 33,
+        "VECTOR": 46,
+        "RECTANGLE": 10
+      },
+      "imageFills": 0,
+      "fontMismatches": 0
+    },
+    "contentBoundsBeforeFinalAlignment": [
+      {
+        "screen": 1,
+        "bodyHeight": 638,
+        "contentBottom": 602,
+        "withinBody": true
+      },
+      {
+        "screen": 2,
+        "bodyHeight": 664,
+        "contentBottom": 621,
+        "withinBody": true
+      },
+      {
+        "screen": 3,
+        "bodyHeight": 638,
+        "contentBottom": 628,
+        "withinBody": true
+      },
+      {
+        "screen": 4,
+        "bodyHeight": 638,
+        "contentBottom": 597,
+        "withinBody": true
+      },
+      {
+        "screen": 5,
+        "bodyHeight": 664,
+        "contentBottom": 646,
+        "withinBody": true
+      },
+      {
+        "screen": 6,
+        "bodyHeight": 638,
+        "contentBottom": 619,
+        "withinBody": true
+      },
+      {
+        "screen": 7,
+        "bodyHeight": 664,
+        "contentBottom": 624,
+        "withinBody": true
+      },
+      {
+        "screen": 8,
+        "bodyHeight": 638,
+        "contentBottom": 621,
+        "withinBody": true
+      },
+      {
+        "screen": 9,
+        "bodyHeight": 638,
+        "contentBottom": 613,
+        "withinBody": true
+      }
+    ],
+    "preview": "preview-a-before-alignment.png",
+    "previewNote": "First row before final alignment adjustment; no screenshot export after that adjustment.",
+    "blocked": "Figma MCP Starter tool call limit; browser fallback encountered human verification."
+  },
+  "pendingValidations": [
+    "post-alignment screenshots of all 3 rows",
+    "component specimen screenshot"
+  ],
+  "decisionsPending": [
+    "authentication method",
+    "task-taking confirmation flow",
+    "hall visibility beyond authorized providers",
+    "customer scope-confirmation timing",
+    "fees and funds"
+  ],
+  "implementationStatus": "No Flutter code, backend or clickable Figma prototype created."
+}

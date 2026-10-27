@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-10-12",
+  "artifactType": "static_palette_contrast_calculation",
+  "themeFile": "theme-tokens.json",
+  "method": {
+    "colorSpace": "sRGB",
+    "channels": "8-bit opaque RGB",
+    "linearization": "c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4",
+    "relativeLuminance": "0.2126 R + 0.7152 G + 0.0722 B",
+    "contrastRatio": "(lighter luminance + 0.05) / (darker luminance + 0.05)",
+    "targetNormalText": 4.5,
+    "targetEssentialControlBoundary": 3
+  },
+  "checks": [
+    {
+      "name": "primary_on_page",
+      "foreground": "#E9E9E9",
+      "background": "#181818",
+      "ratio": 14.625,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "primary_on_container",
+      "foreground": "#E9E9E9",
+      "background": "#242424",
+      "ratio": 12.786,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "primary_on_header",
+      "foreground": "#E9E9E9",
+      "background": "#2C2C2C",
+      "ratio": 11.503,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "emphasis_secondary_on_container",
+      "foreground": "#D0D0D0",
+      "background": "#242424",
+      "ratio": 10.064,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "secondary_on_container",
+      "foreground": "#B8B8B8",
+      "background": "#242424",
+      "ratio": 7.825,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "secondary_on_header",
+      "foreground": "#B8B8B8",
+      "background": "#2C2C2C",
+      "ratio": 7.04,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "supporting_on_container",
+      "foreground": "#A6A6A6",
+      "background": "#242424",
+      "ratio": 6.377,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "supporting_on_header",
+      "foreground": "#A6A6A6",
+      "background": "#2C2C2C",
+      "ratio": 5.737,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "supporting_on_highlighted_row",
+      "foreground": "#A6A6A6",
+      "background": "#26303F",
+      "ratio": 5.47,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "link_on_container",
+      "foreground": "#699EF5",
+      "background": "#242424",
+      "ratio": 5.773,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "link_on_highlighted_row",
+      "foreground": "#699EF5",
+      "background": "#26303F",
+      "ratio": 4.952,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "selected_navigation_and_info_tag",
+      "foreground": "#699EF5",
+      "background": "#1B2F51",
+      "ratio": 4.968,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "primary_button_text",
+      "foreground": "#FFFFFF",
+      "background": "#2667D4",
+      "ratio": 5.285,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "success_tag",
+      "foreground": "#80D2B6",
+      "background": "#193A2A",
+      "ratio": 7.031,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "warning_tag",
+      "foreground": "#ECBF91",
+      "background": "#4F2A1D",
+      "ratio": 7.391,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "error_tag",
+      "foreground": "#EC888E",
+      "background": "#472324",
+      "ratio": 5.528,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "neutral_tag",
+      "foreground": "#B8B8B8",
+      "background": "#303030",
+      "ratio": 6.653,
+      "target": 4.5,
+      "pass": true,
+      "scope": "普通文字"
+    },
+    {
+      "name": "interactive_border_on_container",
+      "foreground": "#777777",
+      "background": "#242424",
+      "ratio": 3.466,
+      "target": 3,
+      "pass": true,
+      "scope": "可交互控件轮廓"
+    },
+    {
+      "name": "interactive_border_on_header",
+      "foreground": "#777777",
+      "background": "#2C2C2C",
+      "ratio": 3.119,
+      "target": 3,
+      "pass": true,
+      "scope": "可交互控件轮廓"
+    },
+    {
+      "name": "disabled_button_text",
+      "foreground": "#8A8A8A",
+      "background": "#383838",
+      "ratio": 3.397,
+      "target": null,
+      "pass": null,
+      "scope": "真正禁用控件的文本，不作为正常业务文字；豁免项，不写成通过普通文字标准。"
+    },
+    {
+      "name": "decorative_separator_on_container",
+      "foreground": "#393939",
+      "background": "#242424",
+      "ratio": 1.344,
+      "target": null,
+      "pass": null,
+      "scope": "仅装饰分隔线；不作为唯一交互边界，不写成通过控件轮廓标准。"
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "official_default_brand8_white_text",
+      "foreground": "#FFFFFF",
+      "background": "#4582E6",
+      "ratio": 3.758,
+      "target": 4.5,
+      "pass": false,
+      "purpose": "解释主按钮用官方更深 brand-7 的原因，不表示 TDesign 的全部默认组件不合格。"
+    },
+    {
+      "name": "official_default_brand8_link_on_container",
+      "foreground": "#4582E6",
+      "background": "#242424",
+      "ratio": 4.131,
+      "target": 4.5,
+      "pass": false,
+      "purpose": "解释普通小字链接使用较亮 brand-9 的原因。"
+    }
+  ],
+  "limitations": [
+    "这是指定不透明前景/背景色的计算，不是屏幕像素抽样，也不是完整 WCAG 合规报告。",
+    "尚未测试运行时 hover、focus、点击、可点击区域、键盘、屏幕阅读器、缩放和真实浏览器字体；最终实现另行验证。",
+    "状态必须保留文字，不能只依赖颜色表达通过、未通过、待审或禁用。",
+    "设计图层的实际使用位置及未覆盖的叠加透明度由主流程逐屏视觉复核。"
+  ]
+}

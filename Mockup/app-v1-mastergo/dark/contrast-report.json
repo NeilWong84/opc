@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-10-12",
+  "theme": "dark",
+  "tokenSource": "theme-tokens.json",
+  "method": {
+    "colorSpace": "sRGB",
+    "alpha": "所列 token 均为不透明色；未计算透明叠加、阴影或图片上的文字。",
+    "linearization": "c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ^ 2.4",
+    "relativeLuminance": "0.2126 * R + 0.7152 * G + 0.0722 * B",
+    "contrast": "(max(L1,L2) + 0.05) / (min(L1,L2) + 0.05)",
+    "comparison": "阈值比较使用未舍入数值；ratioDisplay 仅用于显示。",
+    "designReferences": {
+      "normalText": 4.5,
+      "nonTextControlBoundary": 3
+    }
+  },
+  "pairs": [
+    {
+      "label": "正文／卡片",
+      "foregroundToken": "text.primary",
+      "foreground": "#EAF4F1",
+      "backgroundToken": "surface.card",
+      "background": "#172426",
+      "role": "text",
+      "contrastRatio": 14.2082,
+      "ratioDisplay": "14.21:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "正文／页面",
+      "foregroundToken": "text.primary",
+      "foreground": "#EAF4F1",
+      "backgroundToken": "background.canvas",
+      "background": "#0E1718",
+      "role": "text",
+      "contrastRatio": 16.2063,
+      "ratioDisplay": "16.21:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "正文／浮层",
+      "foregroundToken": "text.primary",
+      "foreground": "#EAF4F1",
+      "backgroundToken": "surface.raised",
+      "background": "#213235",
+      "role": "text",
+      "contrastRatio": 11.899,
+      "ratioDisplay": "11.90:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "次级／卡片",
+      "foregroundToken": "text.secondary",
+      "foreground": "#A4BBB4",
+      "backgroundToken": "surface.card",
+      "background": "#172426",
+      "role": "text",
+      "contrastRatio": 7.8569,
+      "ratioDisplay": "7.86:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "次级／页面",
+      "foregroundToken": "text.secondary",
+      "foreground": "#A4BBB4",
+      "backgroundToken": "background.canvas",
+      "background": "#0E1718",
+      "role": "text",
+      "contrastRatio": 8.9618,
+      "ratioDisplay": "8.96:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "次级／浮层",
+      "foregroundToken": "text.secondary",
+      "foreground": "#A4BBB4",
+      "backgroundToken": "surface.raised",
+      "background": "#213235",
+      "role": "text",
+      "contrastRatio": 6.5799,
+      "ratioDisplay": "6.58:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "弱文字／卡片",
+      "foregroundToken": "text.muted",
+      "foreground": "#829B93",
+      "backgroundToken": "surface.card",
+      "background": "#172426",
+      "role": "text",
+      "contrastRatio": 5.3609,
+      "ratioDisplay": "5.36:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "弱文字／底栏",
+      "foregroundToken": "text.muted",
+      "foreground": "#829B93",
+      "backgroundToken": "surface.footer",
+      "background": "#121F20",
+      "role": "text",
+      "contrastRatio": 5.681,
+      "ratioDisplay": "5.68:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "弱文字／浮层（受限组合）",
+      "foregroundToken": "text.muted",
+      "foreground": "#829B93",
+      "backgroundToken": "surface.raised",
+      "background": "#213235",
+      "role": "text",
+      "contrastRatio": 4.4896,
+      "ratioDisplay": "4.49:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": false,
+      "note": "弱文本在此表面略低于 4.5:1；使用 text.secondary。"
+    },
+    {
+      "label": "主按钮文字／按钮",
+      "foregroundToken": "action.primary.foreground",
+      "foreground": "#082A23",
+      "backgroundToken": "action.primary.background",
+      "background": "#64DDB4",
+      "role": "text",
+      "contrastRatio": 9.1841,
+      "ratioDisplay": "9.18:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "链接／卡片",
+      "foregroundToken": "action.link",
+      "foreground": "#64DDB4",
+      "backgroundToken": "surface.card",
+      "background": "#172426",
+      "role": "text",
+      "contrastRatio": 9.526,
+      "ratioDisplay": "9.53:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "链接／页面",
+      "foregroundToken": "action.link",
+      "foreground": "#64DDB4",
+      "backgroundToken": "background.canvas",
+      "background": "#0E1718",
+      "role": "text",
+      "contrastRatio": 10.8656,
+      "ratioDisplay": "10.87:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "绿色状态文字／状态底",
+      "foregroundToken": "status.success.foreground",
+      "foreground": "#64DDB4",
+      "backgroundToken": "status.success.background",
+      "background": "#1A3B32",
+      "role": "text",
+      "contrastRatio": 7.3116,
+      "ratioDisplay": "7.31:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "待回答文字／警示底",
+      "foregroundToken": "status.warning.foreground",
+      "foreground": "#F2C078",
+      "backgroundToken": "status.warning.background",
+      "background": "#3B2E1D",
+      "role": "text",
+      "contrastRatio": 7.8937,
+      "ratioDisplay": "7.89:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "必填文字／必填底",
+      "foregroundToken": "status.required.foreground",
+      "foreground": "#F2AD91",
+      "backgroundToken": "status.required.background",
+      "background": "#3A2824",
+      "role": "text",
+      "contrastRatio": 7.3973,
+      "ratioDisplay": "7.40:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "hero 标题／hero",
+      "foregroundToken": "text.primary",
+      "foreground": "#EAF4F1",
+      "backgroundToken": "surface.hero",
+      "background": "#153D38",
+      "role": "text",
+      "contrastRatio": 10.6513,
+      "ratioDisplay": "10.65:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "hero 次字／hero",
+      "foregroundToken": "text.heroSecondary",
+      "foreground": "#B4D1C6",
+      "backgroundToken": "surface.hero",
+      "background": "#153D38",
+      "role": "text",
+      "contrastRatio": 7.3307,
+      "ratioDisplay": "7.33:1",
+      "designReferenceMinimum": 4.5,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "hero 图标／图标底",
+      "foregroundToken": "accent.soft",
+      "foreground": "#76DABD",
+      "backgroundToken": "surface.heroIcon",
+      "background": "#24594B",
+      "role": "non-text",
+      "contrastRatio": 4.8104,
+      "ratioDisplay": "4.81:1",
+      "designReferenceMinimum": 3,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "字段边线／卡片",
+      "foregroundToken": "border.field",
+      "foreground": "#6D8780",
+      "backgroundToken": "surface.card",
+      "background": "#172426",
+      "role": "non-text",
+      "contrastRatio": 4.1219,
+      "ratioDisplay": "4.12:1",
+      "designReferenceMinimum": 3,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "字段边线／浮层",
+      "foregroundToken": "border.field",
+      "foreground": "#6D8780",
+      "backgroundToken": "surface.raised",
+      "background": "#213235",
+      "role": "non-text",
+      "contrastRatio": 3.4519,
+      "ratioDisplay": "3.45:1",
+      "designReferenceMinimum": 3,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "未选框／卡片",
+      "foregroundToken": "control.unchecked.border",
+      "foreground": "#809991",
+      "backgroundToken": "surface.card",
+      "background": "#172426",
+      "role": "non-text",
+      "contrastRatio": 5.2273,
+      "ratioDisplay": "5.23:1",
+      "designReferenceMinimum": 3,
+      "meetsDesignReference": true
+    },
+    {
+      "label": "装饰边线／卡片",
+      "foregroundToken": "border.subtle",
+      "foreground": "#33494B",
+      "backgroundToken": "surface.card",
+      "background": "#172426",
+      "role": "decorative",
+      "contrastRatio": 1.6672,
+      "ratioDisplay": "1.67:1",
+      "designReferenceMinimum": null,
+      "meetsDesignReference": null,
+      "note": "仅用于装饰分界，不据此判断控件边界可辨识。"
+    },
+    {
+      "label": "禁用文字／禁用底",
+      "foregroundToken": "control.disabled.foreground",
+      "foreground": "#849B93",
+      "backgroundToken": "control.disabled.background",
+      "background": "#263B35",
+      "role": "disabled",
+      "contrastRatio": 4.0303,
+      "ratioDisplay": "4.03:1",
+      "designReferenceMinimum": null,
+      "meetsDesignReference": null,
+      "note": "单独记录禁用态；不要把该色组合用于可操作文字。"
+    }
+  ],
+  "summary": {
+    "pairCount": 23,
+    "belowDesignReference": [
+      "弱文字／浮层（受限组合）"
+    ],
+    "excludedFromThreshold": [
+      "装饰边线／卡片",
+      "禁用文字／禁用底"
+    ]
+  },
+  "limitations": [
+    "只计算候选配色，不证明所有画布节点实际应用了对应 token。",
+    "不涵盖字号、触控尺寸、状态语义、焦点、键盘、屏幕阅读器、动态字号或系统模式切换。",
+    "需要实际 PNG 复核和 Flutter 真机验证；不声明整体无障碍检查通过。"
+  ],
+  "overallAccessibilityPassed": false
+}

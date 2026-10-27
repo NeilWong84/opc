@@ -1,0 +1,204 @@
+{
+  "customerRequestsTitle": "我的需求",
+  "customerWorkspaceSubtitle": "客户工作空间",
+  "customerNotifications": "通知",
+  "customerHeroTitle": "想实现的创意，\n和我们聊聊吧。",
+  "customerHeroSubtitle": "不需要专业术语，运营会协助整理您的想法。",
+  "customerCreateRequest": "咨询开发需求",
+  "customerContinueDraft": "继续编辑已保存的草稿",
+  "customerActiveRequests": "进行中的需求",
+  "customerNoRequests": "暂无需求",
+  "customerNoRequestsHint": "点击“咨询开发需求”，告诉我们您的创意。",
+  "customerProgressHint": "可在此查看需求进度",
+  "customerDraftSaved": "已在本次演示中保存草稿",
+  "customerAddReference": "添加参考资料",
+  "customerAttachmentNote": "请选择示例文件名称。当前不会读取设备文件或上传文件。",
+  "customerAssistTitle": "需求整理建议",
+  "customerAssistNote": "这是基于设备内固定规则的建议，当前不会发送给 AI 或自动审核。",
+  "customerKeepOriginal": "使用原文",
+  "customerAdoptSuggestion": "采用此建议",
+  "customerConfirmTitle": "确认咨询内容",
+  "customerFormTitle": "开发咨询",
+  "customerConfirmSubtitle": "提交前请确认以下内容",
+  "customerFormSubtitle": "从创意开始，一起实现",
+  "customerProcessing": "处理中…",
+  "customerSubmitRequest": "提交咨询",
+  "customerProceedConfirmation": "前往确认",
+  "customerEditRequest": "修改内容",
+  "customerSaveDraft": "保存草稿",
+  "customerFormStep": "1  咨询内容",
+  "customerConfirmStep": "2  确认内容",
+  "customerServiceCategory": "开发 · AI 开发系统",
+  "customerGoalLabel": "希望实现的目标",
+  "customerTimingLabel": "期望时间",
+  "customerBudgetLabel": "预算意向",
+  "customerReferenceLabel": "参考资料",
+  "customerNoAttachments": "无资料",
+  "customerConfirmNotice": "运营会审核合规性并整理技术需求，提交后不会直接发布到任务大厅。预算仅代表您的意向，此时不会产生付款。",
+  "customerFormIntro": "还处于创意阶段也没关系。\n请用自己的话告诉我们，您希望实现什么。",
+  "customerGoalQuestion": "您希望实现什么？",
+  "customerRequired": "必填",
+  "customerGoalHint": "请描述您希望实现的目标",
+  "customerGoalValidation": "请至少输入 10 个字描述希望实现的目标",
+  "customerAssistAction": "使用 AI 整理咨询内容",
+  "customerOptionalReference": "参考资料（选填）",
+  "customerAddFiles": "添加资料或图片",
+  "customerSampleReference": "示例资料",
+  "customerSubmitNotice": "提交后由运营审核并整理内容。\n此时不会发布到任务大厅。",
+  "customerReviewTitle": "需求审核进度",
+  "customerReviewSubtitle": "运营正在审核并整理您的需求",
+  "customerReplyAction": "回复问题",
+  "customerBackToRequests": "返回需求列表",
+  "customerPublished": "已发布",
+  "customerUnderReview": "内容审核中",
+  "customerReviewSteps": "发布流程",
+  "customerReceivedStep": "已受理需求",
+  "customerReceivedStepDetail": "已收到您的需求",
+  "customerComplianceStep": "合规审核",
+  "customerComplianceComplete": "运营已完成合规审核",
+  "customerCompliancePending": "请等待运营审核",
+  "customerRequirementsStep": "整理技术需求",
+  "customerRequirementsComplete": "已完成技术需求整理",
+  "customerRequirementsNeedsInfo": "等待您补充信息",
+  "customerRequirementsPending": "运营将审核并整理内容",
+  "customerPublicationStep": "发布到任务大厅",
+  "customerPublicationComplete": "已发布审核通过的版本",
+  "customerPublicationPending": "所有审核完成后发布",
+  "customerOperatorQuestion": "运营需要确认的信息",
+  "customerOperatorAwaitingReply": "OPC 运营 · 等待您的回复",
+  "customerOperatorReplyReceived": "OPC 运营 · 已收到回复",
+  "customerSupplementConversation": "补充与沟通",
+  "customerPublicationNotice": "只有审核通过并发布的版本才会出现在任务大厅。",
+  "customerUnpublishedNotice": "此需求尚未发布到任务大厅。",
+  "customerReplySuccess": "回复已发送，请等待运营确认。",
+  "customerReplyLabel": "您的回复",
+  "customerReplyHint": "例如：使用者约 30 人，参考资料为 PDF。",
+  "customerReplyValidation": "请输入回复内容",
+  "customerReplyNotice": "回复将由运营确认，发送后不会自动完成审核或发布。",
+  "customerSending": "发送中…",
+  "customerSendReply": "发送回复",
+  "customerRequestDetail": "需求详情",
+  "customerNoNotifications": "暂无新通知。",
+  "customerWorkspace": "工作空间",
+  "customerTasks": "任务",
+  "customerHome": "首页",
+  "customerProjects": "项目",
+  "customerRequests": "需求",
+  "customerMessages": "消息",
+  "customerProfile": "我的",
+  "customerMessageListSubtitle": "按需求查看沟通记录",
+  "customerRequestListSubtitle": "随时查看进度",
+  "customerEmptyWorkspace": "暂无需求。请从首页发起开发咨询。",
+  "customerViewDetails": "查看详情",
+  "customerSendMessage": "发送",
+  "customerMessageSent": "消息已发送",
+  "customerConversationNote": "此处用于与运营沟通当前需求。",
+  "customerNoMessages": "暂无消息。",
+  "customerMessageHint": "输入消息",
+  "customerProfileSubtitle": "账号与显示设置",
+  "customerInternalAccount": "内部账号",
+  "customerCustomerAccount": "客户账号",
+  "customerInternalAuthorization": "已获得内部任务处理权限，这不代表已通过 OPC 正式认证。",
+  "customerAppearance": "显示设置",
+  "customerThemeSystem": "跟随系统",
+  "customerThemeLight": "浅色",
+  "customerThemeDark": "深色",
+  "customerBusinessRegion": "日本业务 · 日元（JPY）· 日本标准时间（JST）",
+  "customerAbout": "关于应用",
+  "customerAboutNote": "OPC V1 / 0.1.0\n当前为演示环境，业务数据保存在设备内存中，重启应用后恢复初始状态。尚未连接真实身份认证、文件上传或支付服务。",
+  "customerDemoScenarios": "演示场景",
+  "customerLogout": "退出登录",
+  "customerDemoSubtitle": "演示操作 · 不执行真实管理操作",
+  "customerDemoNotice": "以下开发操作用于演示后台审核结果。正式业务中仅由管理端与服务端执行审核和发布。",
+  "customerSimulateDelivery": "演示内部审核后发布交付",
+  "customerSimulatePublication": "演示审核并整理需求后发布",
+  "customerDemoUpdated": "已更新演示状态",
+  "customerFailNextAction": "模拟下一次发送失败",
+  "customerFailNextNotice": "下一次发送将模拟失败，可保留内容并重试。",
+  "customerResetDemo": "恢复演示初始状态",
+  "customerResetDemoTitle": "重置演示数据？",
+  "customerResetDemoNotice": "将删除本次演示中新增的账号、需求和消息，并返回登录页面。",
+  "customerBack": "返回",
+  "customerReset": "重置",
+  "customerRequestCount": "{count} 项",
+  "@customerRequestCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "customerDeliveryPrompt": "{id} · 请确认交付内容",
+  "@customerDeliveryPrompt": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "customerRemoveAttachment": "删除 {name}",
+  "@customerRemoveAttachment": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "customerAssistedDescription": "希望实现的目标：\n{original}\n\n使用者：公司内部员工（人数在咨询时确认）\n需要确认：所用资料的格式、所需功能、完成后的运行维护方式。",
+  "@customerAssistedDescription": {
+    "placeholders": {
+      "original": {
+        "type": "String"
+      }
+    }
+  },
+  "customerReceivedDate": "{year}年{month}月{day}日 {time}（JST）",
+  "@customerReceivedDate": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "customerReceivedAt": "受理时间：{date}",
+  "@customerReceivedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "customerMessageDate": "{month}月{day}日 {time} JST",
+  "@customerMessageDate": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "customerTimingMonth": "希望 1 个月内",
+  "customerTimingQuarter": "希望 2～3 个月内",
+  "customerTimingDiscuss": "希望协商时间",
+  "customerBudgetDiscuss": "希望协商决定",
+  "customerBudgetUnder100k": "不足 10 万日元",
+  "customerBudget100to300k": "10 万～30 万日元",
+  "customerBudget300to500k": "30 万～50 万日元",
+  "customerBudgetOver500k": "50 万日元以上",
+  "customerLanguage": "语言",
+  "customerLanguageNote": "仅切换界面语言，不自动翻译需求或消息原文，也不改变货币、时间和权限。"
+}

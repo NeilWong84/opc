@@ -1,0 +1,15 @@
+{
+  "fileSaveToPhone": "端末のファイルに保存",
+  "filePreviewFailed": "プレビューできません。再試行するか、原本を端末に保存して開いてください。",
+  "fileInlineAttachment": "ファイルを表示",
+  "fileOriginal": "原本をダウンロード",
+  "mediaFullscreen": "全画面再生",
+  "mediaExitFullscreen": "全画面を終了",
+  "mediaPause": "一時停止",
+  "mediaReplay": "もう一度再生",
+  "mediaBackward": "10秒戻る",
+  "mediaForward": "10秒進む",
+  "mediaMute": "ミュート",
+  "mediaUnmute": "ミュートを解除",
+  "mediaSpeed": "再生速度"
+}

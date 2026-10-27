@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "document_type": "design_component_mapping_proposal",
+  "project": "OPC",
+  "product": "FrontendAdmin",
+  "updated_at": "2026-10-12",
+  "status": {
+    "design_method": "MasterGo 自由绘制",
+    "mapping_basis": "按 TDesign Vue Next 组件职责提出的后续实现建议",
+    "official_library_instances": false,
+    "vue_implementation": false,
+    "canvas_rendering": "当前正在排查画布渲染超时，页面创建及视觉验证状态应以实际工具结果和预览为准",
+    "completion_claim": "本文件不证明画布页面、组件实例、可点击原型或 Vue 界面已创建完成",
+    "api_validation": "组件及属性用法须在实现阶段按实际安装的 TDesign Vue Next 版本核对"
+  },
+  "scope": {
+    "market": "日本国内",
+    "service": "开发（AI 开发系统）",
+    "current_provider_access": "内部指定系统账号与有效承接授权",
+    "shared_backend": "FrontendAdmin 与 Flutter + Dart 手机端共用 BackendService",
+    "unresolved": [
+      "大厅可见人群",
+      "客户确认整理稿是否为发布前置条件",
+      "领取、提交意向或其他最终承接机制",
+      "签约收费主体、付款、退款与内部报酬规则"
+    ]
+  },
+  "global_shell": {
+    "suggested_components": [
+      { "component": "Layout", "purpose": "后台整体布局、导航区、顶部栏与内容区" },
+      { "component": "Menu", "purpose": "业务模块导航；按管理权限显示入口" },
+      { "component": "Breadcrumb", "purpose": "页面与关联业务对象的位置" },
+      { "component": "Select", "purpose": "中文与日本語界面语言切换" },
+      { "component": "Card", "purpose": "信息分组与任务摘要" },
+      { "component": "Alert", "purpose": "待决业务、权限限制及当前版本提示" }
+    ],
+    "notes": [
+      "页面隐藏与按钮禁用不能代替服务端权限和状态校验。",
+      "样例数据标记为演示；不以设计稿的统计值或测试结果声明真实运行情况。"
+    ]
+  },
+  "pages": [
+    {
+      "id": "ADM-01",
+      "type": "工作台",
+      "title": { "zh-CN": "运营工作台", "ja-JP": "運営ダッシュボード" },
+      "components": [
+        { "component": "Card", "purpose": "待审核、待整理、待发布、内部检查及异常待办摘要" },
+        { "component": "Table", "purpose": "我的待办与最近异常" },
+        { "component": "Tag", "purpose": "处理状态与优先程度" },
+        { "component": "Tabs", "purpose": "本人待办与获授权的团队待办" },
+        { "component": "Alert", "purpose": "待接管项目和通知发送失败提醒" }
+      ],
+      "boundaries": ["以审核、发布、交付效率为主，不默认设置收入、GMV、钱包或结算指标。"]
+    },
+    {
+      "id": "ADM-02",
+      "type": "审核列表",
+      "title": { "zh-CN": "需求审核", "ja-JP": "依頼の審査" },
+      "components": [
+        { "component": "Form", "purpose": "需求编号、日文标题、负责人、时间及状态筛选" },
+        { "component": "Table", "purpose": "原始需求列表；合规、技术与发布状态分列" },
+        { "component": "Tag", "purpose": "待审、审核中、补充中、通过、拒绝与未发布" },
+        { "component": "Tabs", "purpose": "按处理阶段查看队列" },
+        { "component": "Drawer", "purpose": "不离开列表快速查看需求摘要与处理记录" }
+      ],
+      "boundaries": ["未通过或未发布需求只在获授权的审核区域可见，不进入大厅列表、搜索或数量。"]
+    },
+    {
+      "id": "ADM-03",
+      "type": "合规详情",
+      "title": { "zh-CN": "合规审核详情", "ja-JP": "適合性審査の詳細" },
+      "components": [
+        { "component": "Card", "purpose": "日文原始需求、私有附件与资料授权证据" },
+        { "component": "Descriptions", "purpose": "需求编号、所有者、审核版本、实际处理人" },
+        { "component": "Form", "purpose": "用途、受理条件、资料权限、结论和理由" },
+        { "component": "Tabs", "purpose": "原始资料、澄清与审核历史" },
+        { "component": "Dialog", "purpose": "提交审核结论、退回补充或拒绝前确认本次动作" },
+        { "component": "Alert", "purpose": "证据不足、资料不可访问或审核版本失效提示" }
+      ],
+      "boundaries": ["人工结论绑定具体版本；合规通过不等于技术通过或已发布，AI 不替代审核。"]
+    },
+    {
+      "id": "ADM-04",
+      "type": "技术整理",
+      "title": { "zh-CN": "技术整理与澄清", "ja-JP": "技術要件の整理・確認" },
+      "components": [
+        { "component": "Form", "purpose": "目标、功能、排除项、技术依赖、交付物与验收用例" },
+        { "component": "Tabs", "purpose": "客户原文、整理稿、澄清记录和版本差异" },
+        { "component": "Card", "purpose": "AI 辅助建议与需要客户回答的问题" },
+        { "component": "Table", "purpose": "功能及验收场景清单" },
+        { "component": "Drawer", "purpose": "预览准备发送给客户的日文澄清内容" },
+        { "component": "Alert", "purpose": "未明确依赖和本次范围约束" }
+      ],
+      "boundaries": ["客户原文、AI 建议和人工整理稿分开保存。", "客户确认整理稿与发布的先后关系待决，不通过设计步骤固定为已选流程。"]
+    },
+    {
+      "id": "ADM-05",
+      "type": "发布管理",
+      "title": { "zh-CN": "发布管理", "ja-JP": "案件の公開管理" },
+      "components": [
+        { "component": "Table", "purpose": "候选发布版本、有效审核与当前发布状态" },
+        { "component": "Tag", "purpose": "未发布、已发布、已下架" },
+        { "component": "Descriptions", "purpose": "合规及技术审核版本、摘要可见范围" },
+        { "component": "Drawer", "purpose": "手机大厅摘要预览与私有材料范围提示" },
+        { "component": "Dialog", "purpose": "发布指定版本或下架时明确对象与原因" },
+        { "component": "Alert", "purpose": "审核失效、当前版本冲突或不可发布提示" }
+      ],
+      "boundaries": ["两类审核均有效才可发布该版本。", "大厅发布不公开私有源码、联系方式或附件；不预设游客均可浏览。"]
+    },
+    {
+      "id": "ADM-06",
+      "type": "项目协作",
+      "title": { "zh-CN": "项目协作", "ja-JP": "プロジェクト管理" },
+      "components": [
+        { "component": "Descriptions", "purpose": "主要负责人、已确认范围版本、期限与项目状态" },
+        { "component": "Steps", "purpose": "展示已成立合作的执行、内部检查、对客交付与验收进展" },
+        { "component": "Tabs", "purpose": "范围、进展、客户沟通、内部备注和交付记录" },
+        { "component": "Table", "purpose": "里程碑、变更与版本记录" },
+        { "component": "Drawer", "purpose": "查看范围变更或异常接管记录" },
+        { "component": "Dialog", "purpose": "经授权确认项目变更或接管动作" }
+      ],
+      "boundaries": ["接单机制未决，不以默认派单、抢单或竞标界面替代业务决策。", "同一项目一个有效主要负责人；内部备注与客户沟通隔离。", "合作进度不代表付款进度。"]
+    },
+    {
+      "id": "ADM-07",
+      "type": "内部交付检查",
+      "title": { "zh-CN": "交付内部检查", "ja-JP": "納品物の内部確認" },
+      "components": [
+        { "component": "Descriptions", "purpose": "交付版本、固定仓库提交或源码包校验值、提交人" },
+        { "component": "Table", "purpose": "约定交付清单、源码、说明、环境样例、许可与实际测试证据" },
+        { "component": "Form", "purpose": "逐项检查、问题严重程度、结论与返工说明" },
+        { "component": "Tabs", "purpose": "成果、验收用例、内部问题与交付历史" },
+        { "component": "Tag", "purpose": "未检查、待补充、存在问题、检查通过" },
+        { "component": "Dialog", "purpose": "退回修改、通过内部检查或发布具体对客版本的独立确认" },
+        { "component": "Alert", "purpose": "尚未向客户发布、源码不可访问或证据缺失提示" }
+      ],
+      "boundaries": ["演示链接不能替代源码交接；固定仓库版本需约定客户访问及归档，不默认镜像未经许可的私有代码。", "不在 OPC 执行任意上传代码，不接收生产密钥；未执行测试不能写通过。", "内审通过、对客发布、客户验收是不同事实。"]
+    },
+    {
+      "id": "ADM-08",
+      "type": "成员权限",
+      "title": { "zh-CN": "内部成员与权限", "ja-JP": "内部メンバー・権限" },
+      "components": [
+        { "component": "Table", "purpose": "独立账号、角色、启停、内部承接授权与认证状态分列" },
+        { "component": "Tag", "purpose": "待激活、有效、停用、授权有效及未认证" },
+        { "component": "Form", "purpose": "邀请、账号资料、角色和承接授权" },
+        { "component": "Drawer", "purpose": "成员详情、权限记录与在途项目" },
+        { "component": "Dialog", "purpose": "撤销授权或停用账号前明确影响范围" },
+        { "component": "Alert", "purpose": "停用后需要接管的在途项目" }
+      ],
+      "boundaries": ["内部授权不等于 OPC 正式认证，不绘制已认证徽章或考试已上线状态。", "停用阻止后续受限操作，保留历史并触发接管，不自动删除成果或取消客户需求。"]
+    },
+    {
+      "id": "ADM-09",
+      "type": "异常工单",
+      "title": { "zh-CN": "异常工单", "ja-JP": "問い合わせ・問題対応" },
+      "components": [
+        { "component": "Form", "purpose": "类型、责任人、处理状态和关联项目筛选" },
+        { "component": "Table", "purpose": "范围变化、延期、取消请求、链接失效、成员接管与投诉队列" },
+        { "component": "Tag", "purpose": "待处理、需补充、处理中、已解决" },
+        { "component": "Drawer", "purpose": "事件详情、证据、处理记录和对客通知预览" },
+        { "component": "Dialog", "purpose": "关闭工单或提交具有业务影响的处理结果" },
+        { "component": "Alert", "purpose": "需要复审、客户确认或权限处理的关联影响" }
+      ],
+      "boundaries": ["关闭工单不自动修改范围、退款、完成验收或取消合作，关联动作另行校验。"]
+    },
+    {
+      "id": "ADM-10",
+      "type": "操作审计",
+      "title": { "zh-CN": "操作审计", "ja-JP": "操作履歴" },
+      "components": [
+        { "component": "Form", "purpose": "操作者、对象编号、动作、结果与时间范围筛选" },
+        { "component": "Table", "purpose": "审核、发布、授权、接管、交付与验收等操作记录" },
+        { "component": "Tag", "purpose": "成功、拒绝、失败等实际执行结果" },
+        { "component": "Drawer", "purpose": "对象版本、变更前后摘要、实际操作人、原因与关联记录" },
+        { "component": "Alert", "purpose": "按审计权限展示及敏感字段脱敏提示" }
+      ],
+      "boundaries": ["审计界面只读，不提供篡改历史、清空证据或重放业务动作的默认入口。", "记录业务摘要与引用，不在日志中暴露密钥或完整私有材料。"]
+    }
+  ],
+  "i18n": {
+    "supported_locales": ["zh-CN", "ja-JP"],
+    "business_i18n": "vue-i18n",
+    "component_locale_mapping": {
+      "zh-CN": "zh_CN",
+      "ja-JP": "ja_JP"
+    },
+    "component_locale_note": "zh_CN / ja_JP 为本映射约定的 TDesign locale 名称；具体导入路径与配置方式按实际安装版本核对。",
+    "switch_behavior": "同一次语言切换同时更新业务 vue-i18n 与 TDesign locale，不能只切换菜单或仅切换组件默认文案。",
+    "ui_translation_scope": ["导航", "页面标题", "表单标签", "业务状态", "操作按钮", "校验提示", "错误信息", "表格分页与筛选等组件文案"],
+    "original_content": {
+      "preserve": ["客户日文原始需求", "消息原文", "已确认范围与对客材料", "文件名", "代码内容"],
+      "automatic_translation_on_locale_switch": false,
+      "translation_policy": "如另行提供辅助翻译，须独立标记译文、保留原文与来源，不能覆盖或悄悄改写客户内容。"
+    },
+    "invariants": {
+      "timezone": "Asia/Tokyo",
+      "timezone_label": "JST",
+      "currency": "JPY",
+      "language_switch_does_not_change": ["原始时间点", "已确认期限", "金额数值", "币种", "税费口径", "需求版本", "审核版本", "发布版本", "交付版本", "业务状态码", "角色与权限", "数据访问范围"]
+    },
+    "verification": [
+      "切换中文和日本語时，业务文案与 TDesign 内置文案同步。",
+      "状态码通过本地化键显示，不将翻译后的显示文案写回业务枚举。",
+      "原始日文、版本号、金额、期限与资料权限在两种语言下保持一致。",
+      "长日文标题、按钮、校验错误和表格列完成布局验证，不依赖截断隐藏关键操作。"
+    ]
+  },
+  "source_documents": [
+    "../../Docs/project-context.md",
+    "../../Docs/planning/opc-v1-unified-implementation-plan.md"
+  ]
+}

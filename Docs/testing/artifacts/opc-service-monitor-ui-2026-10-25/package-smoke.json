@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "application": "OPC Service Monitor",
+  "version": "0.2.0",
+  "python": {"major_minor": "3.12", "implementation": "CPython"},
+  "qt": {"binding": "PySide6", "binding_version": "6.10.3", "qt_version": "6.10.3", "platform_plugin": "windows"},
+  "platform": {"system": "Windows", "release": "10", "machine": "AMD64"},
+  "resources": {"theme": true},
+  "ui": {
+    "service_cards": 3,
+    "tabs": ["全部日志", "前端", "后端", "PostgreSQL", "业务审计"],
+    "themes": ["light", "dark"],
+    "components": "Material / HUD"
+  }
+}

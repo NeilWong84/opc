@@ -1,0 +1,151 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-10-12",
+  "status": "nine-screens-created-initial-visual-review-complete",
+  "product": "OPC",
+  "scope": "Japan domestic AI system development; APPClient mobile views for customers and internally authorized providers",
+  "designSource": "free-draw",
+  "canvas": {
+    "documentId": "207036955904456",
+    "pageId": "M",
+    "url": "https://mastergo.com/file/207036955904456?page_id=M"
+  },
+  "reference": "../app-v1-figma/README.md",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "visual": {
+    "language": "ja-JP",
+    "annotationLanguage": "zh-CN",
+    "font": "Noto Sans JP",
+    "fontAvailabilityVerified": false,
+    "colors": {
+      "navy": "#142D36",
+      "teal": "#086E61",
+      "mint": "#D9F7DD",
+      "background": "#F5F7F5",
+      "surface": "#FFFFFF",
+      "secondary": "#647572",
+      "border": "#DFE7E3"
+    },
+    "contentWidth": 350,
+    "buttonHeight": 52,
+    "cardRadius": 16,
+    "cardPadding": 16,
+    "contentGap": 12,
+    "submittedFont": "Inter"
+  },
+  "constraints": [
+    "Only development service is available in V1.",
+    "Human compliance review and technical clarification must pass before hall publication.",
+    "Customers may view their own unapproved requests; unapproved requests never appear in the hall.",
+    "Internal account authorization is distinct from future OPC certification.",
+    "Task consultation CTA does not determine claiming or assignment policy.",
+    "Deliverables undergo internal review before customer-facing publication.",
+    "Acceptance does not imply payment, settlement, or escrow.",
+    "Use distinct request IDs for examples at different lifecycle stages.",
+    "Design with editable native layers and verify Japanese text and actual rendered layout."
+  ],
+  "screens": [
+    {
+      "id": "01",
+      "title": "ログイン",
+      "role": "shared",
+      "primaryAction": "ログインする",
+      "secondaryAction": "新規登録",
+      "notes": "Email/password is a design assumption; internal accounts use the same login entry."
+    },
+    {
+      "id": "02",
+      "title": "ご依頼一覧",
+      "role": "customer",
+      "primaryAction": "開発を相談する",
+      "notes": "Own requests, current stages, outstanding clarification questions."
+    },
+    {
+      "id": "03",
+      "title": "開発のご相談",
+      "role": "customer",
+      "primaryAction": "確認画面へ",
+      "notes": "Plain-language goal, desired timing, indicative budget, attachments, AI-assisted organization; not immediate publication."
+    },
+    {
+      "id": "04",
+      "title": "ご依頼の確認状況",
+      "role": "customer",
+      "primaryAction": "質問に回答する",
+      "notes": "Human compliance review and technical clarification, pending details, explicitly not published."
+    },
+    {
+      "id": "05",
+      "title": "案件一覧",
+      "role": "authorized-internal-provider",
+      "primaryAction": "詳細を見る",
+      "notes": "Only reviewed and published development tasks; account label 内部アカウント."
+    },
+    {
+      "id": "06",
+      "title": "案件詳細",
+      "role": "authorized-internal-provider",
+      "primaryAction": "案件について相談する",
+      "notes": "Versioned scope, expected timeline, deliverables and acceptance criteria; assignment mechanism undecided."
+    },
+    {
+      "id": "07",
+      "title": "プロジェクト",
+      "role": "assigned-provider",
+      "primaryAction": "成果物を提出する",
+      "notes": "Confirmed project progress, milestones, communications, deliverable entry."
+    },
+    {
+      "id": "08",
+      "title": "成果物の提出",
+      "role": "assigned-provider",
+      "primaryAction": "確認を依頼する",
+      "notes": "Fixed source package or repository version, documentation, test materials, internal check."
+    },
+    {
+      "id": "09",
+      "title": "納品内容の確認",
+      "role": "customer",
+      "primaryAction": "検収を完了する",
+      "secondaryAction": "修正を依頼する",
+      "notes": "Customer-visible release, demo, acceptance checklist; no wallet or payment status."
+    }
+  ],
+  "validation": {
+    "mastergoPagesCreated": 9,
+    "canvasConnectionVerified": true,
+    "visualReviewCompleted": true,
+    "flutterImplemented": false
+  },
+  "designSourceConfirmation": "已开启，使用自由绘制",
+  "connection": {
+    "adapter": "@mastergo/vibe-mcp@1.0.31",
+    "configuredUrl": "http://localhost:30678",
+    "adapterInitialized": true,
+    "localServiceListening": true,
+    "desktopMcpHttpEndpoint": "http://127.0.0.1:20678/mcp",
+    "canvasReadError": null,
+    "pagesCreated": 9,
+    "postRestartCheck": {
+      "date": "2026-10-12",
+      "userConfirmedRestart": true,
+      "restartVerifiedInDesktopLog": true,
+      "mcpToolReachable": true,
+      "canvasReadError": "no online mg canvas",
+      "canvasBridgeEstablished": false,
+      "accountFeatureAvailability": "unverified",
+      "nextStep": "Confirm the canvas-side Vibe MCP connection entry with MasterGo support; do not repeat adapter configuration or infer entitlement from AI quick-build visibility."
+    },
+    "recovery": {
+      "date": "2026-10-12",
+      "userReport": "升级高阶订阅后出现 MCP 服务入口",
+      "canvasConnected": true,
+      "canvasGenerationVerified": true,
+      "generalSubscriptionRuleVerified": false,
+      "lastObservedIssue": "Node metadata lookup timed out; actual screenshots recovered and all nine visually inspected"
+    }
+  }
+}

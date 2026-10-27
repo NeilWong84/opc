@@ -1,0 +1,96 @@
+{
+  "source": "actual MasterGo canvas PNG exports",
+  "count": 9,
+  "screens": [
+    {
+      "id": "01",
+      "nodeId": "14:9819",
+      "file": "preview-01.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "1c2c32830cb79c004683c5b3088869647a7e0eeada760e063d26e86bdc702ada"
+    },
+    {
+      "id": "02",
+      "nodeId": "14:00825",
+      "file": "preview-02.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "df8de3394281c276b78496a36e482decd7154e2453aa8999ff4d634190a3249d"
+    },
+    {
+      "id": "03",
+      "nodeId": "14:02021",
+      "file": "preview-03.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "9c314127f0dec1eded977f3947462c51f4651b0281262236de7b80a257dd5790"
+    },
+    {
+      "id": "04",
+      "nodeId": "14:03105",
+      "file": "preview-04.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "ce774ed3ba37e2128fc1a9d1bee0401134b9e5477fb6e336363cf8c89a660ef1"
+    },
+    {
+      "id": "05",
+      "nodeId": "14:04310",
+      "file": "preview-05.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "f7c7a695f9221c59f803f8bdea5372f7836c4bd01493b00bc059a9a76fea9a34"
+    },
+    {
+      "id": "06",
+      "nodeId": "14:05895",
+      "file": "preview-06.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "da801ccea8a1c637492123630e0052354d340b6e6429e7232eb3c3ae1dfc517a"
+    },
+    {
+      "id": "07",
+      "nodeId": "14:07117",
+      "file": "preview-07.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "44fb1afd29a199afa10522baffbce8afd2ba4b32e19270a9164b561a3d0b1846"
+    },
+    {
+      "id": "08",
+      "nodeId": "14:08324",
+      "file": "preview-08.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "1316abac70713211ee7fa18da942f7f23bff914b3d2901383f847491391b72c6"
+    },
+    {
+      "id": "09",
+      "nodeId": "14:09437",
+      "file": "preview-09.png",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "44adbfb47347653a395d9004efbc81b91b829cf2ef3b3944dc2cc91c3069d623"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "documentId": "207044528770731",
+  "documentPageId": "M",
+  "url": "https://mastergo.com/file/207044528770731?page_id=M",
+  "size": [
+    1440,
+    1000
+  ],
+  "locales": [
+    "zh-CN",
+    "ja-JP"
+  ],
+  "generationStatus": "completed",
+  "visualReview": "in-progress",
+  "pages": [
+    {
+      "key": "01-ja-JP",
+      "name": "01 · ja-JP · 運営ワークスペース",
+      "nodeId": "3:2639",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:25:23.7351477Z",
+      "updatedAt": "2026-10-12T08:27:32.1989587Z",
+      "preview": "preview-01-ja-JP.png"
+    },
+    {
+      "key": "01-zh-CN",
+      "name": "01 · zh-CN · 运营工作台",
+      "nodeId": "3:05387",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:32:10.8768468Z",
+      "updatedAt": "2026-10-12T08:32:16.3192665Z",
+      "preview": "preview-01-zh-CN.png"
+    },
+    {
+      "key": "02-ja-JP",
+      "name": "02 · ja-JP · 依頼審査一覧",
+      "nodeId": "3:01038",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:31:38.3376408Z",
+      "updatedAt": "2026-10-12T08:31:44.4922526Z",
+      "preview": "preview-02-ja-JP.png"
+    },
+    {
+      "key": "02-zh-CN",
+      "name": "02 · zh-CN · 需求审核列表",
+      "nodeId": "3:6762",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:30:32.5595085Z",
+      "updatedAt": "2026-10-12T08:30:43.2368112Z",
+      "preview": "preview-02-zh-CN.png"
+    },
+    {
+      "key": "03-ja-JP",
+      "name": "03 · ja-JP · 受付審査",
+      "nodeId": "3:11951",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:32:46.0895793Z",
+      "updatedAt": "2026-10-12T08:32:59.0984355Z",
+      "preview": "preview-03-ja-JP.png"
+    },
+    {
+      "key": "03-zh-CN",
+      "name": "03 · zh-CN · 合规审核详情",
+      "nodeId": "3:09092",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:32:17.982634Z",
+      "updatedAt": "2026-10-12T08:32:21.9177275Z",
+      "preview": "preview-03-zh-CN.png"
+    },
+    {
+      "key": "04-ja-JP",
+      "name": "04 · ja-JP · 要件整理",
+      "nodeId": "3:17761",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:34:05.8534523Z",
+      "updatedAt": "2026-10-12T08:34:09.7451843Z",
+      "preview": "preview-04-ja-JP.png"
+    },
+    {
+      "key": "04-zh-CN",
+      "name": "04 · zh-CN · 技术整理与澄清",
+      "nodeId": "3:14812",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:32:59.2082434Z",
+      "updatedAt": "2026-10-12T08:33:08.5477131Z",
+      "preview": "preview-04-zh-CN.png"
+    },
+    {
+      "key": "05-ja-JP",
+      "name": "05 · ja-JP · 公開管理",
+      "nodeId": "3:23395",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:34:31.2679275Z",
+      "updatedAt": "2026-10-12T08:34:35.3015654Z",
+      "preview": "preview-05-ja-JP.png"
+    },
+    {
+      "key": "05-zh-CN",
+      "name": "05 · zh-CN · 发布管理与大厅预览",
+      "nodeId": "3:20630",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:34:09.8037844Z",
+      "updatedAt": "2026-10-12T08:34:13.7750188Z",
+      "preview": "preview-05-zh-CN.png"
+    },
+    {
+      "key": "06-ja-JP",
+      "name": "06 · ja-JP · プロジェクト",
+      "nodeId": "3:29286",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:34:42.4836515Z",
+      "updatedAt": "2026-10-12T08:34:47.7503977Z",
+      "preview": "preview-06-ja-JP.png"
+    },
+    {
+      "key": "06-zh-CN",
+      "name": "06 · zh-CN · 项目协作详情",
+      "nodeId": "3:26155",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:34:35.3756729Z",
+      "updatedAt": "2026-10-12T08:34:40.7696102Z",
+      "preview": "preview-06-zh-CN.png"
+    },
+    {
+      "key": "07-ja-JP",
+      "name": "07 · ja-JP · 納品内容の内部確認",
+      "nodeId": "3:35567",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:35:30.8090968Z",
+      "updatedAt": "2026-10-12T08:35:45.1356001Z",
+      "preview": "preview-07-ja-JP.png"
+    },
+    {
+      "key": "07-zh-CN",
+      "name": "07 · zh-CN · 交付内部检查",
+      "nodeId": "3:32534",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:35:15.675844Z",
+      "updatedAt": "2026-10-12T08:35:30.1224562Z",
+      "preview": "preview-07-zh-CN.png"
+    },
+    {
+      "key": "08-ja-JP",
+      "name": "08 · ja-JP · メンバー・権限",
+      "nodeId": "3:45905",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:42:37.6043711Z",
+      "updatedAt": "2026-10-12T08:42:57.2084816Z",
+      "preview": "preview-08-ja-JP.png"
+    },
+    {
+      "key": "08-zh-CN",
+      "name": "08 · zh-CN · 内部成员与承接授权",
+      "nodeId": "3:42157",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:41:54.9352642Z",
+      "updatedAt": "2026-10-12T08:42:19.2029434Z",
+      "preview": "preview-08-zh-CN.png"
+    },
+    {
+      "key": "09-ja-JP",
+      "name": "09 · ja-JP · 問い合わせ対応",
+      "nodeId": "3:62091",
+      "status": "completed",
+      "createdAt": "2026-10-12T09:01:03.3709689Z",
+      "updatedAt": "2026-10-12T09:01:15.2039278Z",
+      "preview": "preview-09-ja-JP.png"
+    },
+    {
+      "key": "09-zh-CN",
+      "name": "09 · zh-CN · 异常工单",
+      "nodeId": "3:49496",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:43:17.0989941Z",
+      "updatedAt": "2026-10-12T08:45:15.6323412Z",
+      "preview": "preview-09-zh-CN.png"
+    },
+    {
+      "key": "10-ja-JP",
+      "name": "10 · ja-JP · 操作ログ",
+      "nodeId": "3:58526",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:56:27.3004535Z",
+      "updatedAt": "2026-10-12T09:00:16.2079939Z",
+      "preview": "preview-10-ja-JP.png"
+    },
+    {
+      "key": "10-zh-CN",
+      "name": "10 · zh-CN · 操作审计",
+      "nodeId": "3:54828",
+      "status": "completed",
+      "createdAt": "2026-10-12T08:55:46.9475687Z",
+      "updatedAt": "2026-10-12T08:56:10.1907284Z",
+      "preview": "preview-10-zh-CN.png"
+    }
+  ],
+  "note": "canvas-source与native-source是生成时原始快照；后续修订见qa-edits.json，最终效果以画布和复核后PNG为准。"
+}

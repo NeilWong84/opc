@@ -1,0 +1,4 @@
+import { api } from './api';
+export interface AuditEntry { id:number; occurred_at:string; application_actor_id:string|null; correlation_id:string|null; table_name:string; operation:string; entity_key:Record<string,unknown>; changed_fields:string[]|null; details:Record<string,unknown>|null }
+export const listAuditEntries=(beforeId?:number)=>api<{items:AuditEntry[]}>(`/api/v1/admin/audit-events?limit=50${beforeId?`&before_id=${beforeId}`:''}`);
+export function formatJst(timestamp:string|null|undefined):string { if(!timestamp)return '—'; const date=new Date(timestamp); if(Number.isNaN(date.getTime()))return '—'; return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(date)+' JST'; }

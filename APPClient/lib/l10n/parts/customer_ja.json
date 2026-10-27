@@ -1,0 +1,204 @@
+{
+  "customerRequestsTitle": "ご依頼一覧",
+  "customerWorkspaceSubtitle": "お客様向けワークスペース",
+  "customerNotifications": "お知らせ",
+  "customerHeroTitle": "つくりたいこと、\n相談してみませんか。",
+  "customerHeroSubtitle": "専門用語は不要です。運営が一緒に整理します。",
+  "customerCreateRequest": "開発を相談する",
+  "customerContinueDraft": "保存した下書きを続ける",
+  "customerActiveRequests": "進行中のご依頼",
+  "customerNoRequests": "まだご依頼はありません",
+  "customerNoRequestsHint": "「開発を相談する」から、アイデアをお聞かせください。",
+  "customerProgressHint": "ご依頼の進捗をご確認いただけます",
+  "customerDraftSaved": "このデモの下書きに保存しました",
+  "customerAddReference": "参考資料を追加",
+  "customerAttachmentNote": "サンプル名を選択します。端末のファイル選択・アップロードは行いません。",
+  "customerAssistTitle": "相談内容の整理案",
+  "customerAssistNote": "端末内の定型ルールによる提案です。AI への送信・自動審査は行いません。",
+  "customerKeepOriginal": "元の内容を使う",
+  "customerAdoptSuggestion": "この案を採用",
+  "customerConfirmTitle": "ご相談内容の確認",
+  "customerFormTitle": "開発のご相談",
+  "customerConfirmSubtitle": "送信前に内容をご確認ください",
+  "customerFormSubtitle": "アイデアから、一緒にはじめましょう",
+  "customerProcessing": "処理中…",
+  "customerSubmitRequest": "この内容で相談する",
+  "customerProceedConfirmation": "確認画面へ",
+  "customerEditRequest": "内容を修正する",
+  "customerSaveDraft": "下書きとして保存",
+  "customerFormStep": "1  ご相談内容",
+  "customerConfirmStep": "2  内容の確認",
+  "customerServiceCategory": "開発・AI 開発システム",
+  "customerGoalLabel": "実現したいこと",
+  "customerTimingLabel": "ご希望の時期",
+  "customerBudgetLabel": "ご予算の目安",
+  "customerReferenceLabel": "参考資料",
+  "customerNoAttachments": "資料なし",
+  "customerConfirmNotice": "運営が合規性と技術要件を確認・整理します。送信だけで案件一覧には公開されません。予算はご希望の目安であり、お支払いは発生しません。",
+  "customerFormIntro": "まだアイデア段階でも大丈夫です。\n実現したいことを、ご自身の言葉で教えてください。",
+  "customerGoalQuestion": "どんなことを実現したいですか？",
+  "customerRequired": "必須",
+  "customerGoalHint": "実現したいことを教えてください",
+  "customerGoalValidation": "実現したいことを10文字以上でご入力ください",
+  "customerAssistAction": "AI で相談内容を整理する",
+  "customerOptionalReference": "参考資料（任意）",
+  "customerAddFiles": "資料や画像を追加",
+  "customerSampleReference": "サンプル資料",
+  "customerSubmitNotice": "送信後、運営が内容を確認・整理します。\nこの時点では案件一覧に公開されません。",
+  "customerReviewTitle": "ご依頼の確認状況",
+  "customerReviewSubtitle": "運営が内容を確認・整理しています",
+  "customerReplyAction": "質問に回答する",
+  "customerBackToRequests": "ご依頼一覧へ",
+  "customerPublished": "公開済み",
+  "customerUnderReview": "内容を確認中",
+  "customerReviewSteps": "公開までのステップ",
+  "customerReceivedStep": "ご依頼を受付",
+  "customerReceivedStepDetail": "内容を受け付けました",
+  "customerComplianceStep": "合規性の確認",
+  "customerComplianceComplete": "運営による確認が完了しました",
+  "customerCompliancePending": "運営による確認をお待ちください",
+  "customerRequirementsStep": "要件を整理",
+  "customerRequirementsComplete": "技術要件の整理が完了しました",
+  "customerRequirementsNeedsInfo": "追加の情報をお待ちしています",
+  "customerRequirementsPending": "運営が内容を確認・整理します",
+  "customerPublicationStep": "案件一覧に公開",
+  "customerPublicationComplete": "確認済みのバージョンを公開しました",
+  "customerPublicationPending": "すべての確認が終わってから公開",
+  "customerOperatorQuestion": "運営からの確認事項",
+  "customerOperatorAwaitingReply": "OPC 運営 · 回答をお待ちしています",
+  "customerOperatorReplyReceived": "OPC 運営 · 回答を受け付けました",
+  "customerSupplementConversation": "補足・やりとり",
+  "customerPublicationNotice": "審査を通過した公開バージョンのみ、案件一覧に表示されます。",
+  "customerUnpublishedNotice": "この依頼は、まだ案件一覧に公開されていません。",
+  "customerReplySuccess": "回答を送信しました。運営の確認をお待ちください。",
+  "customerReplyLabel": "ご回答",
+  "customerReplyHint": "例：利用者は30名ほど、参考資料はPDFです。",
+  "customerReplyValidation": "回答をご入力ください",
+  "customerReplyNotice": "回答は運営が確認します。送信後も自動的には審査・公開されません。",
+  "customerSending": "送信中…",
+  "customerSendReply": "回答を送信",
+  "customerRequestDetail": "ご依頼の詳細",
+  "customerNoNotifications": "新しいお知らせはありません。",
+  "customerWorkspace": "ワークスペース",
+  "customerTasks": "案件",
+  "customerHome": "ホーム",
+  "customerProjects": "プロジェクト",
+  "customerRequests": "ご依頼",
+  "customerMessages": "メッセージ",
+  "customerProfile": "マイページ",
+  "customerMessageListSubtitle": "ご依頼ごとのやり取り",
+  "customerRequestListSubtitle": "進行状況をいつでも確認",
+  "customerEmptyWorkspace": "まだご依頼はありません。ホームから開発の相談をはじめましょう。",
+  "customerViewDetails": "詳細を確認する",
+  "customerSendMessage": "送信する",
+  "customerMessageSent": "メッセージを送信しました",
+  "customerConversationNote": "このご依頼に関する運営とのやり取りです。",
+  "customerNoMessages": "メッセージはまだありません。",
+  "customerMessageHint": "メッセージを入力",
+  "customerProfileSubtitle": "アカウントと表示設定",
+  "customerInternalAccount": "内部アカウント",
+  "customerCustomerAccount": "お客様アカウント",
+  "customerInternalAuthorization": "内部の案件対応権限が付与されています。OPC 正式認定とは異なります。",
+  "customerAppearance": "画面の表示",
+  "customerThemeSystem": "システム",
+  "customerThemeLight": "ライト",
+  "customerThemeDark": "ダーク",
+  "customerBusinessRegion": "日本向けサービス · 日本円（JPY）· 日本標準時（JST）",
+  "customerAbout": "このアプリについて",
+  "customerAboutNote": "OPC V1 / 0.1.0\nデモ環境です。業務データは端末のメモリ上に保存され、アプリの再起動で初期化されます。実際の認証・ファイル送信・決済は行いません。",
+  "customerDemoScenarios": "デモシナリオ",
+  "customerLogout": "ログアウト",
+  "customerDemoSubtitle": "デモ操作 · 実際の管理操作ではありません",
+  "customerDemoNotice": "バックエンドの審査結果を再現する開発用操作です。実運用では管理端とサーバーだけが審査・公開を実行します。",
+  "customerSimulateDelivery": "内部確認後の納品公開を再現",
+  "customerSimulatePublication": "審査・要件整理後の公開を再現",
+  "customerDemoUpdated": "デモの状態を更新しました",
+  "customerFailNextAction": "次の送信を失敗させる",
+  "customerFailNextNotice": "次の送信でエラーを再現します。内容を保ったまま再試行できます。",
+  "customerResetDemo": "デモを初期状態に戻す",
+  "customerResetDemoTitle": "デモをリセットしますか？",
+  "customerResetDemoNotice": "このデモで追加した登録・ご依頼・メッセージが消去され、ログイン画面に戻ります。",
+  "customerBack": "戻る",
+  "customerReset": "リセット",
+  "customerRequestCount": "{count}件",
+  "@customerRequestCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "customerDeliveryPrompt": "{id} · 納品内容をご確認ください",
+  "@customerDeliveryPrompt": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "customerRemoveAttachment": "{name} を削除",
+  "@customerRemoveAttachment": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "customerAssistedDescription": "実現したいこと：\n{original}\n\n利用する方：社内の社員（人数は相談時に確認）\n確認したいこと：利用する資料の形式、必要な機能、完成後の運用方法。",
+  "@customerAssistedDescription": {
+    "placeholders": {
+      "original": {
+        "type": "String"
+      }
+    }
+  },
+  "customerReceivedDate": "{year}年{month}月{day}日 {time}（JST）",
+  "@customerReceivedDate": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "customerReceivedAt": "受付：{date}",
+  "@customerReceivedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "customerMessageDate": "{month}月{day}日 {time} JST",
+  "@customerMessageDate": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "customerTimingMonth": "1か月以内を希望",
+  "customerTimingQuarter": "2〜3か月以内を希望",
+  "customerTimingDiscuss": "時期は相談したい",
+  "customerBudgetDiscuss": "相談して決めたい",
+  "customerBudgetUnder100k": "10万円未満",
+  "customerBudget100to300k": "10万〜30万円",
+  "customerBudget300to500k": "30万〜50万円",
+  "customerBudgetOver500k": "50万円以上",
+  "customerLanguage": "言語",
+  "customerLanguageNote": "表示言語のみを切り替えます。ご依頼やメッセージの原文・通貨・時刻・権限は変わりません。"
+}

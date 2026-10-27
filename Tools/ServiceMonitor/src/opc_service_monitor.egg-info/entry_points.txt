@@ -1,0 +1,2 @@
+[console_scripts]
+opc-service-monitor = opc_service_monitor.app:main

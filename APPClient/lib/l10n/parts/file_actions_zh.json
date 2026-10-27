@@ -1,0 +1,15 @@
+{
+  "fileSaveToPhone": "保存到手机文件",
+  "filePreviewFailed": "暂时无法预览。可以重试，或将原文件保存到手机后打开。",
+  "fileInlineAttachment": "查看文件",
+  "fileOriginal": "下载原文件",
+  "mediaFullscreen": "全屏播放",
+  "mediaExitFullscreen": "退出全屏",
+  "mediaPause": "暂停",
+  "mediaReplay": "重新播放",
+  "mediaBackward": "快退 10 秒",
+  "mediaForward": "快进 10 秒",
+  "mediaMute": "静音",
+  "mediaUnmute": "恢复声音",
+  "mediaSpeed": "播放速度"
+}

@@ -1,0 +1,184 @@
+{
+  "projectTitle": "プロジェクト",
+  "projectProviderSubtitle": "担当プロジェクトのワークスペース",
+  "projectCustomerSubtitle": "ご依頼の進行状況を確認しましょう",
+  "projectInfoTitle": "プロジェクト情報",
+  "projectInternalReviewPending": "提出内容を運営が確認中です。お客様にはまだ公開されていません。",
+  "projectAwaitingOperations": "運営の確認待ち",
+  "projectSubmitRevision": "修正版を提出する",
+  "projectSubmitDelivery": "成果物を提出する",
+  "projectReviewDelivery": "納品内容を確認する",
+  "projectSendMessage": "メッセージを送る",
+  "projectConsultation": "プロジェクトの相談",
+  "projectConsultationHint": "確認したいことはメッセージからお知らせください。",
+  "projectOpenMessages": "メッセージを開く",
+  "projectNoMessages": "まだメッセージはありません。",
+  "projectNoProviderDeliveries": "提出済みの成果物はまだありません。下のボタンから提出できます。",
+  "projectNoCustomerDeliveries": "お客様向けの納品ファイルは、運営の確認後に表示されます。",
+  "projectEditFixedVersion": "固定バージョンを編集",
+  "projectFixedVersion": "リリース・固定コミット",
+  "projectFixedVersionHint": "例：v0.3.0 · 8f3a2c1",
+  "projectFixedVersionHelp": "提出するソースを特定できるタグ・コミットを入力してください。サンプルの記録です。",
+  "projectSave": "保存する",
+  "projectSubmitted": "運営に確認を依頼しました。お客様への公開は内部確認後です。",
+  "projectDeliveryTitle": "成果物の提出",
+  "projectDeliveryUnauthorized": "このプロジェクトの担当者だけが成果物を提出できます。",
+  "projectDeliverySubtitle": "確認できる形で、成果をまとめましょう",
+  "projectSubmitting": "提出しています…",
+  "projectRequestReview": "運営に確認を依頼する",
+  "projectSourceCode": "ソースコード",
+  "projectRequired": "必須",
+  "projectSourceSelected": "18.4 MB · 選択済み",
+  "projectGuideAndTest": "操作説明・確認資料",
+  "projectGuideSelected": "1.2 MB · 選択済み",
+  "projectTestSelected": "84 KB · 選択済み",
+  "projectChanges": "今回の変更点",
+  "projectChangesHint": "変更内容と確認方法を入力してください",
+  "projectChangesRequired": "変更内容を入力してください",
+  "projectDeliveryReviewNotice": "提出後、運営が内容を確認します。\nお客様への公開は、内部確認後に行います。",
+  "projectAttachmentsNotice": "添付はサンプル名のみです。実ファイルのアップロード・テスト実行は行いません。",
+  "projectAcceptConfirmTitle": "検収を完了しますか？",
+  "projectBack": "戻る",
+  "projectCompleteAcceptance": "検収を完了する",
+  "projectAccepted": "検収が完了しました。ご確認ありがとうございます。",
+  "projectRequestRevision": "修正を依頼する",
+  "projectRevisionContent": "修正してほしい内容",
+  "projectRevisionHint": "画面・操作手順・期待した結果をお知らせください",
+  "projectRevisionHelp": "運営がご依頼を確認します。修正依頼後は、新しい公開版の到着をお待ちください。",
+  "projectRevisionRequested": "修正のご依頼を記録しました。運営が内容を確認します。",
+  "projectAcceptanceTitle": "納品内容の確認",
+  "projectNoPublishedDelivery": "お客様向けに公開された納品内容はまだありません。運営の確認後に表示されます。",
+  "projectAcceptanceSubtitle": "仕上がりを、ご自身で確かめましょう",
+  "projectAcceptedNotice": "公開版の検収が完了しました。",
+  "projectRevisionPendingNotice": "修正依頼を受け付けました。新しい公開版をお待ちください。",
+  "projectCheckAllHint": "すべての項目を確認すると、検収を完了できます。",
+  "projectAcceptanceComplete": "検収完了",
+  "projectWatchDemo": "操作デモを見る",
+  "projectDemoSummary": "登録から対応完了までをご案内",
+  "projectPublishedFiles": "納品ファイル・操作説明書",
+  "projectPublishedFileCount": "公開版の資料 3件",
+  "projectAcceptanceChecklist": "ご確認いただきたいこと",
+  "projectRevisionReviewing": "修正のご依頼を運営が確認しています。",
+  "projectAcceptedFilesNotice": "ご確認ありがとうございます。納品ファイルは引き続きこの画面から確認できます。",
+  "projectRevisionInvitation": "気になる点は、修正のご依頼からお知らせください。運営が内容を確認します。",
+  "projectProgressTab": "進行状況",
+  "projectMessagesTab": "メッセージ",
+  "projectFilesTab": "ファイル",
+  "projectMilestones": "マイルストーン",
+  "projectRequirementsMilestone": "要件確認",
+  "projectDevelopmentMilestone": "開発",
+  "projectInternalMilestone": "内部確認",
+  "projectCustomerMilestone": "お客様確認",
+  "projectRevisionMilestoneDescription": "ご依頼いただいた修正内容を確認",
+  "projectRequirementsMilestoneDescription": "対象範囲と確認基準を確定",
+  "projectDevelopmentMilestoneDescription": "検索画面と回答機能を実装中",
+  "projectInternalMilestoneDescription": "運営が品質・資料を確認",
+  "projectCustomerMilestoneDescription": "公開された納品内容を検収",
+  "projectMessageAvatar": "メ",
+  "projectReplaceFile": "ファイルを差し替える",
+  "projectDeliveryPublished": "お客様公開済み",
+  "projectDeliveryInternal": "内部確認用",
+  "projectGuideMetadata": "操作説明",
+  "projectTestMetadata": "確認資料",
+  "projectMessageSent": "メッセージを送信しました",
+  "projectMessageHint": "メッセージを入力",
+  "projectMessageRequired": "メッセージを入力してください",
+  "projectMessageSendTooltip": "メッセージを送信",
+  "projectSelectFile": "ファイルを選択",
+  "projectFilePickerNotice": "サンプル名を選択・編集できます。実際のファイルは送信されません。",
+  "projectSampleFilename": "サンプルファイル名",
+  "projectFilenameRequired": "ファイル名を入力してください",
+  "projectUseSample": "このサンプルを使用する",
+  "projectCancel": "キャンセル",
+  "projectClose": "閉じる",
+  "projectSourcePreview": "ソースコード一式\n\n・アプリケーションのソース\n・環境設定のサンプル\n・起動手順（README）\n\n固定バージョンに紐づく構成例です。この画面ではコードの実行やダウンロードを行いません。",
+  "projectGuidePreview": "操作説明のサンプル\n\n1. 一覧画面で登録済みの項目を確認します。\n2. キーワードを入力して検索します。\n3. 詳細画面で内容を確認・更新します。\n4. 保存後、一覧で変更結果を確認します。",
+  "projectTestPreview": "確認資料のサンプル\n\n・登録・検索シナリオ\n・更新・保存シナリオ\n・操作説明の確認\n\nこの資料は画面確認用の合成データです。実際のテスト結果や品質保証を示すものではありません。",
+  "projectFileAccessNotice": "実ファイルの取得・配信は、今後の API 接続で対応します。",
+  "projectDemoTitle": "操作デモ",
+  "projectDemoRegister": "1. 問い合わせを登録",
+  "projectDemoSearch": "2. 一覧から検索",
+  "projectDemoUpdate": "3. 対応状況を更新",
+  "projectDemoRegisterDescription": "件名と内容を入力して保存すると、一覧に新しい問い合わせが表示されます。",
+  "projectDemoSearchDescription": "キーワードで対象を絞り込み、問い合わせの詳細を確認します。",
+  "projectDemoUpdateDescription": "担当者と対応状況を変更し、保存後の内容を一覧で確認します。",
+  "projectDemoRestart": "最初から見る",
+  "projectDemoNext": "次の操作へ",
+  "projectDemoNotice": "画面内のサンプルガイドです。実際の納品環境や動画には接続していません。",
+  "projectInfoMessageNotice": "変更点やご不明点は、プロジェクトのメッセージからご相談ください。",
+  "projectNextDeveloping": "次の予定：10月16日 デモ確認",
+  "projectNextInternalReview": "次の予定：運営による内容確認",
+  "projectNextAcceptance": "次の予定：お客様による納品内容の確認",
+  "projectNextRevision": "次の予定：修正内容の確認と再提出",
+  "projectNextCompleted": "公開版の検収が完了しました",
+  "projectNextDefault": "進行に合わせて次の予定をご案内します",
+  "projectCheckFaqSearch": "質問を入力し、関連する資料を検索できる",
+  "projectCheckFaqSources": "回答の根拠となる資料を確認できる",
+  "projectCheckGuide": "操作説明を読み、利用方法を確認した",
+  "projectCheckSearch": "問い合わせを登録・検索できる",
+  "projectCheckUpdate": "担当者と対応状況を更新できる",
+  "projectSubmissionDestination": "{id} · 提出先：OPC 運営",
+  "@projectSubmissionDestination": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "projectAcceptConfirmBody": "公開版 v{version}.0.0 の確認を完了します。\n\nこの操作は納品内容の検収記録です。支払いや精算は行いません。",
+  "@projectAcceptConfirmBody": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectCustomerVersion": "お客様向け公開版 v{version}.0.0",
+  "@projectCustomerVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectSubmittedVersion": "提出バージョン {version}",
+  "@projectSubmittedVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectFieldRequired": "{label}を入力してください",
+  "@projectFieldRequired": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "projectTargetVersion": "対象バージョン：{version}",
+  "@projectTargetVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "projectDemoVersion": "公開版 {version} · サンプルガイド",
+  "@projectDemoVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "projectConfirmedScope": "確認済みの対象範囲：バージョン {version}",
+  "@projectConfirmedScope": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  }
+}

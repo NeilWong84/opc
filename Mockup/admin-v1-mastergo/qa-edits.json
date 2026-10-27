@@ -1,0 +1,551 @@
+[
+  {
+    "id": "3:10281",
+    "kind": "align-top",
+    "code": "<div\n  data-node-id=\"3:10281\"\n  data-name=\"Review columns\"\n  style=\"display: flex; align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px\"></div>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:10281\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:13161",
+    "kind": "align-top",
+    "code": "<div\n  data-node-id=\"3:13161\"\n  data-name=\"Review columns\"\n  style=\"display: flex; align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px\"></div>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:13161\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:16063",
+    "kind": "align-top",
+    "code": "<div\n  data-node-id=\"3:16063\"\n  data-name=\"Technical columns\"\n  style=\"display: flex; align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 16px\"></div>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:16063\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:03605",
+    "page": "02-ja-JP",
+    "kind": "review_approved_label",
+    "oldCode": "<span\n  data-node-id=\"3:03605\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n  完了\n</span>",
+    "code": "<span\n  data-node-id=\"3:03605\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">承認済み</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:03605\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:04238",
+    "page": "02-ja-JP",
+    "kind": "review_approved_label",
+    "oldCode": "<span\n  data-node-id=\"3:04238\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n  完了\n</span>",
+    "code": "<span\n  data-node-id=\"3:04238\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">承認済み</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:04238\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:04557",
+    "page": "02-ja-JP",
+    "kind": "review_approved_label",
+    "oldCode": "<span\n  data-node-id=\"3:04557\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n  完了\n</span>",
+    "code": "<span\n  data-node-id=\"3:04557\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">承認済み</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:04557\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:19165",
+    "page": "04-ja-JP",
+    "kind": "review_approved_label",
+    "oldCode": "<span\n  data-node-id=\"3:19165\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n  完了\n</span>",
+    "code": "<span\n  data-node-id=\"3:19165\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">承認済み</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:19165\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:24948",
+    "page": "05-ja-JP",
+    "kind": "review_approved_label",
+    "oldCode": "<span\n  data-node-id=\"3:24948\"\n  data-name=\"完了 · OP-002\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n  完了 · OP-002\n</span>",
+    "code": "<span\n  data-node-id=\"3:24948\"\n  data-name=\"完了 · OP-002\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">承認済み · OP-002</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:24948\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:22818",
+    "page": "05-zh-CN",
+    "kind": "hall_preview_title_font_size",
+    "oldCode": "<p\n  data-node-id=\"3:22818\"\n  data-name=\"問い合わせ管理システムの開発\"\n  style=\"align-self: stretch; color: #181818; font-size: 22px; font-family: Inter; font-weight: 600; line-height: 30px\">\n  問い合わせ管理システムの開発\n</p>",
+    "code": "<p\n  data-node-id=\"3:22818\"\n  data-name=\"問い合わせ管理システムの開発\"\n  style=\"align-self: stretch; color: #181818; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 30px\">\n  問い合わせ管理システムの開発\n</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:22818\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:25580",
+    "page": "05-ja-JP",
+    "kind": "hall_preview_title_font_size",
+    "oldCode": "<p\n  data-node-id=\"3:25580\"\n  data-name=\"問い合わせ管理システムの開発\"\n  style=\"align-self: stretch; color: #181818; font-size: 22px; font-family: Inter; font-weight: 600; line-height: 30px\">\n  問い合わせ管理システムの開発\n</p>",
+    "code": "<p\n  data-node-id=\"3:25580\"\n  data-name=\"問い合わせ管理システムの開発\"\n  style=\"align-self: stretch; color: #181818; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 30px\">\n  問い合わせ管理システムの開発\n</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:25580\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:8356",
+    "page": "02-zh-CN",
+    "kind": "total_count",
+    "oldCode": "<span\n  data-node-id=\"3:8356\"\n  data-name=\"全部 24\"\n  style=\"color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px\">\n  全部 24\n</span>",
+    "code": "<span\n  data-node-id=\"3:8356\"\n  data-name=\"全部 24\"\n  style=\"color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px\">全部 30</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:8356\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:00626",
+    "page": "02-zh-CN",
+    "kind": "total_count",
+    "oldCode": "<p\n  data-node-id=\"3:00626\"\n  data-name=\"共 24 条\"\n  style=\"flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">\n  共 24 条\n</p>",
+    "code": "<p\n  data-node-id=\"3:00626\"\n  data-name=\"共 24 条\"\n  style=\"flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">共 30 条</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:00626\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:02723",
+    "page": "02-ja-JP",
+    "kind": "total_count",
+    "oldCode": "<span\n  data-node-id=\"3:02723\"\n  data-name=\"すべて 24\"\n  style=\"color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px\">\n  すべて 24\n</span>",
+    "code": "<span\n  data-node-id=\"3:02723\"\n  data-name=\"すべて 24\"\n  style=\"color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px\">すべて 30</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:02723\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:05062",
+    "page": "02-ja-JP",
+    "kind": "total_count",
+    "oldCode": "<p\n  data-node-id=\"3:05062\"\n  data-name=\"全 24 件\"\n  style=\"flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">\n  全 24 件\n</p>",
+    "code": "<p\n  data-node-id=\"3:05062\"\n  data-name=\"全 24 件\"\n  style=\"flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">全 30 件</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:05062\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:11574",
+    "page": "03-zh-CN",
+    "kind": "entered_note_locale_consistency",
+    "oldCode": "<p\n  data-node-id=\"3:11574\"\n  data-name=\"请确认资料授权；样例需去除个人信息后再提交。\"\n  style=\"align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">\n  请确认资料授权；样例需去除个人信息后再提交。\n</p>",
+    "code": "<p\n  data-node-id=\"3:11574\"\n  data-name=\"请确认资料授权；样例需去除个人信息后再提交。\"\n  style=\"align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">資料の利用権限を確認。サンプルは個人情報を除いて提出を依頼。</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:11574\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:35232",
+    "page": "07-zh-CN",
+    "kind": "entered_note_locale_consistency",
+    "oldCode": "<p\n  data-node-id=\"3:35232\"\n  data-name=\"剩余三项待复核；不把“文件已上传”记为“测试通过”。\"\n  style=\"align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">\n  剩余三项待复核；不把“文件已上传”记为“测试通过”。\n</p>",
+    "code": "<p\n  data-node-id=\"3:35232\"\n  data-name=\"剩余三项待复核；不把“文件已上传”记为“测试通过”。\"\n  style=\"align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">残り 3 項目を確認。アップロード済みだけではテスト合格としません。</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:35232\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:51788",
+    "page": "09-zh-CN",
+    "kind": "entered_note_locale_consistency",
+    "oldCode": "<p\n  data-node-id=\"3:51788\"\n  data-name=\"评估导出字段、数据权限与字符编码；确认是否影响原交付日期。\"\n  style=\"align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">\n  评估导出字段、数据权限与字符编码；确认是否影响原交付日期。\n</p>",
+    "code": "<p\n  data-node-id=\"3:51788\"\n  data-name=\"评估导出字段、数据权限与字符编码；确认是否影响原交付日期。\"\n  style=\"align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px\">出力項目・データ権限・文字コードを確認し、納期への影響を評価します。</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:51788\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:04279",
+    "page": "02-ja-JP",
+    "kind": "technical_confirmed_label",
+    "oldCode": "<span\n  data-node-id=\"3:04279\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n  完了\n</span>",
+    "code": "<span\n  data-node-id=\"3:04279\"\n  data-name=\"完了\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">確認済み</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:04279\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:25029",
+    "page": "05-ja-JP",
+    "kind": "technical_confirmed_label",
+    "oldCode": "<span\n  data-node-id=\"3:25029\"\n  data-name=\"完了 · OP-003\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">\n  完了 · OP-003\n</span>",
+    "code": "<span\n  data-node-id=\"3:25029\"\n  data-name=\"完了 · OP-003\"\n  style=\"color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px\">確認済み · OP-003</span>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:25029\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:44952",
+    "page": "08-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:44952\"\n  data-name=\"共 12 条\"\n  style=\"flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">\n  共 12 条\n</p>",
+    "code": "<p\n  data-node-id=\"3:44952\"\n  data-name=\"共 12 条\"\n  style=\"flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">共 4 条</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:44952\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:48506",
+    "page": "08-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:48506\"\n  data-name=\"全 12 件\"\n  style=\"flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">\n  全 12 件\n</p>",
+    "code": "<p\n  data-node-id=\"3:48506\"\n  data-name=\"全 12 件\"\n  style=\"flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px\">全 4 件</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:48506\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:56951",
+    "page": "10-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:56951\"\n  data-name=\"10/12 10:02:14\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  10/12 10:02:14\n</p>",
+    "code": "<p\n  data-node-id=\"3:56951\"\n  data-name=\"10/12 10:02:14\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">10/12 10:12:14</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:56951\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:56984",
+    "page": "10-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:56984\"\n  data-name=\"OP-003\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  OP-003\n</p>",
+    "code": "<p\n  data-node-id=\"3:56984\"\n  data-name=\"OP-003\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">OP-002</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:56984\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:57017",
+    "page": "10-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:57017\"\n  data-name=\"保存整理稿\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  保存整理稿\n</p>",
+    "code": "<p\n  data-node-id=\"3:57017\"\n  data-name=\"保存整理稿\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">合规审核通过</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:57017\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:57092",
+    "page": "10-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:57092\"\n  data-name=\"v0.3 → v1.0\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  v0.3 → v1.0\n</p>",
+    "code": "<p\n  data-node-id=\"3:57092\"\n  data-name=\"v0.3 → v1.0\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">v1.0</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:57092\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:57203",
+    "page": "10-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:57203\"\n  data-name=\"10/11 16:20:05\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  10/11 16:20:05\n</p>",
+    "code": "<p\n  data-node-id=\"3:57203\"\n  data-name=\"10/11 16:20:05\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">10/12 10:02:05</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:57203\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:57236",
+    "page": "10-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:57236\"\n  data-name=\"OP-002\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  OP-002\n</p>",
+    "code": "<p\n  data-node-id=\"3:57236\"\n  data-name=\"OP-002\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">OP-003</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:57236\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:57269",
+    "page": "10-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:57269\"\n  data-name=\"合规审核通过\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  合规审核通过\n</p>",
+    "code": "<p\n  data-node-id=\"3:57269\"\n  data-name=\"合规审核通过\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">保存整理稿</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:57269\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:57344",
+    "page": "10-zh-CN",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:57344\"\n  data-name=\"v0.3\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  v0.3\n</p>",
+    "code": "<p\n  data-node-id=\"3:57344\"\n  data-name=\"v0.3\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">v0.3 → v1.0</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:57344\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:60547",
+    "page": "10-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:60547\"\n  data-name=\"10/12 10:02:14\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  10/12 10:02:14\n</p>",
+    "code": "<p\n  data-node-id=\"3:60547\"\n  data-name=\"10/12 10:02:14\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">10/12 10:12:14</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:60547\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:60580",
+    "page": "10-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:60580\"\n  data-name=\"OP-003\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  OP-003\n</p>",
+    "code": "<p\n  data-node-id=\"3:60580\"\n  data-name=\"OP-003\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">OP-002</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:60580\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:60613",
+    "page": "10-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:60613\"\n  data-name=\"要件ドラフトを保存\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  要件ドラフトを保存\n</p>",
+    "code": "<p\n  data-node-id=\"3:60613\"\n  data-name=\"要件ドラフトを保存\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">受付審査を承認</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:60613\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:60688",
+    "page": "10-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:60688\"\n  data-name=\"v0.3 → v1.0\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  v0.3 → v1.0\n</p>",
+    "code": "<p\n  data-node-id=\"3:60688\"\n  data-name=\"v0.3 → v1.0\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">v1.0</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:60688\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:60801",
+    "page": "10-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:60801\"\n  data-name=\"10/11 16:20:05\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  10/11 16:20:05\n</p>",
+    "code": "<p\n  data-node-id=\"3:60801\"\n  data-name=\"10/11 16:20:05\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">10/12 10:02:05</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:60801\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:60834",
+    "page": "10-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:60834\"\n  data-name=\"OP-002\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  OP-002\n</p>",
+    "code": "<p\n  data-node-id=\"3:60834\"\n  data-name=\"OP-002\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">OP-003</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:60834\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:60867",
+    "page": "10-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:60867\"\n  data-name=\"受付審査を完了\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  受付審査を完了\n</p>",
+    "code": "<p\n  data-node-id=\"3:60867\"\n  data-name=\"受付審査を完了\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">要件ドラフトを保存</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:60867\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3:60942",
+    "page": "10-ja-JP",
+    "kind": "final-data-consistency",
+    "oldCode": "<p\n  data-node-id=\"3:60942\"\n  data-name=\"v0.3\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">\n  v0.3\n</p>",
+    "code": "<p\n  data-node-id=\"3:60942\"\n  data-name=\"v0.3\"\n  style=\"align-self: stretch; color: #181818; font-size: 13px; font-family: Inter; line-height: 22px\">v0.3 → v1.0</p>",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "✅ [局部修改] 指令已发送\n- 节点 ID: 3:60942\n- 状态: accepted（已受理，画布仍在后台处理中）\n- 后续动作: 直接向用户报告“已受理”；禁止立即调用 get_selection_node、get_screenshot 或 get_design_diff，以免读取到处理前的旧结果。"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,226 @@
+✅ 成功获取多选节点代码（共 16 个）
+- [1] 完了 (3:03605)
+  parentDirection: row
+- [2] 完了 (3:04238)
+  parentDirection: row
+- [3] 完了 (3:04557)
+  parentDirection: row
+- [4] 完了 (3:19165)
+  parentDirection: row
+- [5] 完了 · OP-002 (3:24948)
+  parentDirection: row
+- [6] 問い合わせ管理システムの開発 (3:22818)
+  parentDirection: column
+- [7] 問い合わせ管理システムの開発 (3:25580)
+  parentDirection: column
+- [8] 全部 24 (3:8356)
+  parentDirection: row
+- [9] 共 24 条 (3:00626)
+  parentDirection: row
+- [10] すべて 24 (3:02723)
+  parentDirection: row
+- [11] 全 24 件 (3:05062)
+  parentDirection: row
+- [12] 请确认资料授权；样例需去除个人信息后再提交。 (3:11574)
+  parentDirection: column
+- [13] 剩余三项待复核；不把“文件已上传”记为“测试通过”。 (3:35232)
+  parentDirection: column
+- [14] 评估导出字段、数据权限与字符编码；确认是否影响原交付日期。 (3:51788)
+  parentDirection: column
+- [15] 完了 (3:04279)
+  parentDirection: row
+- [16] 完了 · OP-003 (3:25029)
+  parentDirection: row
+- HTML 不会创建持久基准；本地素材仅通过临时 Asset Session 供后续修改使用。
+
+### [1] 完了 (3:03605)
+
+```html
+<span
+  data-node-id="3:03605"
+  data-name="完了"
+  style="color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px">
+  承認済み
+</span>
+
+```
+
+### [2] 完了 (3:04238)
+
+```html
+<span
+  data-node-id="3:04238"
+  data-name="完了"
+  style="color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px">
+  承認済み
+</span>
+
+```
+
+### [3] 完了 (3:04557)
+
+```html
+<span
+  data-node-id="3:04557"
+  data-name="完了"
+  style="color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px">
+  承認済み
+</span>
+
+```
+
+### [4] 完了 (3:19165)
+
+```html
+<span
+  data-node-id="3:19165"
+  data-name="完了"
+  style="color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px">
+  承認済み
+</span>
+
+```
+
+### [5] 完了 · OP-002 (3:24948)
+
+```html
+<span
+  data-node-id="3:24948"
+  data-name="完了 · OP-002"
+  style="color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px">
+  承認済み · OP-002
+</span>
+
+```
+
+### [6] 問い合わせ管理システムの開発 (3:22818)
+
+```html
+<p
+  data-node-id="3:22818"
+  data-name="問い合わせ管理システムの開発"
+  style="align-self: stretch; color: #181818; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 30px">
+  問い合わせ管理システムの開発
+</p>
+
+```
+
+### [7] 問い合わせ管理システムの開発 (3:25580)
+
+```html
+<p
+  data-node-id="3:25580"
+  data-name="問い合わせ管理システムの開発"
+  style="align-self: stretch; color: #181818; font-size: 20px; font-family: Inter; font-weight: 600; line-height: 30px">
+  問い合わせ管理システムの開発
+</p>
+
+```
+
+### [8] 全部 24 (3:8356)
+
+```html
+<span
+  data-node-id="3:8356"
+  data-name="全部 24"
+  style="color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px">
+  全部 30
+</span>
+
+```
+
+### [9] 共 24 条 (3:00626)
+
+```html
+<p
+  data-node-id="3:00626"
+  data-name="共 24 条"
+  style="flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px">
+  共 30 条
+</p>
+
+```
+
+### [10] すべて 24 (3:02723)
+
+```html
+<span
+  data-node-id="3:02723"
+  data-name="すべて 24"
+  style="color: #0052D9; font-size: 14px; font-family: Inter; font-weight: 600; line-height: 22px">
+  すべて 30
+</span>
+
+```
+
+### [11] 全 24 件 (3:05062)
+
+```html
+<p
+  data-node-id="3:05062"
+  data-name="全 24 件"
+  style="flex: 1; color: #666666; font-size: 12px; font-family: Inter; line-height: 22px">
+  全 30 件
+</p>
+
+```
+
+### [12] 请确认资料授权；样例需去除个人信息后再提交。 (3:11574)
+
+```html
+<p
+  data-node-id="3:11574"
+  data-name="请确认资料授权；样例需去除个人信息后再提交。"
+  style="align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px">
+  資料の利用権限を確認。サンプルは個人情報を除いて提出を依頼。
+</p>
+
+```
+
+### [13] 剩余三项待复核；不把“文件已上传”记为“测试通过”。 (3:35232)
+
+```html
+<p
+  data-node-id="3:35232"
+  data-name="剩余三项待复核；不把“文件已上传”记为“测试通过”。"
+  style="align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px">
+  残り 3 項目を確認。アップロード済みだけではテスト合格としません。
+</p>
+
+```
+
+### [14] 评估导出字段、数据权限与字符编码；确认是否影响原交付日期。 (3:51788)
+
+```html
+<p
+  data-node-id="3:51788"
+  data-name="评估导出字段、数据权限与字符编码；确认是否影响原交付日期。"
+  style="align-self: stretch; color: #181818; font-size: 14px; font-family: Inter; line-height: 22px">
+  出力項目・データ権限・文字コードを確認し、納期への影響を評価します。
+</p>
+
+```
+
+### [15] 完了 (3:04279)
+
+```html
+<span
+  data-node-id="3:04279"
+  data-name="完了"
+  style="color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px">
+  確認済み
+</span>
+
+```
+
+### [16] 完了 · OP-003 (3:25029)
+
+```html
+<span
+  data-node-id="3:25029"
+  data-name="完了 · OP-003"
+  style="color: #2BA471; font-size: 12px; font-family: Inter; line-height: 22px">
+  確認済み · OP-003
+</span>
+
+```

@@ -1,0 +1,38 @@
+# Machine-local credentials, private data and signing material.
+.local/
+.env
+.env.*
+!.env.example
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.dump
+*.backup
+
+# Dependencies, generated files and build bundles.
+node_modules/
+.venv/
+.verify-venv/
+build/
+dist/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage/
+test-results/
+playwright-report/
+test_artifacts/
+*.log
+
+# Local editor and operating-system files.
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

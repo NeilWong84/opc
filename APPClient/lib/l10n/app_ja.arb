@@ -1,0 +1,927 @@
+{
+  "@@locale": "ja",
+  "apiRefresh": "更新",
+  "apiWorkspace": "ワークスペース",
+  "apiEmpty": "記録がありません。更新して最新の状態を確認できます。",
+  "apiNewRequest": "開発の相談を送る",
+  "apiNewRequestTab": "依頼する",
+  "apiRequestTitle": "開発の相談",
+  "apiDescription": "目的・利用場面・希望する成果",
+  "apiTiming": "希望完了日",
+  "apiPickCompletionDate": "希望完了日を選択してください",
+  "apiBudget": "予算の希望（JPY）",
+  "apiDraftSaved": "下書きをサーバーに保存しました",
+  "apiSaveDraft": "下書きを保存",
+  "apiSubmitRequest": "運営の審査に提出",
+  "apiSubmitted": "相談を提出しました。運営の審査をお待ちください",
+  "apiReviewNotice": "コンプライアンス審査と技術整理が完了した後に公開されます。添付は非公開資料として保存され、公開資料は運営が別途確認します。",
+  "apiFiles": "添付資料",
+  "apiPickFile": "ファイルを選んでアップロード",
+  "apiUploaded": "添付はサーバーに保存されています。安全確認待ちの添付付きで相談を提出できます。確認完了後にプレビュー・ダウンロード・納品への利用が可能になります。",
+  "apiFilePending": "安全確認待ち",
+  "apiFileReady": "安全確認済み",
+  "apiFileBlocked": "利用できないファイル",
+  "apiFileTooLarge": "20 MB 以下の空でないファイルを選択してください",
+  "apiRemoveFile": "添付を外す",
+  "apiRequired": "入力してください",
+  "apiDetails": "詳細と進捗",
+  "apiVersion": "現在のバージョン",
+  "apiPendingTerms": "協業条件の確認待ち",
+  "apiTerms": "協業条件",
+  "apiTermsConfirmed": "この条件を確認済みです。相手の確認をお待ちください",
+  "apiConfirmTerms": "現在の協業条件に同意",
+  "apiConfirmTermsBody": "表示中のバージョンの範囲・見積・納品条件に同意します。双方の確認後に納品を提出できます。",
+  "apiConfirmed": "確認しました",
+  "apiAmount": "見積金額（JPY）",
+  "apiDueAt": "期限（JST）",
+  "apiMessages": "メッセージ",
+  "apiMessageInput": "メッセージを入力",
+  "apiSend": "送信",
+  "apiMessageSent": "メッセージを送信しました",
+  "apiReply": "追加情報を送る",
+  "apiConsult": "運営に問い合わせ",
+  "apiConsultNotice": "問い合わせでは案件の受注や協業は確定しません。合意済みの関係を運営が記録します。",
+  "apiDelivery": "納品成果",
+  "apiOpenDelivery": "納品物を提出",
+  "providerOverview": "担当プロジェクトの概要",
+  "providerIntro": "相談・開発・納品の状況を確認し、案件一覧から公開中の案件を探せます。",
+  "providerCommunicating": "相談中",
+  "providerDelivered": "提出済み",
+  "providerDeliveredHelp": "提出済みには内部確認中・検収待ち・完了の案件が含まれます。各案件の状態をご確認ください。",
+  "providerHall": "案件一覧",
+  "providerHallHelp": "審査済みで公開中、かつ協業がまだ開始されていない案件を表示します。",
+  "providerViewAll": "すべて見る",
+  "negotiationTitle": "協業相談と条件",
+  "negotiationStart": "案件について相談",
+  "negotiationProvider": "担当者",
+  "negotiationPropose": "条件を提出してお客様に確認を依頼",
+  "negotiationProposed": "条件を提出しました。お客様の確認をお待ちください",
+  "negotiationApprove": "今回の範囲と条件を確認",
+  "negotiationApproveBody": "今回の公開範囲、担当者、条件、金額、期限を確認し、この条件での受注に同意します。確認後、担当者が受注することで開始します。支払いは発生しません。",
+  "negotiationApproved": "お客様が範囲と条件を確認しました。担当者の受注待ちです",
+  "negotiationAwaiting": "お客様による今回の範囲と条件の確認待ちです",
+  "negotiationClaim": "案件を受注",
+  "negotiationClaimBody": "お客様が確認した現在の範囲と条件で受注します。案件は現在のアカウントに割り当てられ、進行中になります。",
+  "negotiationClaimed": "受注しました。案件はご自身の担当となり、開始されました",
+  "negotiationEdit": "条件を変更して再確認を依頼",
+  "negotiationUnavailable": "この案件は公開終了または協業開始済みのため受注できません。",
+  "negotiationOutdated": "公開範囲が変更されました。現在の条件を再提出し、お客様に確認を依頼してください。",
+  "negotiationOptionalAmount": "合意金額（JPY、任意）",
+  "negotiationOptionalDue": "期限を選択（JST 18:00、任意）",
+  "negotiationFormError": "条件を入力してください。金額は有効な非負の整数で入力してください。",
+  "apiSubmitDelivery": "納品を確認に提出",
+  "apiSourceRepo": "ソースリポジトリの HTTPS URL",
+  "apiSourceCommit": "固定バージョン（40 または 64 桁 commit SHA）",
+  "apiSourceFile": "ソースアーカイブ",
+  "apiSourceArchiveRef": "お客様がソースを取得できるアーカイブの証跡",
+  "apiSourceHelp": "HTTPS リポジトリ URL、完全な commit SHA、お客様が取得できるアーカイブの証跡を入力するか、安全確認済みのソースアーカイブを選択してください。",
+  "apiGuide": "操作・デプロイ手順",
+  "apiTestEvidence": "実施したテストのコマンドと結果",
+  "apiDeliveryNote": "納品の説明",
+  "apiDeliverySubmitted": "納品を保存しました。運営の確認後にお客様へ公開されます",
+  "apiAccept": "検収を確定",
+  "apiAcceptBody": "現在の納品バージョン、ソース、操作手順を確認し、合意範囲を満たすことを検証しました。検収を記録します。支払は行いません。",
+  "apiRevision": "修正を依頼",
+  "apiRevisionReason": "問題と修正内容",
+  "apiChanged": "状態を更新しました",
+  "apiUnpublishedDelivery": "運営の確認待ち",
+  "apiPublishedDelivery": "お客様へ公開済み",
+  "apiNotifications": "通知",
+  "apiMarkRead": "既読にする",
+  "apiNoNotifications": "通知はありません",
+  "apiProfile": "アカウント",
+  "apiLogout": "ログアウト",
+  "apiSessionNotice": "アプリを再起動した場合はログインしてください。言語設定は端末に、業務記録はサーバーに保存されます。",
+  "apiPasswordHelp": "パスワード再設定メールは未対応です。運営にお問い合わせください。",
+  "apiPasswordLength": "登録パスワードは 12 文字以上",
+  "apiFilePreview": "ファイルのプレビュー",
+  "apiOfficeUnavailable": "Office/PDF のオンライン変換は未対応です。原本をダウンロードし、端末のアプリで開けます。",
+  "apiDownload": "原本をダウンロード",
+  "apiOpenFile": "ファイルを開く",
+  "apiExportFile": "ファイルアプリに保存",
+  "apiDownloadDone": "アプリに原本を保存しました",
+  "apiExportDone": "ファイルを保存しました",
+  "apiFileActionFailed": "開く・保存操作が完了していません。再試行するか別のアプリを選択してください。",
+  "apiRetry": "再試行",
+  "apiCancel": "キャンセル",
+  "apiLoading": "読み込み中…",
+  "apiNetworkError": "サーバーに接続できません。接続を確認して再試行してください。",
+  "apiConflict": "記録が更新されています。更新して最新バージョンを確認してから提出してください。",
+  "apiForbidden": "この操作を行う権限がありません。更新または再ログインしてください。",
+  "apiUnexpected": "サービスを利用できません。しばらくしてから再試行してください。",
+  "apiApiSetup": "サービス URL が未設定です。OPC_API_BASE_URL に HTTPS API を設定してください。ローカルデバッグのみループバック HTTP を許可します。",
+  "apiDraft": "下書き",
+  "apiPlay": "再生 / 一時停止",
+  "apiNoPreview": "この形式はアプリ内プレビュー未対応です。原本をダウンロードして開いてください。",
+  "apiSafetyNotice": "アップロード後は運営の安全確認をお待ちください。完了後に更新して提出してください。確認前のファイルは正式な添付として提出できません。",
+  "apiScopeIncluded": "対象範囲",
+  "apiScopeExcluded": "対象外の範囲",
+  "apiScopeDeliverables": "合意した成果物",
+  "apiScopeAcceptance": "検収基準",
+  "apiScopeRevision": "修正条件",
+  "apiWithdrawn": "取り下げ済み",
+  "apiRejected": "審査で却下",
+  "apiCancelled": "キャンセル済み",
+  "apiTextTruncated": "原文の一部のみ表示しています。全文は原本をダウンロードして確認してください。",
+  "apiRequestUpdated": "相談が更新されました",
+  "apiTermsUpdated": "協業条件が更新されました。再確認してください",
+  "apiDeliveryReviewed": "納品の内部確認が完了しました",
+  "apiDeliveryWithdrawn": "納品が取り下げられました。更新をお待ちください",
+  "apiPublicationWithdrawn": "案件が一覧から取り下げられました",
+  "apiFileUnavailable": "ファイルにアクセスできないか、安全確認が未完了です。状態を更新してください。",
+  "classificationPlatform": "開発対象",
+  "classificationType": "開発システム種別",
+  "classificationAll": "すべて",
+  "classificationUnclassified": "未分類",
+  "classificationClear": "分類の絞り込みを解除",
+  "classificationOptional": "任意：主な開発対象とシステム種別を選択できます。未選択の場合は未分類です。",
+  "authDemoAccounts": "デモアカウント",
+  "authDemoInfo": "データはこのアプリ内のサンプルです。実際の登録・送信・アップロードは行いません。再起動でデータはリセットされますが、言語設定は保存されます。",
+  "authTryCustomer": "お客様として試す",
+  "authTryMember": "内部メンバーとして試す",
+  "authResetTitle": "パスワードの再設定",
+  "authResetHelp": "デモ環境ではメールを送信しません。デモアカウントのパスワードは demo1234 です。\n\n新しく登録したアカウントはアプリの再起動またはデモのリセットで削除されます。",
+  "authTheme": "テーマを切り替える",
+  "authEyebrow": "AI DEVELOPMENT, TOGETHER",
+  "authRegisterHero": "アイデアを、\nここから一緒に。",
+  "authLoginHero": "つくりたいを、\n動くかたちに。",
+  "authIntro": "アイデアの相談から、開発・納品まで。\nあなたの一歩を、OPC がサポートします。",
+  "authNoExpertise": "専門知識はなくても大丈夫",
+  "authReviewHelp": "運営がご依頼を確認し、要件を整理します。",
+  "authName": "お名前",
+  "authNameHint": "お名前を入力",
+  "authNameRequired": "お名前を入力してください",
+  "authEmail": "メールアドレス",
+  "authEmailInvalid": "メールアドレスを確認してください",
+  "authPassword": "パスワード",
+  "authPasswordNewHint": "8文字以上で入力",
+  "authPasswordHint": "パスワードを入力",
+  "authShowPassword": "パスワードを表示",
+  "authHidePassword": "パスワードを隠す",
+  "authPasswordRequired": "パスワードを入力してください（登録時は8文字以上）",
+  "authForgot": "パスワードをお忘れですか？",
+  "authBusy": "確認しています…",
+  "authRegisterSubmit": "登録して相談をはじめる",
+  "authLogin": "ログインする",
+  "authExisting": "アカウントをお持ちの方",
+  "authNew": "はじめてご利用の方",
+  "authBackLogin": "ログインに戻る",
+  "authRegister": "新規登録して相談する",
+  "authInternalLogin": "内部アカウントをお持ちの方も、こちらからログイン",
+  "authLegalTitle": "利用規約・プライバシー",
+  "authLegalHelp": "現在は合成データによる デモです。正式な利用規約・個人情報の取扱いは本番提供前に設定します。実際の個人情報や秘密情報を入力しないでください。",
+  "hallTitle": "案件一覧",
+  "hallSubtitle": "あなたの技術を、次のプロジェクトへ",
+  "hallNotifications": "お知らせ",
+  "hallInternal": "内部アカウント",
+  "hallPublishedWork": "公開済みの開発案件",
+  "hallSearch": "キーワードで案件を探す",
+  "hallSort": "更新が新しい順",
+  "hallEmpty": "該当する案件はありません",
+  "hallEmptyHelp": "キーワードや条件を変えてお試しください。",
+  "hallPublished": "公開中",
+  "hallStructured": "要件整理済み",
+  "hallView": "詳細を見る",
+  "hallDetail": "案件詳細",
+  "hallDevelopment": "開発サービス",
+  "hallConsult": "案件について相談する",
+  "hallNotAssigned": "相談の送信だけでは、担当は確定しません。",
+  "hallDuration": "開発期間の目安",
+  "hallMethod": "進め方",
+  "hallOnline": "オンライン",
+  "hallScope": "今回つくるもの",
+  "hallScopeHelp": "具体的な機能・対象範囲は、公開された説明をもとに運営と確認します。",
+  "hallDeliverables": "交付物と確認ポイント",
+  "hallFiles": "ソースコード / 操作説明書 / テスト結果",
+  "hallIndividualScope": "納品物の内容・確認ポイントは、運営が整理した範囲に沿って個別に確認します。",
+  "hallPrivateHelp": "詳細な資料と担当範囲は、運営との相談時に確認します。非公開の添付資料は案件一覧に表示されません。",
+  "hallConsultHelp": "確認したいことや対応できる範囲をお伝えください。担当の確定方法は運営が別途ご案内します。",
+  "hallConsultHint": "相談内容を入力",
+  "hallConsultRequired": "相談内容を入力してください",
+  "hallSending": "送信中…",
+  "hallSend": "相談を送信する",
+  "hallSent": "相談を送信しました。担当はまだ確定していません。",
+  "coreBack": "戻る",
+  "coreBackLogin": "ログイン画面へ戻る",
+  "coreActionFailed": "処理できませんでした。もう一度お試しください。",
+  "coreNeedsInfo": "回答が必要",
+  "coreReviewing": "内容を確認中",
+  "corePublished": "公開中",
+  "coreDeveloping": "開発中",
+  "coreInternalReview": "運営が確認中",
+  "coreAwaitingAcceptance": "ご確認待ち",
+  "coreRevision": "修正対応中",
+  "coreCompleted": "検収完了",
+  "coreClose": "閉じる",
+  "coreLanguage": "表示言語",
+  "coreJapanese": "日本語",
+  "coreChinese": "简体中文",
+  "coreLanguageSaveFailed": "言語設定を保存できませんでした。再起動後は元の言語に戻る場合があります。",
+  "coreSetup": "接続設定が必要です。現在のバージョンはデモ専用です。",
+  "coreAll": "すべて",
+  "coreWeb": "Web アプリ",
+  "coreAutomation": "業務自動化",
+  "coreAi": "AI 開発",
+  "errorSessionChanged": "アカウントの状態が変わりました。画面を開き直してください。",
+  "errorNetwork": "デモ通信に失敗しました。内容を確認して、もう一度お試しください。",
+  "errorUnauthenticated": "ログインしてください。",
+  "errorInactive": "このアカウントは停止中です。",
+  "errorCustomer": "お客様のアカウントでご利用ください。",
+  "errorProvider": "有効な内部承接権限が必要です。",
+  "errorNotFound": "この案件を表示できません。",
+  "errorCredentials": "メールアドレスまたはパスワードをご確認ください。",
+  "errorName": "お名前を80文字以内で入力してください。",
+  "errorEmail": "有効なメールアドレスを入力してください。",
+  "errorPassword": "パスワードは8文字以上で入力してください。",
+  "errorEmailExists": "このメールアドレスは登録済みです。",
+  "errorDescription": "ご相談内容を10〜4,000文字で入力してください。",
+  "errorRequest": "希望時期とご予算の意向を選んでください。",
+  "errorAttachments": "添付資料は5件以内で指定してください。",
+  "errorMessage": "内容を1〜4,000文字で入力してください。",
+  "errorState": "案件の状態が変わりました。最新の状態を確認してください。",
+  "errorVersion": "公開中の最新納品バージョンを確認してください。",
+  "errorDelivery": "固定ソース・操作説明・テスト資料・提出コメントを入力してください。",
+  "errorSource": "ソースの固定バージョンまたはチェックサムを指定してください。",
+  "hallCount": "開発案件 {count}件",
+  "@hallCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hallEstimate": "目安：{duration}",
+  "@hallEstimate": {
+    "placeholders": {
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "hallVersion": "整理済み要件 v{version}.0",
+  "@hallVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "customerRequestsTitle": "ご依頼一覧",
+  "customerWorkspaceSubtitle": "お客様向けワークスペース",
+  "customerNotifications": "お知らせ",
+  "customerHeroTitle": "つくりたいこと、\n相談してみませんか。",
+  "customerHeroSubtitle": "専門用語は不要です。運営が一緒に整理します。",
+  "customerCreateRequest": "開発を相談する",
+  "customerContinueDraft": "保存した下書きを続ける",
+  "customerActiveRequests": "進行中のご依頼",
+  "customerNoRequests": "まだご依頼はありません",
+  "customerNoRequestsHint": "「開発を相談する」から、アイデアをお聞かせください。",
+  "customerProgressHint": "ご依頼の進捗をご確認いただけます",
+  "customerDraftSaved": "このデモの下書きに保存しました",
+  "customerAddReference": "参考資料を追加",
+  "customerAttachmentNote": "サンプル名を選択します。端末のファイル選択・アップロードは行いません。",
+  "customerAssistTitle": "相談内容の整理案",
+  "customerAssistNote": "端末内の定型ルールによる提案です。AI への送信・自動審査は行いません。",
+  "customerKeepOriginal": "元の内容を使う",
+  "customerAdoptSuggestion": "この案を採用",
+  "customerConfirmTitle": "ご相談内容の確認",
+  "customerFormTitle": "開発のご相談",
+  "customerConfirmSubtitle": "送信前に内容をご確認ください",
+  "customerFormSubtitle": "アイデアから、一緒にはじめましょう",
+  "customerProcessing": "処理中…",
+  "customerSubmitRequest": "この内容で相談する",
+  "customerProceedConfirmation": "確認画面へ",
+  "customerEditRequest": "内容を修正する",
+  "customerSaveDraft": "下書きとして保存",
+  "customerFormStep": "1  ご相談内容",
+  "customerConfirmStep": "2  内容の確認",
+  "customerServiceCategory": "開発・AI 開発システム",
+  "customerGoalLabel": "実現したいこと",
+  "customerTimingLabel": "ご希望の時期",
+  "customerBudgetLabel": "ご予算の目安",
+  "customerReferenceLabel": "参考資料",
+  "customerNoAttachments": "資料なし",
+  "customerConfirmNotice": "運営が合規性と技術要件を確認・整理します。送信だけで案件一覧には公開されません。予算はご希望の目安であり、お支払いは発生しません。",
+  "customerFormIntro": "まだアイデア段階でも大丈夫です。\n実現したいことを、ご自身の言葉で教えてください。",
+  "customerGoalQuestion": "どんなことを実現したいですか？",
+  "customerRequired": "必須",
+  "customerGoalHint": "実現したいことを教えてください",
+  "customerGoalValidation": "実現したいことを10文字以上でご入力ください",
+  "customerAssistAction": "AI で相談内容を整理する",
+  "customerOptionalReference": "参考資料（任意）",
+  "customerAddFiles": "資料や画像を追加",
+  "customerSampleReference": "サンプル資料",
+  "customerSubmitNotice": "送信後、運営が内容を確認・整理します。\nこの時点では案件一覧に公開されません。",
+  "customerReviewTitle": "ご依頼の確認状況",
+  "customerReviewSubtitle": "運営が内容を確認・整理しています",
+  "customerReplyAction": "質問に回答する",
+  "customerBackToRequests": "ご依頼一覧へ",
+  "customerPublished": "公開済み",
+  "customerUnderReview": "内容を確認中",
+  "customerReviewSteps": "公開までのステップ",
+  "customerReceivedStep": "ご依頼を受付",
+  "customerReceivedStepDetail": "内容を受け付けました",
+  "customerComplianceStep": "合規性の確認",
+  "customerComplianceComplete": "運営による確認が完了しました",
+  "customerCompliancePending": "運営による確認をお待ちください",
+  "customerRequirementsStep": "要件を整理",
+  "customerRequirementsComplete": "技術要件の整理が完了しました",
+  "customerRequirementsNeedsInfo": "追加の情報をお待ちしています",
+  "customerRequirementsPending": "運営が内容を確認・整理します",
+  "customerPublicationStep": "案件一覧に公開",
+  "customerPublicationComplete": "確認済みのバージョンを公開しました",
+  "customerPublicationPending": "すべての確認が終わってから公開",
+  "customerOperatorQuestion": "運営からの確認事項",
+  "customerOperatorAwaitingReply": "OPC 運営 · 回答をお待ちしています",
+  "customerOperatorReplyReceived": "OPC 運営 · 回答を受け付けました",
+  "customerSupplementConversation": "補足・やりとり",
+  "customerPublicationNotice": "審査を通過した公開バージョンのみ、案件一覧に表示されます。",
+  "customerUnpublishedNotice": "この依頼は、まだ案件一覧に公開されていません。",
+  "customerReplySuccess": "回答を送信しました。運営の確認をお待ちください。",
+  "customerReplyLabel": "ご回答",
+  "customerReplyHint": "例：利用者は30名ほど、参考資料はPDFです。",
+  "customerReplyValidation": "回答をご入力ください",
+  "customerReplyNotice": "回答は運営が確認します。送信後も自動的には審査・公開されません。",
+  "customerSending": "送信中…",
+  "customerSendReply": "回答を送信",
+  "customerRequestDetail": "ご依頼の詳細",
+  "customerNoNotifications": "新しいお知らせはありません。",
+  "customerWorkspace": "ワークスペース",
+  "customerTasks": "案件",
+  "customerHome": "ホーム",
+  "customerProjects": "プロジェクト",
+  "customerRequests": "ご依頼",
+  "customerMessages": "メッセージ",
+  "customerProfile": "マイページ",
+  "customerMessageListSubtitle": "ご依頼ごとのやり取り",
+  "customerRequestListSubtitle": "進行状況をいつでも確認",
+  "customerEmptyWorkspace": "まだご依頼はありません。ホームから開発の相談をはじめましょう。",
+  "customerViewDetails": "詳細を確認する",
+  "customerSendMessage": "送信する",
+  "customerMessageSent": "メッセージを送信しました",
+  "customerConversationNote": "このご依頼に関する運営とのやり取りです。",
+  "customerNoMessages": "メッセージはまだありません。",
+  "customerMessageHint": "メッセージを入力",
+  "customerProfileSubtitle": "アカウントと表示設定",
+  "customerInternalAccount": "内部アカウント",
+  "customerCustomerAccount": "お客様アカウント",
+  "customerInternalAuthorization": "内部の案件対応権限が付与されています。OPC 正式認定とは異なります。",
+  "customerAppearance": "画面の表示",
+  "customerThemeSystem": "システム",
+  "customerThemeLight": "ライト",
+  "customerThemeDark": "ダーク",
+  "customerBusinessRegion": "日本向けサービス · 日本円（JPY）· 日本標準時（JST）",
+  "customerAbout": "このアプリについて",
+  "customerAboutNote": "OPC V1 / 0.1.0\nデモ環境です。業務データは端末のメモリ上に保存され、アプリの再起動で初期化されます。実際の認証・ファイル送信・決済は行いません。",
+  "customerDemoScenarios": "デモシナリオ",
+  "customerLogout": "ログアウト",
+  "customerDemoSubtitle": "デモ操作 · 実際の管理操作ではありません",
+  "customerDemoNotice": "バックエンドの審査結果を再現する開発用操作です。実運用では管理端とサーバーだけが審査・公開を実行します。",
+  "customerSimulateDelivery": "内部確認後の納品公開を再現",
+  "customerSimulatePublication": "審査・要件整理後の公開を再現",
+  "customerDemoUpdated": "デモの状態を更新しました",
+  "customerFailNextAction": "次の送信を失敗させる",
+  "customerFailNextNotice": "次の送信でエラーを再現します。内容を保ったまま再試行できます。",
+  "customerResetDemo": "デモを初期状態に戻す",
+  "customerResetDemoTitle": "デモをリセットしますか？",
+  "customerResetDemoNotice": "このデモで追加した登録・ご依頼・メッセージが消去され、ログイン画面に戻ります。",
+  "customerBack": "戻る",
+  "customerReset": "リセット",
+  "customerRequestCount": "{count}件",
+  "@customerRequestCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "customerDeliveryPrompt": "{id} · 納品内容をご確認ください",
+  "@customerDeliveryPrompt": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "customerRemoveAttachment": "{name} を削除",
+  "@customerRemoveAttachment": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "customerAssistedDescription": "実現したいこと：\n{original}\n\n利用する方：社内の社員（人数は相談時に確認）\n確認したいこと：利用する資料の形式、必要な機能、完成後の運用方法。",
+  "@customerAssistedDescription": {
+    "placeholders": {
+      "original": {
+        "type": "String"
+      }
+    }
+  },
+  "customerReceivedDate": "{year}年{month}月{day}日 {time}（JST）",
+  "@customerReceivedDate": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "customerReceivedAt": "受付：{date}",
+  "@customerReceivedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "customerMessageDate": "{month}月{day}日 {time} JST",
+  "@customerMessageDate": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "customerTimingMonth": "1か月以内を希望",
+  "customerTimingQuarter": "2〜3か月以内を希望",
+  "customerTimingDiscuss": "時期は相談したい",
+  "customerBudgetDiscuss": "相談して決めたい",
+  "customerBudgetUnder100k": "10万円未満",
+  "customerBudget100to300k": "10万〜30万円",
+  "customerBudget300to500k": "30万〜50万円",
+  "customerBudgetOver500k": "50万円以上",
+  "customerLanguage": "言語",
+  "customerLanguageNote": "表示言語のみを切り替えます。ご依頼やメッセージの原文・通貨・時刻・権限は変わりません。",
+  "fileSaveToPhone": "端末のファイルに保存",
+  "filePreviewFailed": "プレビューできません。再試行するか、原本を端末に保存して開いてください。",
+  "fileInlineAttachment": "ファイルを表示",
+  "fileOriginal": "原本をダウンロード",
+  "mediaFullscreen": "全画面再生",
+  "mediaExitFullscreen": "全画面を終了",
+  "mediaPause": "一時停止",
+  "mediaReplay": "もう一度再生",
+  "mediaBackward": "10秒戻る",
+  "mediaForward": "10秒進む",
+  "mediaMute": "ミュート",
+  "mediaUnmute": "ミュートを解除",
+  "mediaSpeed": "再生速度",
+  "homeIntro": "ご依頼・進捗・パートナーからの連絡をまとめて確認",
+  "homeGreeting": "{name} さん、こんにちは",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeOverview": "プロジェクトの概要",
+  "homeSummary": "ご依頼 {requests} 件 · 協業プロジェクト {projects} 件",
+  "@homeSummary": {
+    "placeholders": {
+      "requests": {
+        "type": "int"
+      },
+      "projects": {
+        "type": "int"
+      }
+    }
+  },
+  "homeReviewing": "確認中",
+  "homeActive": "進行中",
+  "homeAcceptance": "検収待ち",
+  "homeCompleted": "完了",
+  "homeAll": "すべて見る",
+  "homeClearFilter": "すべての依頼を表示",
+  "homeTodos": "ご対応が必要なこと",
+  "homeNoTodos": "現在、ご対応が必要なことはありません",
+  "homeNoTodosHelp": "追加情報、協業条件、納品内容の確認が必要な場合に表示します。",
+  "homeReplyHelp": "運営から追加の確認があります。ご回答後に手続きを進めます。",
+  "homeAgreementHelp": "範囲・見積もり・納品条件を確認し、現在の協業条件に同意してください。",
+  "homeAcceptanceHelp": "納品内容を公開しました。内容を確認し、検収または修正依頼に進んでください。",
+  "homeReviews": "ご依頼の確認・公開状況",
+  "homeNoReviews": "確認中・協業待ちのご依頼はありません",
+  "homeReviewHelp": "運営がご依頼を確認し、技術的な範囲を整理しています。",
+  "homePublishedHelp": "ご依頼を公開しました。協業関係の確定をお待ちください。",
+  "homeProjects": "プロジェクトの進捗",
+  "homeNoProjects": "進行中の協業プロジェクトはありません",
+  "homeNoProjectsHelp": "協業確定後、現在の段階・納期・連絡内容を確認できます。",
+  "homeStageReview": "依頼確認",
+  "homeStageAgreement": "協業確認",
+  "homeStageDevelopment": "開発・納品",
+  "homeStageAcceptance": "検収",
+  "homeWorkingHelp": "パートナーが合意した範囲で作業を進めています。連絡や成果を確認できます。",
+  "homeInternalHelp": "成果物を内部確認中です。公開後に内容の確認・検収ができます。",
+  "homeRevisionHelp": "パートナーが修正に対応しています。連絡内容をご確認ください。",
+  "homeFeedback": "パートナーからの最新連絡",
+  "homeNoFeedback": "パートナーからの連絡はまだありません",
+  "homeNoFeedbackHelp": "プロジェクトの担当パートナーから届いたメッセージをまとめて表示します。",
+  "homeProvider": "担当パートナー",
+  "homeUnread": "未読の通知 {count} 件",
+  "@homeUnread": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeStart": "最初のご依頼から始めましょう",
+  "homeStartHelp": "解決したいことをお聞かせください。確認・開発・納品の状況をここで追跡できます。",
+  "homeDraft": "保存したご相談の入力を続ける",
+  "homeMoreTodos": "対応事項をすべて見る",
+  "previewTitle": "プレビュー",
+  "previewImageTitle": "画像を見る",
+  "previewVideoTitle": "動画を再生",
+  "previewDocumentTitle": "文書プレビュー",
+  "previewPdfTitle": "PDF プレビュー",
+  "previewTableTitle": "表プレビュー",
+  "previewSlidesTitle": "スライドプレビュー",
+  "previewTextTitle": "テキストプレビュー",
+  "previewReadOnly": "読み取り専用",
+  "previewPrevious": "前へ",
+  "previewNext": "次へ",
+  "previewZoomIn": "拡大",
+  "previewZoomOut": "縮小",
+  "previewResetZoom": "拡大率をリセット",
+  "previewImageHint": "ピンチで拡大。拡大していない時はスワイプ、矢印やサムネイルで画像を切り替えます。",
+  "previewPages": "ページへ移動",
+  "previewPageNumber": "ページ番号",
+  "previewGo": "移動",
+  "previewCancel": "キャンセル",
+  "previewDocumentHint": "上下にスクロールして閲覧。ページ番号から移動できます。",
+  "previewFixtureNotice": "同梱のサンプル資料を表示しています。任意の Office ファイルを変換する機能はまだ接続されていません。",
+  "previewFullscreen": "全画面",
+  "previewExitFullscreen": "全画面を閉じる",
+  "previewSlideHint": "左右のボタンやサムネイルでページを切り替えます。",
+  "previewOriginal": "原文",
+  "previewFormatted": "書式付き",
+  "previewTextSize": "文字サイズ",
+  "previewSmallerText": "文字を小さく",
+  "previewLargerText": "文字を大きく",
+  "previewTextHint": "内容は原文のまま表示します。TXT は自動改行、Markdown は見出し・箇条書き・コードなどの基本書式に対応します。",
+  "previewSearch": "表内を検索",
+  "previewClearSearch": "検索をクリア",
+  "previewNoMatches": "一致するセルはありません。",
+  "previewTableHint": "左右にスクロールして列を確認できます。CSV は単一の表として表示します。",
+  "previewPlay": "再生",
+  "previewPause": "一時停止",
+  "previewMute": "ミュート",
+  "previewUnmute": "ミュート解除",
+  "previewSeek": "再生位置",
+  "previewVideoLoading": "動画を読み込んでいます",
+  "previewVideoFailed": "動画を再生できませんでした",
+  "previewVideoHint": "タップして再生します。自動再生はしません。",
+  "previewPreparing": "プレビューを準備中",
+  "previewPreparingHint": "原本はダウンロードできます。準備状況を再確認できます。",
+  "previewCheckPreparation": "準備状況を確認",
+  "previewFailed": "プレビューできませんでした",
+  "previewFailedHint": "再試行するか、原本をダウンロードして確認してください。",
+  "previewRetry": "再試行",
+  "previewUnsupported": "プレビュー非対応",
+  "previewUnsupportedHint": "原本をダウンロードして確認できます。",
+  "previewAccessDenied": "この資料へのアクセス権がありません",
+  "previewAccessDeniedHint": "閲覧を停止しました。必要な場合は運営担当者にお問い合わせください。",
+  "previewEmpty": "表示できる内容がありません",
+  "previewImageFailed": "画像を読み込めませんでした",
+  "previewSelectedCell": "選択したセル",
+  "previewImageCount": "画像 {current} / {total}",
+  "@previewImageCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "previewPageCount": "{current} / {total}",
+  "@previewPageCount": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "previewPageRange": "1〜{total} のページ番号を入力してください",
+  "@previewPageRange": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "previewSearchMatches": "一致するセル {count} 件",
+  "@previewSearchMatches": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previewSheetCount": "{count} シート",
+  "@previewSheetCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "previewThumbnail": "{index} ページを開く",
+  "@previewThumbnail": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "projectTitle": "プロジェクト",
+  "projectProviderSubtitle": "担当プロジェクトのワークスペース",
+  "projectCustomerSubtitle": "ご依頼の進行状況を確認しましょう",
+  "projectInfoTitle": "プロジェクト情報",
+  "projectInternalReviewPending": "提出内容を運営が確認中です。お客様にはまだ公開されていません。",
+  "projectAwaitingOperations": "運営の確認待ち",
+  "projectSubmitRevision": "修正版を提出する",
+  "projectSubmitDelivery": "成果物を提出する",
+  "projectReviewDelivery": "納品内容を確認する",
+  "projectSendMessage": "メッセージを送る",
+  "projectConsultation": "プロジェクトの相談",
+  "projectConsultationHint": "確認したいことはメッセージからお知らせください。",
+  "projectOpenMessages": "メッセージを開く",
+  "projectNoMessages": "まだメッセージはありません。",
+  "projectNoProviderDeliveries": "提出済みの成果物はまだありません。下のボタンから提出できます。",
+  "projectNoCustomerDeliveries": "お客様向けの納品ファイルは、運営の確認後に表示されます。",
+  "projectEditFixedVersion": "固定バージョンを編集",
+  "projectFixedVersion": "リリース・固定コミット",
+  "projectFixedVersionHint": "例：v0.3.0 · 8f3a2c1",
+  "projectFixedVersionHelp": "提出するソースを特定できるタグ・コミットを入力してください。サンプルの記録です。",
+  "projectSave": "保存する",
+  "projectSubmitted": "運営に確認を依頼しました。お客様への公開は内部確認後です。",
+  "projectDeliveryTitle": "成果物の提出",
+  "projectDeliveryUnauthorized": "このプロジェクトの担当者だけが成果物を提出できます。",
+  "projectDeliverySubtitle": "確認できる形で、成果をまとめましょう",
+  "projectSubmitting": "提出しています…",
+  "projectRequestReview": "運営に確認を依頼する",
+  "projectSourceCode": "ソースコード",
+  "projectRequired": "必須",
+  "projectSourceSelected": "18.4 MB · 選択済み",
+  "projectGuideAndTest": "操作説明・確認資料",
+  "projectGuideSelected": "1.2 MB · 選択済み",
+  "projectTestSelected": "84 KB · 選択済み",
+  "projectChanges": "今回の変更点",
+  "projectChangesHint": "変更内容と確認方法を入力してください",
+  "projectChangesRequired": "変更内容を入力してください",
+  "projectDeliveryReviewNotice": "提出後、運営が内容を確認します。\nお客様への公開は、内部確認後に行います。",
+  "projectAttachmentsNotice": "添付はサンプル名のみです。実ファイルのアップロード・テスト実行は行いません。",
+  "projectAcceptConfirmTitle": "検収を完了しますか？",
+  "projectBack": "戻る",
+  "projectCompleteAcceptance": "検収を完了する",
+  "projectAccepted": "検収が完了しました。ご確認ありがとうございます。",
+  "projectRequestRevision": "修正を依頼する",
+  "projectRevisionContent": "修正してほしい内容",
+  "projectRevisionHint": "画面・操作手順・期待した結果をお知らせください",
+  "projectRevisionHelp": "運営がご依頼を確認します。修正依頼後は、新しい公開版の到着をお待ちください。",
+  "projectRevisionRequested": "修正のご依頼を記録しました。運営が内容を確認します。",
+  "projectAcceptanceTitle": "納品内容の確認",
+  "projectNoPublishedDelivery": "お客様向けに公開された納品内容はまだありません。運営の確認後に表示されます。",
+  "projectAcceptanceSubtitle": "仕上がりを、ご自身で確かめましょう",
+  "projectAcceptedNotice": "公開版の検収が完了しました。",
+  "projectRevisionPendingNotice": "修正依頼を受け付けました。新しい公開版をお待ちください。",
+  "projectCheckAllHint": "すべての項目を確認すると、検収を完了できます。",
+  "projectAcceptanceComplete": "検収完了",
+  "projectWatchDemo": "操作デモを見る",
+  "projectDemoSummary": "登録から対応完了までをご案内",
+  "projectPublishedFiles": "納品ファイル・操作説明書",
+  "projectPublishedFileCount": "公開版の資料 3件",
+  "projectAcceptanceChecklist": "ご確認いただきたいこと",
+  "projectRevisionReviewing": "修正のご依頼を運営が確認しています。",
+  "projectAcceptedFilesNotice": "ご確認ありがとうございます。納品ファイルは引き続きこの画面から確認できます。",
+  "projectRevisionInvitation": "気になる点は、修正のご依頼からお知らせください。運営が内容を確認します。",
+  "projectProgressTab": "進行状況",
+  "projectMessagesTab": "メッセージ",
+  "projectFilesTab": "ファイル",
+  "projectMilestones": "マイルストーン",
+  "projectRequirementsMilestone": "要件確認",
+  "projectDevelopmentMilestone": "開発",
+  "projectInternalMilestone": "内部確認",
+  "projectCustomerMilestone": "お客様確認",
+  "projectRevisionMilestoneDescription": "ご依頼いただいた修正内容を確認",
+  "projectRequirementsMilestoneDescription": "対象範囲と確認基準を確定",
+  "projectDevelopmentMilestoneDescription": "検索画面と回答機能を実装中",
+  "projectInternalMilestoneDescription": "運営が品質・資料を確認",
+  "projectCustomerMilestoneDescription": "公開された納品内容を検収",
+  "projectMessageAvatar": "メ",
+  "projectReplaceFile": "ファイルを差し替える",
+  "projectDeliveryPublished": "お客様公開済み",
+  "projectDeliveryInternal": "内部確認用",
+  "projectGuideMetadata": "操作説明",
+  "projectTestMetadata": "確認資料",
+  "projectMessageSent": "メッセージを送信しました",
+  "projectMessageHint": "メッセージを入力",
+  "projectMessageRequired": "メッセージを入力してください",
+  "projectMessageSendTooltip": "メッセージを送信",
+  "projectSelectFile": "ファイルを選択",
+  "projectFilePickerNotice": "サンプル名を選択・編集できます。実際のファイルは送信されません。",
+  "projectSampleFilename": "サンプルファイル名",
+  "projectFilenameRequired": "ファイル名を入力してください",
+  "projectUseSample": "このサンプルを使用する",
+  "projectCancel": "キャンセル",
+  "projectClose": "閉じる",
+  "projectSourcePreview": "ソースコード一式\n\n・アプリケーションのソース\n・環境設定のサンプル\n・起動手順（README）\n\n固定バージョンに紐づく構成例です。この画面ではコードの実行やダウンロードを行いません。",
+  "projectGuidePreview": "操作説明のサンプル\n\n1. 一覧画面で登録済みの項目を確認します。\n2. キーワードを入力して検索します。\n3. 詳細画面で内容を確認・更新します。\n4. 保存後、一覧で変更結果を確認します。",
+  "projectTestPreview": "確認資料のサンプル\n\n・登録・検索シナリオ\n・更新・保存シナリオ\n・操作説明の確認\n\nこの資料は画面確認用の合成データです。実際のテスト結果や品質保証を示すものではありません。",
+  "projectFileAccessNotice": "実ファイルの取得・配信は、今後の API 接続で対応します。",
+  "projectDemoTitle": "操作デモ",
+  "projectDemoRegister": "1. 問い合わせを登録",
+  "projectDemoSearch": "2. 一覧から検索",
+  "projectDemoUpdate": "3. 対応状況を更新",
+  "projectDemoRegisterDescription": "件名と内容を入力して保存すると、一覧に新しい問い合わせが表示されます。",
+  "projectDemoSearchDescription": "キーワードで対象を絞り込み、問い合わせの詳細を確認します。",
+  "projectDemoUpdateDescription": "担当者と対応状況を変更し、保存後の内容を一覧で確認します。",
+  "projectDemoRestart": "最初から見る",
+  "projectDemoNext": "次の操作へ",
+  "projectDemoNotice": "画面内のサンプルガイドです。実際の納品環境や動画には接続していません。",
+  "projectInfoMessageNotice": "変更点やご不明点は、プロジェクトのメッセージからご相談ください。",
+  "projectNextDeveloping": "次の予定：10月16日 デモ確認",
+  "projectNextInternalReview": "次の予定：運営による内容確認",
+  "projectNextAcceptance": "次の予定：お客様による納品内容の確認",
+  "projectNextRevision": "次の予定：修正内容の確認と再提出",
+  "projectNextCompleted": "公開版の検収が完了しました",
+  "projectNextDefault": "進行に合わせて次の予定をご案内します",
+  "projectCheckFaqSearch": "質問を入力し、関連する資料を検索できる",
+  "projectCheckFaqSources": "回答の根拠となる資料を確認できる",
+  "projectCheckGuide": "操作説明を読み、利用方法を確認した",
+  "projectCheckSearch": "問い合わせを登録・検索できる",
+  "projectCheckUpdate": "担当者と対応状況を更新できる",
+  "projectSubmissionDestination": "{id} · 提出先：OPC 運営",
+  "@projectSubmissionDestination": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "projectAcceptConfirmBody": "公開版 v{version}.0.0 の確認を完了します。\n\nこの操作は納品内容の検収記録です。支払いや精算は行いません。",
+  "@projectAcceptConfirmBody": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectCustomerVersion": "お客様向け公開版 v{version}.0.0",
+  "@projectCustomerVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectSubmittedVersion": "提出バージョン {version}",
+  "@projectSubmittedVersion": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "projectFieldRequired": "{label}を入力してください",
+  "@projectFieldRequired": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "projectTargetVersion": "対象バージョン：{version}",
+  "@projectTargetVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "projectDemoVersion": "公開版 {version} · サンプルガイド",
+  "@projectDemoVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "projectConfirmedScope": "確認済みの対象範囲：バージョン {version}",
+  "@projectConfirmedScope": {
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "refTitle": "参考資料",
+  "refPublishedVersion": "{taskId} · 公開要件 v{version}.0",
+  "@refPublishedVersion": {
+    "placeholders": {
+      "taskId": {
+        "type": "String"
+      },
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "refPublishedNotice": "現在の公開要件に含まれる参考資料のみ表示しています。",
+  "refViewAll": "すべて見る {count}",
+  "@refViewAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refImages": "画像 {count}",
+  "@refImages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refVideos": "動画 {count}",
+  "@refVideos": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refFiles": "資料 {count}",
+  "@refFiles": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refImageHint": "画面イメージ",
+  "refVideoHint": "操作イメージ",
+  "refAttachments": "添付ファイル",
+  "refCount": "{count} 件",
+  "@refCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "refOpenHint": "タップして閲覧・再生。すべての資料を個別に保存できます。",
+  "refEmpty": "公開されている参考資料はありません。",
+  "refPreview": "プレビュー",
+  "refDownload": "原本をダウンロード",
+  "refImageDownload": "画像をダウンロード",
+  "refVideoDownload": "動画をダウンロード",
+  "refDownloading": "ダウンロード中 · {percent}%",
+  "@refDownloading": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "refCancel": "中止",
+  "refCancelled": "ダウンロードを中止しました",
+  "refDownloadFailed": "ダウンロードに失敗しました",
+  "refRetry": "再試行",
+  "refDownloaded": "ダウンロード完了",
+  "refSavedInApp": "アプリ内に保存しました。端末のファイルに保存するには「書き出す」を選んでください。",
+  "refLocalSample": "このアプリに同梱したサンプルの原本を保存します。",
+  "refOpen": "開く",
+  "refExport": "書き出す",
+  "refActionFailed": "ファイルを開くか書き出す操作を完了できませんでした。対応アプリや保存先を確認してください。",
+  "refAccessDenied": "この資料へのアクセス権がありません。必要な場合は運営担当者にお問い合わせください。",
+  "refScenarios": "資料の表示状態",
+  "refScenarioHelp": "公開済みのサンプル資料で表示状態を確認できます。資料やアカウントの権限は変更しません。",
+  "refReady": "プレビュー可能",
+  "refPreparing": "プレビューを準備中",
+  "refPreviewFailed": "プレビュー失敗",
+  "refUnsupported": "プレビュー非対応",
+  "refDownloadFailureCase": "ダウンロード失敗と再試行",
+  "refDownloadCancelCase": "ダウンロード進捗と中止"
+}

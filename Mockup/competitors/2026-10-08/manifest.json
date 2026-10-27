@@ -1,0 +1,148 @@
+{
+  "received_date": "2026-10-08",
+  "source": "用户提供",
+  "capture_date_verified": false,
+  "originals_modified": false,
+  "images": [
+    {
+      "screenshot_number": 1,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "首次隐私提示",
+      "file": "01-duoduo-privacy.jpg",
+      "original_filename": "微信图片_20261008110914_5_2.jpg",
+      "sha256": "5108CA7547E57B4BDCE65E0B70CF12A440A8C82F1BAEAF94A3DAA858A2E791C3",
+      "bytes": 627124
+    },
+    {
+      "screenshot_number": 2,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "一键登录弹层",
+      "file": "02-duoduo-login.jpg",
+      "original_filename": "微信图片_20261008110915_6_2.jpg",
+      "sha256": "540F84FA8DAD055EE1D6FED85921171ED0C93E537C91821826BE33DFA460BB2B",
+      "bytes": 487036
+    },
+    {
+      "screenshot_number": 3,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "副业详情当前区域",
+      "file": "03-duoduo-project-detail.jpg",
+      "original_filename": "微信图片_20261008110916_7_2.jpg",
+      "sha256": "E303B809CD6B8D41379C8B1F0D706E3AB6DA6EF3F201EAC4AC2574F36CAAC703",
+      "bytes": 698180
+    },
+    {
+      "screenshot_number": 4,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "项目精选",
+      "file": "04-duoduo-featured.jpg",
+      "original_filename": "微信图片_20261008110917_8_2.jpg",
+      "sha256": "CE002FA27D314718B25430A0BBC8A83D61F618F2DDA2955F828430D5AED94EA3",
+      "bytes": 786641
+    },
+    {
+      "screenshot_number": 5,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "发现专区",
+      "file": "05-duoduo-discovery.jpg",
+      "original_filename": "微信图片_20261008110918_9_2.jpg",
+      "sha256": "7D4B039B149DDE8EDFD598C360C0C78874C31CE1BF21B5BCAD8F65452166DFF2",
+      "bytes": 1162083
+    },
+    {
+      "screenshot_number": 6,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "热门榜单",
+      "file": "06-duoduo-ranking.jpg",
+      "original_filename": "微信图片_20261008110918_10_2.jpg",
+      "sha256": "E8809C610F9B1CBF2B79C00970AF02BBA62D47E656A029D2A040B9110136DCC0",
+      "bytes": 788682
+    },
+    {
+      "screenshot_number": 7,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "消息列表",
+      "file": "07-duoduo-messages.jpg",
+      "original_filename": "微信图片_20261008110919_11_2.jpg",
+      "sha256": "C1C9A273C9C79B862448EB8636180E402462E0BA69025C365FE44F6F164A7F59",
+      "bytes": 260059
+    },
+    {
+      "screenshot_number": 8,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "活动任务中心",
+      "file": "08-duoduo-rewards.jpg",
+      "original_filename": "微信图片_20261008110920_12_2.jpg",
+      "sha256": "CA357C8492D7E02C5D46779A12E7CEEE627E2B7E208C63C41897F87D54C295D6",
+      "bytes": 976199
+    },
+    {
+      "screenshot_number": 9,
+      "product": "多多项目",
+      "evidence_kind": "页面截图",
+      "page": "我的",
+      "file": "09-duoduo-profile.jpg",
+      "original_filename": "微信图片_20261008110921_13_2.jpg",
+      "sha256": "935C589B53B4D642101F2AEE49242F0941ABA1BFC095462523FEAA93973D0C1C",
+      "bytes": 497756
+    },
+    {
+      "screenshot_number": 10,
+      "product": "企鹅微单",
+      "evidence_kind": "宣传海报",
+      "page": "三步下单流程",
+      "file": "10-qieweidan-guide.jpg",
+      "original_filename": "微信图片_20261008110921_14_2.jpg",
+      "sha256": "6378A5FD43C29614E03BC3DE65FAB29DD8BAADB0B7F5443A672C5F25AEEB6F0D",
+      "bytes": 697091
+    },
+    {
+      "screenshot_number": 11,
+      "product": "企鹅微单",
+      "evidence_kind": "页面截图",
+      "page": "首页服务分类",
+      "file": "11-qieweidan-home.jpg",
+      "original_filename": "微信图片_20261008110922_15_2.jpg",
+      "sha256": "3B32C4B45B4B341E5331BDD762C4A63FAD0E5C28F30223905A332735B5918359",
+      "bytes": 1004267
+    },
+    {
+      "screenshot_number": 12,
+      "product": "企鹅微单",
+      "evidence_kind": "页面截图",
+      "page": "首页案例列表",
+      "file": "12-qieweidan-cases.jpg",
+      "original_filename": "微信图片_20261008110923_16_2.jpg",
+      "sha256": "9708563D0D75552F3A03E6162F91566C41FAD24CB46C5A9DB5872E18DA66A0BD",
+      "bytes": 1470453
+    },
+    {
+      "screenshot_number": 13,
+      "product": "企鹅微单",
+      "evidence_kind": "页面截图",
+      "page": "案例详情上部",
+      "file": "13-qieweidan-case-detail.jpg",
+      "original_filename": "微信图片_20261008110924_17_2.jpg",
+      "sha256": "9E8E45C5DE7AEED5D8222CD3F868DF3C42BEEEEA353769EC5B27AD08FFE3570E",
+      "bytes": 1084857
+    },
+    {
+      "screenshot_number": 14,
+      "product": "企鹅微单",
+      "evidence_kind": "页面截图",
+      "page": "同一案例详情下部",
+      "file": "14-qieweidan-case-detail-more.jpg",
+      "original_filename": "微信图片_20261008110925_18_2.jpg",
+      "sha256": "F2C370E6025A2EF10EE241343BD45750B13079D88A86C65F02F9E07F03F6AC91",
+      "bytes": 923480
+    }
+  ]
+}

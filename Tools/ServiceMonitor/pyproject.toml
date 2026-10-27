@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opc-service-monitor"
+version = "0.2.3"
+description = "OPC local frontend, backend, PostgreSQL, and audit monitor"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "PySide6==6.10.3",
+    "qt-material==2.17",
+    "httpx==0.28.1",
+    "psutil==7.2.2",
+    "regex==2026.9.29",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "pytest-qt==4.5.0",
+    "ruff==0.17.1",
+    "PyInstaller==6.22.3",
+    "pip-tools==7.6.2",
+]
+
+[project.scripts]
+opc-service-monitor = "opc_service_monitor.app:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+opc_service_monitor = ["ui/*.qss"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+qt_api = "pyside6"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+

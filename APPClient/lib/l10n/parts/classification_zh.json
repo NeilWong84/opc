@@ -1,0 +1,8 @@
+{
+  "classificationPlatform": "开发端",
+  "classificationType": "开发类型",
+  "classificationAll": "全部",
+  "classificationUnclassified": "未分类",
+  "classificationClear": "清除分类筛选",
+  "classificationOptional": "可选：选择主要开发端及开发类型，未选择时保存为未分类。"
+}

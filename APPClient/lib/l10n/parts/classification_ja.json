@@ -1,0 +1,8 @@
+{
+  "classificationPlatform": "開発対象",
+  "classificationType": "開発システム種別",
+  "classificationAll": "すべて",
+  "classificationUnclassified": "未分類",
+  "classificationClear": "分類の絞り込みを解除",
+  "classificationOptional": "任意：主な開発対象とシステム種別を選択できます。未選択の場合は未分類です。"
+}

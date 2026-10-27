@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-14",
+  "browser": "Microsoft Edge via Playwright",
+  "unitTests": 29,
+  "distinctBrowserTestsPassed": 53,
+  "note": "Browser coverage completed across initial matrix and targeted reruns after fixes, not a single full-suite rerun.",
+  "screenshots": [
+    {
+      "file": "screenshots/01-dashboard-zh-light.png",
+      "route": "/dashboard",
+      "locale": "zh-CN",
+      "theme": "light",
+      "viewport": "1440x1000",
+      "source": "final implementation capture"
+    },
+    {
+      "file": "screenshots/01-dashboard-zh-dark.png",
+      "route": "/dashboard",
+      "locale": "zh-CN",
+      "theme": "dark",
+      "viewport": "1440x1000",
+      "source": "final implementation capture"
+    },
+    {
+      "file": "screenshots/02-reviews-ja-light.png",
+      "route": "/reviews",
+      "locale": "ja-JP",
+      "theme": "light",
+      "viewport": "1440x1000",
+      "source": "final implementation capture"
+    },
+    {
+      "file": "screenshots/04-technical-ja-dark.png",
+      "route": "/technical",
+      "locale": "ja-JP",
+      "theme": "dark",
+      "viewport": "1440x1000",
+      "source": "final implementation capture"
+    },
+    {
+      "file": "screenshots/09-tickets-ja-dark.png",
+      "source": "test-results/final-recheck/admin-ja-JP-dark-tickets-页面完整渲染-edge-desktop/page.png"
+    },
+    {
+      "file": "screenshots/07-delivery-publish-ja-dark.png",
+      "source": "test-results/final-recheck/operations-日文-dark-交付内审与对客发布为两个独立操作-edge-desktop/delivery-publish.png"
+    },
+    {
+      "file": "screenshots/10-audit-detail-ja-dark.png",
+      "source": "test-results/final-recheck/operations-日文暗色审计详情只读并可关闭-edge-desktop/audit-detail.png"
+    }
+  ]
+}
