@@ -15,32 +15,33 @@ workflows:
       - name: Record build environment
         script: |
           set -euo pipefail
-          mkdir -p build/ci
+          mkdir -p "$CM_EXPORT_DIR"
           {
+            printf 'Project directory: %s\nClone directory: %s\nExport directory: %s\n' "$PWD" "$CM_BUILD_DIR" "$CM_EXPORT_DIR"
             flutter --version
             xcodebuild -version
             pod --version
             git rev-parse HEAD
-          } 2>&1 | tee build/ci/environment.log
+          } 2>&1 | tee "$CM_EXPORT_DIR/environment.log"
       - name: Restore locked dependencies and localization
         script: |
           set -euo pipefail
-          flutter precache --ios 2>&1 | tee build/ci/precache.log
-          flutter pub get --enforce-lockfile 2>&1 | tee build/ci/pub-get.log
+          flutter precache --ios 2>&1 | tee "$CM_EXPORT_DIR/precache.log"
+          flutter pub get --enforce-lockfile 2>&1 | tee "$CM_EXPORT_DIR/pub-get.log"
           python3 tool/merge_l10n.py
           flutter gen-l10n
       - name: Analyze Dart code
         script: |
           set -euo pipefail
-          flutter analyze --no-pub 2>&1 | tee build/ci/analyze.log
+          flutter analyze --no-pub 2>&1 | tee "$CM_EXPORT_DIR/analyze.log"
       - name: Run Dart and widget tests
         script: |
           set -euo pipefail
-          flutter test --no-pub --reporter expanded 2>&1 | tee build/ci/tests.log
+          flutter test --no-pub --reporter expanded 2>&1 | tee "$CM_EXPORT_DIR/tests.log"
       - name: Install iOS native dependencies
         script: |
           set -euo pipefail
-          (cd ios && pod install) 2>&1 | tee build/ci/pods.log
+          (cd ios && pod install) 2>&1 | tee "$CM_EXPORT_DIR/pods.log"
       - name: Compile unsigned iOS release
         script: |
           set -euo pipefail
@@ -48,19 +49,20 @@ workflows:
             --target=lib/main.dart \
             --dart-define=APP_ENV=api \
             --dart-define="OPC_API_BASE_URL=$OPC_API_BASE_URL" \
-            2>&1 | tee build/ci/ios-build.log
+            2>&1 | tee "$CM_EXPORT_DIR/ios-build.log"
       - name: Package unsigned app for download
         script: |
           set -euo pipefail
           test -f build/ios/iphoneos/Runner.app/Runner
           ditto -c -k --sequesterRsrc --keepParent \
             build/ios/iphoneos/Runner.app \
-            build/ci/OPC-ios-unsigned.app.zip
-          shasum -a 256 build/ci/OPC-ios-unsigned.app.zip > build/ci/SHA256SUMS.txt
-          cp ios/Podfile.lock build/ci/Podfile.lock
+            "$CM_EXPORT_DIR/OPC-ios-unsigned.app.zip"
+          (cd "$CM_EXPORT_DIR" && shasum -a 256 OPC-ios-unsigned.app.zip > SHA256SUMS.txt)
+          cp ios/Podfile.lock "$CM_EXPORT_DIR/Podfile.lock"
+          ls -lh "$CM_EXPORT_DIR"
     artifacts:
-      - APPClient/build/ci/*.log
-      - APPClient/build/ci/*.zip
-      - APPClient/build/ci/SHA256SUMS.txt
-      - APPClient/build/ci/Podfile.lock
+      - $CM_EXPORT_DIR/*.log
+      - $CM_EXPORT_DIR/*.zip
+      - $CM_EXPORT_DIR/SHA256SUMS.txt
+      - $CM_EXPORT_DIR/Podfile.lock
       - /tmp/xcodebuild_logs/*.log
