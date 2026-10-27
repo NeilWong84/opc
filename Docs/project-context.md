@@ -2,7 +2,7 @@
 
 本文记录 OPC 项目负责人已明确的方向，是后续 Agent 的长期上下文入口。最近更新：2026-10-27。当前首版按最新边界执行，历史规划中的内容不能自动成为当前需求。
 
-2026-10-27 用户选择 Codemagic 做首次 iOS 无签名构建，本机 MacBook Air 可继续保留 Catalina、无需为该流程安装 Xcode。已在根目录准备 `codemagic.yaml`（Flutter 3.35.5／Xcode 26.3／CocoaPods 1.16.2，手动触发），APPClient 补充标准 Podfile 与 Pods xcconfig include；保留现有原生桥接、iOS 13.0 和真实 API 配置门禁。官方 schema 校验、Windows 静态检查及 388 项 Dart／widget 测试通过，**尚未连接源码仓库、启动云端构建或生成 iOS 包**；账号登录和私有仓库位置待用户提供。无签名产物用于验证编译，不能直接安装到 iPhone。后续入口见 [Codemagic 构建说明](deployment/ios-codemagic-unsigned.md)。
+2026-10-27 **Codemagic iOS 无签名 release 构建及文件交付已完成**，本机 MacBook Air 可继续保留 Catalina、无需为该流程安装 Xcode。已接入公开仓库 [NeilWong84/opc](https://github.com/NeilWong84/opc) 的 `main`，GitHub App 访问范围仅选 `opc`；固定 Flutter 3.35.5／Xcode 26.3／CocoaPods 1.16.2，手动触发。首次编译通过但产物收集失败，改为 `$CM_EXPORT_DIR` 后，[第2次构建](https://codemagic.io/app/6ae01b17bd00891bf766eb06/build/6ae01d3f4a72334e32e59306) 以 `f3fc2ea` 耗时4分41秒完成静态检查、388项云端测试、无签名编译和产物导出。用户已下载3个 ZIP 至 `D:\Administrator\Desktop`，CRC 和应用 SHA256 校验通过；应用为 `jp.opc.opcApp`、`0.1.0 (2)`、最低 iOS 13.0，Podfile.lock 已取回源工程。尚未签名、真机验证或提交 TestFlight／App Store。用户目前只有普通 Apple 账号，未付费加入 Apple Developer Program；用户已选择 TestFlight，待加入 Apple Developer Program 并配置签名，尚未开通或执行分发。无签名 ZIP 不能直接安装到普通 iPhone。文件、校验值与日志见 [Codemagic 构建说明](deployment/ios-codemagic-unsigned.md)。
 
 ## 长期定位与当前首版
 
@@ -52,7 +52,7 @@ OPC 以“一人公司”和 AI 赋能为理念，长期希望帮助普通人开
 
 2026-10-25 用户明确详情只应读取当前需求、进度和反馈，先修复全量读取，再优化附件样式。现 `refreshItem` 已改为定向请求，合作／会话 API 支持权限范围内按 `request_id` 过滤；修复忙碌时进入详情持续转圈及后台工作台恢复前台时额外全量刷新。附件、参考及交付资料统一彩色卡片与本地文件类型封面，点击后才进入真实文件预览。类型封面不代表实际视频首帧或文档首页。验证与性能采样见[本轮记录](testing/app-detail-loading-and-file-cards-2026-10-25.md)。
 
-2026-10-25 用户进一步明确正文和附件涉及的图片、音视频、PDF、Word、Excel、PPT 都应能阅览，并下载到手机文件。真实模式已补本机 Office→PDF 转换、Android 系统逐页渲染、iOS PDFKit 桥接、音频播放和正文平台文件引用，原件通过系统位置选择器保存；派生文件不能绕过原文件权限和 clean 条件。Windows 本机已准备 LibreOffice 26.8.1，用户手动重启 8001 后已确认 PDF／音频契约生效。iOS 仅更新源码，仍待 Xcode 验证；Office 为只读页面，不表示执行宏或完整编辑兼容。实现与限制见[文件预览说明](development/app-file-preview.md)，该进展替代历史“尚未接入转换”阶段事实。
+2026-10-25 用户进一步明确正文和附件涉及的图片、音视频、PDF、Word、Excel、PPT 都应能阅览，并下载到手机文件。真实模式已补本机 Office→PDF 转换、Android 系统逐页渲染、iOS PDFKit 桥接、音频播放和正文平台文件引用，原件通过系统位置选择器保存；派生文件不能绕过原文件权限和 clean 条件。Windows 本机已准备 LibreOffice 26.8.1，用户手动重启 8001 后已确认 PDF／音频契约生效。iOS 在该阶段仅更新源码，2026-10-27 已通过 Xcode 云端编译，预览与导出功能仍待真机验证；Office 为只读页面，不表示执行宏或完整编辑兼容。实现与限制见[文件预览说明](development/app-file-preview.md)，该进展替代历史“尚未接入转换”阶段事实。
 
 2026-10-25 用户明确要求客户首页承担需求审核、任务进度及承接者反馈的统计汇总，不能与“需求”页重复。APPClient 真实模式已增加独立客户项目总览：按本人可访问记录汇总审核中、进行中、待验收、已完成；集中展示补充信息、条款确认和验收待办，按真实状态显示项目阶段，并汇总当前项目承接者的消息。需求页保留完整列表，统计卡片进入对应筛选，返回详情及应用前台、切换页签、下拉或按钮刷新时获取最新数据。消息使用服务端作者 ID 区分客户、运营及当前承接者，原文不翻译；阶段条不表示工时或完成百分比。中日双语及浅深主题覆盖此次改版；当前直接修改 Flutter 实现，未声称已更新 MasterGo 画布。验证见[客户首页改版](testing/app-client-customer-home-2026-10-25.md)。
 

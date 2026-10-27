@@ -1,6 +1,6 @@
 # OPC APPClient
 
-2026-10-27：已准备 [Codemagic iOS 无签名构建](../Docs/deployment/ios-codemagic-unsigned.md)，配置为根目录 `codemagic.yaml`。本机静态检查与 388 项测试通过；仍待连接私有仓库及 Codemagic 账号，尚未进行 Xcode 云构建或生成 iOS 包。
+2026-10-27：[Codemagic iOS 无签名构建](../Docs/deployment/ios-codemagic-unsigned.md) 已完成。公开仓库 `NeilWong84/opc` 的 main 已接入，GitHub App 仅授权 opc；第2次构建 `6ae01d3f4a72334e32e59306` 使用 `f3fc2ea`，4分41秒完成静态检查、388项云端测试、Xcode release 无签名编译及导出。用户已下载应用 ZIP 与日志包至 `D:\Administrator\Desktop`，CRC／SHA256 核验通过，`ios/Podfile.lock` 已取回；应用为 `jp.opc.opcApp`、`0.1.0 (2)`、最低 iOS 13.0。尚未签名、真机验证或 TestFlight 分发。
 
 Flutter + Dart 手机端，包含客户与内部承接者完整移动业务入口，支持日语／简体中文和系统／浅色／深色主题。视觉继续沿用 [MasterGo V1](../Mockup/app-v1-mastergo/README.md) 的语义配色、卡片、导航与资料浏览设计。
 
@@ -33,7 +33,7 @@ flutter build apk --debug --target=lib/main.dart --dart-define=OPC_API_BASE_URL=
 flutter build apk --release --target=lib/main.dart --dart-define=OPC_API_BASE_URL=https://your-api.example.jp
 ```
 
-Android 工程标识 `jp.opc.opc_app`；iOS 为 `jp.opc.opcApp`。release 模板当前仍使用调试签名，不能作为商店发行配置。iOS 需要 macOS + Xcode，Windows 下未执行 iOS 构建、签名或真机验证。
+Android 工程标识 `jp.opc.opc_app`；iOS 为 `jp.opc.opcApp`。Android release 模板当前仍使用调试签名，不能作为商店发行配置。iOS 需要 macOS + Xcode；2026-10-27 已在 Codemagic 完成无签名 release 编译，未做签名、iPhone 真机验证或 TestFlight／App Store 分发。
 
 2026-10-26 已按用户要求生成云端 Android Release 测试包，后端为 `https://43.165.191.156/`，版本 `0.1.0 (3)`。安装包及 SHA256 位于 `build/packages/OPC-0.1.0-build3-android-cloud-20261026-release.apk`；沿用现有测试签名，未覆盖本机模拟器。构建命令与实际验证见[云端 APK 记录](../Docs/testing/app-cloud-apk-2026-10-26.md)。
 
@@ -71,7 +71,7 @@ Android 工程标识 `jp.opc.opc_app`；iOS 为 `jp.opc.opcApp`。release 模板
 - 2026-10-25 已加入真实 PDF 逐页查看与缩放、Word／Excel／CSV／PPT 的本机只读转换、音频播放，以及正文平台文件卡片。“保存到手机文件”直接下载原件并调用系统位置选择器；转换或解码失败仍可保存原件。详见[正文与附件预览](../Docs/development/app-file-preview.md)。
 - 下载沿用 `ReferenceDownloadController` 的分块写入、取消、失败清理、完整完成和原生打开／导出流程。真实模式增加异步服务端权限复核，系统保存位置选择结束后再次请求授权；未完成或被拒绝的操作不会显示保存成功。
 - 文件页监听账号变化，身份失效立即清除名称与预览、暂停播放；文件 HTTP 401 会同步根页面并返回登录。权限变化可以阻止后续读取／打开／导出，不能收回此前用户导出的副本。
-- Android 复用受限 FileProvider 和系统保存对话框，未新增通用外部存储权限。iOS 原生 QuickLook／安全域导出保留，尚未在 Xcode 验证。
+- Android 复用受限 FileProvider 和系统保存对话框，未新增通用外部存储权限。iOS 原生 QuickLook／PDFKit／安全域导出已通过 Xcode 云端编译，预览与导出功能仍待真机验证。
 
 ## 代码与测试入口
 

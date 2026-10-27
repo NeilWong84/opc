@@ -1,6 +1,6 @@
 # OPC 项目文档索引
 
-- [iOS 首次 Codemagic 无签名构建](deployment/ios-codemagic-unsigned.md)：已准备构建配置和 CocoaPods 接入，本机 388 项测试通过；待连接私有仓库和 Codemagic 账号，尚未云端构建。
+- [iOS 首次 Codemagic 无签名构建](deployment/ios-codemagic-unsigned.md)：第2次构建以 `f3fc2ea` 完成静态检查、388项云端测试和 release 无签名编译；应用及日志已下载、CRC／SHA256 已核验，Podfile.lock 已取回。未签名、真机验证或提交 TestFlight。
 
 - [OPC 官网首版与部署验证](testing/opc-website-2026-10-26.md)：日中营销站、公开 Android 测试包、正式官网／后管域名、静态构建与分阶段部署；[维护入口](../Website/README.md)。
 
